@@ -1,6 +1,9 @@
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
+using static UnityEditor.Progress;
+using System.IO;
 
 public class LetterManager : MonoBehaviour
 {
@@ -66,12 +69,86 @@ public class LetterManager : MonoBehaviour
     }
 
 
+
+
+    [ContextMenu("Create Scriptable Objects From CSV")]
+    public void CreateItemsFromCSV()
+    {
+        string csvFilePath = "Assets/Data/cards.csv";
+        // Check if the file exists
+        if (!File.Exists(csvFilePath))
+        {
+            Debug.LogError($"CSV file not found at path: {csvFilePath}");
+            return;
+        }
+
+        // Reading the CSV file
+        string[] csvLines = File.ReadAllLines(csvFilePath);
+        Debug.Log($"Loaded {csvLines.Length - 1} entries from CSV.");
+
+        // Loop through each line (skip the header if it exists)
+        for (int i = 1; i < csvLines.Length; i++)
+        {
+            string[] values = csvLines[i].Split(',');
+
+            try
+            {
+                // Debug output of parsed values
+                Debug.Log($"Parsing line {i + 1}: {csvLines[i]}");
+
+                // Création d'un nouvel objet scriptable pour chaque ligne
+                ScriptableLetter newItem = ScriptableObject.CreateInstance<ScriptableLetter>();
+                newItem.expediteur = values[3];
+                Debug.Log($"Created ScriptableObject for 3 {values[3]}");
+                newItem.contentLetter = values[4];
+                Debug.Log($"Created ScriptableObject for 4 {values[4]}");
+                newItem.acceptImpactPeuple = float.Parse(values[7]);
+                Debug.Log($"Created ScriptableObject for 7 {values[7]}");
+                newItem.acceptImpactGouv = float.Parse(values[8]);
+                Debug.Log($"Created ScriptableObject for 8 {values[8]}");
+                newItem.acceptImpactCorp = float.Parse(values[9]);
+                Debug.Log($"Created ScriptableObject for 9 {values[9]}");
+                newItem.refuseImpactPeuple = float.Parse(values[10]);
+                Debug.Log($"Created ScriptableObject for 10 {values[10]}");
+                newItem.refuseImpactGouv = float.Parse(values[11]);
+                Debug.Log($"Created ScriptableObject for 11 {values[11]}");
+                newItem.refuseImpactCorp = float.Parse(values[12]);
+                Debug.Log($"Created ScriptableObject for 12 {values[12]}");
+
+
+                // Ajout d'imbrication
+                
+
+                // Saving the ScriptableObject as an asset
+                string assetPath = $"Assets/Script/ScriptableChoice/{values[0]}.asset";
+                AssetDatabase.CreateAsset(newItem, assetPath);
+                Debug.Log($"Created ScriptableObject for {values[0]} at {assetPath}");
+            }
+            catch (System.Exception ex)
+            {
+                Debug.LogError($"Error parsing line {i + 1}: {csvLines[i]}\nException: {ex.Message}");
+            }
+        }
+
+        // Refresh the asset database to display newly created assets
+        AssetDatabase.SaveAssets();
+        AssetDatabase.Refresh();
+        Debug.Log("All Scriptable Objects have been created and saved.");
+    }
+
+
     void Start()
     {
+
+        CreateItemsFromCSV();
+
         NouvelleLettre(TirageLettre());
 
         //Debug.Log( TirageLettre().expediteur) ;
     }
+
+
+
 
     // Update is called once per frame
     void Update()
