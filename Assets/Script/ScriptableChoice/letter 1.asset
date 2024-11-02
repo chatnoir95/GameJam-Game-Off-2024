@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: letter 1
   m_EditorClassIdentifier: 
-  expediteur: 
+  expediteur: test 1
   contentLetter: 
   accepteText: 
   refuseText: 
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
-  acceptImpactPeuple: 0
-  acceptImpactGouv: 0
-  refuseImpactCorp: 0
-  refuseImpactPeuple: 0
-  refuseImpactGouv: 0
+  acceptImpactCorp: 8
+  acceptImpactPeuple: 6
+  acceptImpactGouv: -9
+  refuseImpactCorp: -8
+  refuseImpactPeuple: 2
+  refuseImpactGouv: 6
   acceptUnlockLetters: []
   refuseUnlockLetters: []
