@@ -23,5 +23,8 @@ MonoBehaviour:
   refuseImpactCorp: -8
   refuseImpactPeuple: 2
   refuseImpactGouv: 6
-  acceptUnlockLetters: []
+  acceptUnlockLetters:
+  - {fileID: 11400000, guid: 78fea575590eb16449101a0214297be1, type: 2}
   refuseUnlockLetters: []
+  index: 0
+  chanceToSpawn: 0

@@ -25,3 +25,5 @@ MonoBehaviour:
   refuseImpactGouv: 15
   acceptUnlockLetters: []
   refuseUnlockLetters: []
+  index: 0
+  chanceToSpawn: 80

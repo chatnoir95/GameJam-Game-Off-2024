@@ -12,4 +12,6 @@ public class ScriptableLetter : ScriptableObject
 
     public List<ScriptableLetter> acceptUnlockLetters, refuseUnlockLetters;
 
+    public int index, chanceToSpawn;
+
 }

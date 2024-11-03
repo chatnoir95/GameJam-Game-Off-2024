@@ -8,6 +8,9 @@ using System.IO;
 public class LetterManager : MonoBehaviour
 {
     public List<ScriptableLetter> lettreDisponibles = new List<ScriptableLetter>();
+    
+    public List<ScriptableLetter> followingLetters = new List<ScriptableLetter>(); 
+
 
     public Text textAcceptButton, textRefuseButton, textContenueLettre, textExpediteur;
 
@@ -19,6 +22,21 @@ public class LetterManager : MonoBehaviour
 
     public ScriptableLetter TirageLettre()
     {
+        if (followingLetters.Count != 0)
+        {
+            for (int i = 0; i < followingLetters.Count; i++)
+            {
+                int randomInt = Random.Range(0, 100);
+                if (randomInt < followingLetters[i].chanceToSpawn)
+                {
+                    return followingLetters[i];
+                }
+            } 
+        }
+
+
+
+
         if (lettreDisponibles.Count != 0)
         {
             int a = Random.Range(0, lettreDisponibles.Count);
@@ -57,6 +75,15 @@ public class LetterManager : MonoBehaviour
         UIManager.instance.UpdateGouvCorpPeuple(lettreActive.acceptImpactGouv, lettreActive.acceptImpactCorp, lettreActive.acceptImpactPeuple);
         UIManager.instance.ActualisationUiBar();
 
+        if (lettreActive.acceptUnlockLetters.Count != 0)
+        {
+            for (int i = 0; i < lettreActive.acceptUnlockLetters.Count; i++)
+            {
+                followingLetters.Add(lettreActive.acceptUnlockLetters[i]);
+            }
+        }
+
+
         NouvelleLettre(TirageLettre());
     }
 
@@ -64,6 +91,15 @@ public class LetterManager : MonoBehaviour
     {
         UIManager.instance.UpdateGouvCorpPeuple(lettreActive.refuseImpactGouv, lettreActive.refuseImpactCorp, lettreActive.refuseImpactPeuple);
         UIManager.instance.ActualisationUiBar();
+
+        if (lettreActive.refuseUnlockLetters.Count != 0)
+        {
+            for (int i = 0; i < lettreActive.refuseUnlockLetters.Count; i++)
+            {
+                followingLetters.Add(lettreActive.refuseUnlockLetters[i]);
+            }
+        }
+
 
         NouvelleLettre(TirageLettre());
     }
@@ -93,11 +129,17 @@ public class LetterManager : MonoBehaviour
 
             try
             {
+
                 // Debug output of parsed values
                 Debug.Log($"Parsing line {i + 1}: {csvLines[i]}");
 
+
+
                 // Création d'un nouvel objet scriptable pour chaque ligne
                 ScriptableLetter newItem = ScriptableObject.CreateInstance<ScriptableLetter>();
+
+                newItem.index = int.Parse(values[0]);
+
                 newItem.expediteur = values[3];
                 Debug.Log($"Created ScriptableObject for 3 {values[3]}");
                 newItem.contentLetter = values[4];
@@ -117,13 +159,41 @@ public class LetterManager : MonoBehaviour
 
 
                 // Ajout d'imbrication
-                
+
 
                 // Saving the ScriptableObject as an asset
                 string assetPath = $"Assets/Script/ScriptableChoice/{values[0]}.asset";
                 AssetDatabase.CreateAsset(newItem, assetPath);
                 Debug.Log($"Created ScriptableObject for {values[0]} at {assetPath}");
-            }
+
+                // add the new letter to the list
+                if (values[1] != null)
+                {
+                    for (int y = 0; y < lettreDisponibles.Count - 1; y++)
+                    {
+                        if (lettreDisponibles[y].index == int.Parse(values[1]))
+                        {
+                            if (values[2] != "")
+                            {
+                                if (int.Parse(values[2]) == 0)
+                                {
+                                    lettreDisponibles[y].refuseUnlockLetters.Add(newItem);
+                                }
+                                else if (int.Parse(values[2]) == 1)
+                                {
+                                    lettreDisponibles[y].acceptUnlockLetters.Add(newItem);
+                                }
+                            }
+                            else
+                            {
+                                Debug.LogWarning("prerequis ne detailer ligne : " + i);
+                            }
+                        }
+
+                    }
+                }
+                else { lettreDisponibles.Add(newItem); } // si aucun prerequis on ajoute a la liste lettre dispo 
+                }
             catch (System.Exception ex)
             {
                 Debug.LogError($"Error parsing line {i + 1}: {csvLines[i]}\nException: {ex.Message}");
