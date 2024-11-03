@@ -10,21 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
-  m_Name: 1
+  m_Name: 30
   m_EditorClassIdentifier: 
-  expediteur: "Ministre de l\u2019Information"
-  contentLetter: "\"Publier un faux rapport affirmant que le Supr\xEAme Dirigeant
-    a invent\xE9 le concept de \"\"travail acharn\xE9\"\"\""
+  expediteur: "Journal d'\xC9tat \xAB V\xE9rit\xE9 et Gloire \xBB"
+  contentLetter: "Publier un \xE9ditorial affirmant que les \xE9trangers envient
+    \xAB le mode de vie \xBB du Dirigeant"
   accepteText: Give it
   refuseText: Keep it
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
+  acceptImpactCorp: 10
   acceptImpactPeuple: 5
-  acceptImpactGouv: 0
-  refuseImpactCorp: 0
-  refuseImpactPeuple: -5
-  refuseImpactGouv: 0
+  acceptImpactGouv: 5
+  refuseImpactCorp: -5
+  refuseImpactPeuple: 10
+  refuseImpactGouv: -5
   acceptUnlockLetters: []
   refuseUnlockLetters: []
-  index: 1
+  index: 30
   chanceToSpawn: 0
