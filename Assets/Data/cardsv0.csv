@@ -1,0 +1,4 @@
+id,id_prerequis,decision_prerequis,emetteur,demande,accepte_texte,refus_texte,impact_accept_pop,impact_accept_gouv,impact_accept_lobby,impact_refus_pop,impact_refus_gouv,impact_refus_lobby
+1,,,Ministre de l'interieur,Lancer une campagne pour confisquer les téléphones contenant des mèmes sur la propagande du régime sous prétexte de 'sécurité nationale,,,-5,15,-10,5,-5,5
+2,,,Association des parents,Obtenir de vrais chiffres sur le taux de réussite scolaire,,,10,-1,0,-10,10,0
+3,2,1,Ministre de l'education,Modifier les rapports pour que 100 % des étudiants réussissent même si ce n’est pas le cas,,,10,10,10,-10,-10,-10

@@ -14,7 +14,7 @@ public class LetterManager : MonoBehaviour
 
     public Text textAcceptButton, textRefuseButton, textContenueLettre, textExpediteur;
 
-    private ScriptableLetter lettreActive;
+    [SerializeField] private ScriptableLetter lettreActive;
 
     [SerializeField] private Image imageLogo;
 
@@ -156,6 +156,7 @@ public class LetterManager : MonoBehaviour
                 Debug.Log($"Created ScriptableObject for 11 {values[11]}");
                 newItem.refuseImpactCorp = float.Parse(values[12]);
                 Debug.Log($"Created ScriptableObject for 12 {values[12]}");
+       
 
 
                 // Ajout d'imbrication
@@ -167,7 +168,7 @@ public class LetterManager : MonoBehaviour
                 Debug.Log($"Created ScriptableObject for {values[0]} at {assetPath}");
 
                 // add the new letter to the list
-                if (values[1] != null)
+                if (values[1] != "")
                 {
                     for (int y = 0; y < lettreDisponibles.Count - 1; y++)
                     {
@@ -192,7 +193,10 @@ public class LetterManager : MonoBehaviour
 
                     }
                 }
-                else { lettreDisponibles.Add(newItem); } // si aucun prerequis on ajoute a la liste lettre dispo 
+                else { 
+                    newItem.acceptUnlockLetters = new List<ScriptableLetter>();
+                    newItem.refuseUnlockLetters = new List<ScriptableLetter>();
+                    lettreDisponibles.Add(newItem); } // si aucun prerequis on ajoute a la liste lettre dispo 
                 }
             catch (System.Exception ex)
             {

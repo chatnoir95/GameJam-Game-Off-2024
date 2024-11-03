@@ -12,17 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 2
   m_EditorClassIdentifier: 
-  expediteur: Association des parents
-  contentLetter: "Obtenir de vrais chiffres sur le taux de r\xE9ussite scolaire"
+  expediteur: Chef du Bureau de la Censure
+  contentLetter: "\"Censurer toutes les r\xE9f\xE9rences au \"\"travail acharn\xE9\"\"
+    qui existaient avant la naissance du Dirigeant\""
   accepteText: Give it
   refuseText: Keep it
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
-  acceptImpactPeuple: 10
-  acceptImpactGouv: -1
+  acceptImpactCorp: 10
+  acceptImpactPeuple: -10
+  acceptImpactGouv: 0
   refuseImpactCorp: 0
-  refuseImpactPeuple: -10
-  refuseImpactGouv: 10
+  refuseImpactPeuple: 10
+  refuseImpactGouv: -5
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 2

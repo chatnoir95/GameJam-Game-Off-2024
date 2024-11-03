@@ -10,21 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
-  m_Name: 1
+  m_Name: 27
   m_EditorClassIdentifier: 
-  expediteur: "Ministre de l\u2019Information"
-  contentLetter: "\"Publier un faux rapport affirmant que le Supr\xEAme Dirigeant
-    a invent\xE9 le concept de \"\"travail acharn\xE9\"\"\""
+  expediteur: Institut des Traditions Populaires
+  contentLetter: "Organiser une journ\xE9e nationale pour c\xE9l\xE9brer \xAB l\u2019h\xE9ritage
+    culinaire \xBB du Dirigeant"
   accepteText: Give it
   refuseText: Keep it
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
   acceptImpactPeuple: 5
-  acceptImpactGouv: 0
-  refuseImpactCorp: 0
-  refuseImpactPeuple: -5
-  refuseImpactGouv: 0
+  acceptImpactGouv: -5
+  refuseImpactCorp: -5
+  refuseImpactPeuple: 10
+  refuseImpactGouv: -5
   acceptUnlockLetters: []
   refuseUnlockLetters: []
-  index: 1
+  index: 27
   chanceToSpawn: 0
