@@ -187,7 +187,7 @@ public class LetterManager : MonoBehaviour
                             }
                             else
                             {
-                                Debug.LogWarning("prerequis ne detailer ligne : " + i);
+                                Debug.LogWarning("prerequis pas detaille ligne : " + i);
                             }
                         }
 
