@@ -15,8 +15,8 @@ MonoBehaviour:
   expediteur: NewEden Space Station Director
   contentLetter: "Access to the International Space Station\u2019s safety protocols
     for refueling in emergencies"
-  accepteText: Give it
-  refuseText: Keep it
+  accepteText: Yes
+  refuseText: No
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
   acceptImpactPeuple: -5
@@ -27,4 +27,4 @@ MonoBehaviour:
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 37
-  chanceToSpawn: 0
+  chanceToSpawn: 50

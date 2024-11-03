@@ -68,4 +68,4 @@ id,id_prerequis,decision_prerequis,emetteur,demande,bouton_accepte,bouton_refus,
 66,,,Food department,Do you like hot chocolate or coffee ?,Hot chocolate,Coffee,5,0,5,-5,0,-5,50,Everyone in our country prefer chocolate,Everyone in our country prefer chocolate
 67,,,Health department,Do you agree to remove all the lift for people ?,Health first,No,0,0,0,0,0,0,50,Health is the key,Fun fact: Because of the 80-hour work weeks; people only use the elevator a maximum of twice a day. It is actually great for their health! 
 68,68,1,Fact news,Due to the new law that remove lift for people. Impared people are contesting in the street,Ok,Sorry,-10,-10,-10,-20,-20,-20,100,,
-69,,,Food department,Force everyone to eat cereals the morning,Yes,No,-10,10,10,10,-10,-5,50,,
+,,,Food department,Force everyone to eat cereals the morning,Yes,No,-10,10,10,10,-10,-5,50,,

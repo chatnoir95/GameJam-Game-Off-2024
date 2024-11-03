@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   expediteur: HappyLife Marketing Director
   contentLetter: Access to citizens' medical data for CHIPS commercialization
-  accepteText: Give it
-  refuseText: Keep it
+  accepteText: Yes
+  refuseText: No
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
   acceptImpactPeuple: 10
@@ -26,4 +26,4 @@ MonoBehaviour:
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 43
-  chanceToSpawn: 0
+  chanceToSpawn: 50

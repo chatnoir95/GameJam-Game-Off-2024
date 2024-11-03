@@ -15,8 +15,8 @@ MonoBehaviour:
   expediteur: Club of Patriotes Scientists
   contentLetter: "Publish an article explaining that the Leader invented \u201Cclean
     air\u201D"
-  accepteText: Give it
-  refuseText: Keep it
+  accepteText: Yes
+  refuseText: No
   logoLetter: {fileID: 0}
   acceptImpactCorp: -5
   acceptImpactPeuple: 0
@@ -27,4 +27,4 @@ MonoBehaviour:
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 12
-  chanceToSpawn: 0
+  chanceToSpawn: 50

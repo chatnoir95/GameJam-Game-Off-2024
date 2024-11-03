@@ -15,16 +15,16 @@ MonoBehaviour:
   expediteur: Group of Indignant Mothers
   contentLetter: Publish real figures on school success rates; suspected of being
     exaggerated
-  accepteText: Give it
-  refuseText: Keep it
+  accepteText: Hide it
+  refuseText: Publish it
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
-  acceptImpactPeuple: 10
-  acceptImpactGouv: -5
+  acceptImpactPeuple: -10
+  acceptImpactGouv: 5
   refuseImpactCorp: 0
-  refuseImpactPeuple: -10
-  refuseImpactGouv: 5
+  refuseImpactPeuple: 10
+  refuseImpactGouv: -5
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 5
-  chanceToSpawn: 0
+  chanceToSpawn: 50

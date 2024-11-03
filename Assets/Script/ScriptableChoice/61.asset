@@ -15,8 +15,8 @@ MonoBehaviour:
   expediteur: Personnel Oversight Division
   contentLetter: Conduct public assessment on employee compliance with government
     health measures.
-  accepteText: Give it
-  refuseText: Keep it
+  accepteText: Yes
+  refuseText: No
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
   acceptImpactPeuple: -5
@@ -27,4 +27,4 @@ MonoBehaviour:
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 61
-  chanceToSpawn: 0
+  chanceToSpawn: 50

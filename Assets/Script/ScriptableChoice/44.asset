@@ -15,8 +15,8 @@ MonoBehaviour:
   expediteur: HappyLife Representative
   contentLetter: Make a secret deal with the Ministry of Welfare to make CHIPS implants
     mandatory
-  accepteText: Give it
-  refuseText: Keep it
+  accepteText: Yes
+  refuseText: No
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
   acceptImpactPeuple: -10
@@ -27,4 +27,4 @@ MonoBehaviour:
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 44
-  chanceToSpawn: 0
+  chanceToSpawn: 50

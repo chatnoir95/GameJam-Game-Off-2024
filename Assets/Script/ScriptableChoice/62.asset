@@ -15,8 +15,8 @@ MonoBehaviour:
   expediteur: Building Security Supervisor
   contentLetter: Request code for Room 103; Building C; North Wing; 6th floor; for
     unidentified purpose.
-  accepteText: Give it
-  refuseText: Keep it
+  accepteText: Yes
+  refuseText: No
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
   acceptImpactPeuple: -5
@@ -27,4 +27,4 @@ MonoBehaviour:
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 62
-  chanceToSpawn: 0
+  chanceToSpawn: 50

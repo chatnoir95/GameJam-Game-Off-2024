@@ -15,8 +15,8 @@ MonoBehaviour:
   expediteur: Security Division
   contentLetter: Release the investigation report on the Resistants to prepare further
     crackdowns on gatherings.
-  accepteText: Give it
-  refuseText: Keep it
+  accepteText: Yes
+  refuseText: No
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
   acceptImpactPeuple: -10
@@ -27,4 +27,4 @@ MonoBehaviour:
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 53
-  chanceToSpawn: 0
+  chanceToSpawn: 50

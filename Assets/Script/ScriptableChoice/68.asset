@@ -10,20 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
-  m_Name: 21
+  m_Name: 68
   m_EditorClassIdentifier: 
-  expediteur: Association of Official Authors
-  contentLetter: Require all school textbooks to mention the Overseer's date of birth
-  accepteText: Yes
-  refuseText: No
+  expediteur: Fact news
+  contentLetter: Due to the new law that remove lift for people. Impared people are
+    contesting in the street
+  accepteText: Ok
+  refuseText: Sorry
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
+  acceptImpactCorp: -10
   acceptImpactPeuple: -10
-  acceptImpactGouv: 5
-  refuseImpactCorp: -5
-  refuseImpactPeuple: 10
-  refuseImpactGouv: -10
+  acceptImpactGouv: -10
+  refuseImpactCorp: -20
+  refuseImpactPeuple: -20
+  refuseImpactGouv: -20
   acceptUnlockLetters: []
   refuseUnlockLetters: []
-  index: 21
-  chanceToSpawn: 50
+  index: 68
+  chanceToSpawn: 100

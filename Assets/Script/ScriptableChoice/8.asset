@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   expediteur: Alliance of Sock Manufacturers.
   contentLetter: "Proclaim \u201CNational Work Socks Month\u201D"
-  accepteText: Give it
-  refuseText: Keep it
+  accepteText: Yes
+  refuseText: No
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
   acceptImpactPeuple: 0
@@ -26,4 +26,4 @@ MonoBehaviour:
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 8
-  chanceToSpawn: 0
+  chanceToSpawn: 50

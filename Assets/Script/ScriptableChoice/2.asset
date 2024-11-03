@@ -15,8 +15,8 @@ MonoBehaviour:
   expediteur: Head of the Censorship Bureau
   contentLetter: "Censor all references to \u201Chard work\u201D that existed before
     the birth of the Leader"
-  accepteText: Give it
-  refuseText: Keep it
+  accepteText: Yes
+  refuseText: No
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
   acceptImpactPeuple: -10
@@ -27,4 +27,4 @@ MonoBehaviour:
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 2
-  chanceToSpawn: 0
+  chanceToSpawn: 50

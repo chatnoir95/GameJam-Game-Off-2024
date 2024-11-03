@@ -15,8 +15,8 @@ MonoBehaviour:
   expediteur: International Space Security Council
   contentLetter: Request heightened security and monitoring of ISS data to prevent
     similar incidents.
-  accepteText: Give it
-  refuseText: Keep it
+  accepteText: Yes
+  refuseText: No
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
   acceptImpactPeuple: -10
@@ -27,4 +27,4 @@ MonoBehaviour:
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 40
-  chanceToSpawn: 0
+  chanceToSpawn: 50

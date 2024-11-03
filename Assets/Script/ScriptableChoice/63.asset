@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   expediteur: Ministry of Energy Representative
   contentLetter: "Access to information and plans for the capital\u2019s power grid."
-  accepteText: Give it
-  refuseText: Keep it
+  accepteText: Yes
+  refuseText: No
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
   acceptImpactPeuple: -5
@@ -26,4 +26,4 @@ MonoBehaviour:
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 63
-  chanceToSpawn: 0
+  chanceToSpawn: 50

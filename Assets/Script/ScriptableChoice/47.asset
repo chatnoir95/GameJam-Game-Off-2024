@@ -15,8 +15,8 @@ MonoBehaviour:
   expediteur: University Council
   contentLetter: Request revision of surveillance policies on campus in response
     to student backlash.
-  accepteText: Give it
-  refuseText: Keep it
+  accepteText: Yes
+  refuseText: No
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
   acceptImpactPeuple: 10
@@ -27,4 +27,4 @@ MonoBehaviour:
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 47
-  chanceToSpawn: 0
+  chanceToSpawn: 50

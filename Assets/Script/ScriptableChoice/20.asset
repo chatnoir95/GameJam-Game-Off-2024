@@ -15,8 +15,8 @@ MonoBehaviour:
   expediteur: Supreme Science Council
   contentLetter: "Publish study claiming that the Leader \u201Cpossesses an innate
     superior intellect\u201D"
-  accepteText: Give it
-  refuseText: Keep it
+  accepteText: Yes
+  refuseText: No
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
   acceptImpactPeuple: -10
@@ -27,4 +27,4 @@ MonoBehaviour:
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 20
-  chanceToSpawn: 0
+  chanceToSpawn: 50

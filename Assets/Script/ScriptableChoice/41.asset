@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   expediteur: WASP AI CEO
   contentLetter: Access to government servers to improve the CHIPS project
-  accepteText: Give it
-  refuseText: Keep it
+  accepteText: Yes
+  refuseText: No
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
   acceptImpactPeuple: -5
@@ -26,4 +26,4 @@ MonoBehaviour:
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 41
-  chanceToSpawn: 0
+  chanceToSpawn: 50

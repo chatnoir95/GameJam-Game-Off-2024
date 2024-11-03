@@ -15,8 +15,8 @@ MonoBehaviour:
   expediteur: Health Compliance Officer
   contentLetter: Order EM478XY2008 employee to take a government-issued pill as part
     of ongoing collaboration.
-  accepteText: Give it
-  refuseText: Keep it
+  accepteText: Yes
+  refuseText: No
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
   acceptImpactPeuple: -10
@@ -27,4 +27,4 @@ MonoBehaviour:
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 59
-  chanceToSpawn: 0
+  chanceToSpawn: 50

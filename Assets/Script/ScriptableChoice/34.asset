@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   expediteur: Trade Committee Member
   contentLetter: "Obtain the year\u2019s trade agreements for a confidential project"
-  accepteText: Give it
-  refuseText: Keep it
+  accepteText: Yes
+  refuseText: No
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
   acceptImpactPeuple: 5
@@ -26,4 +26,4 @@ MonoBehaviour:
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 34
-  chanceToSpawn: 0
+  chanceToSpawn: 50

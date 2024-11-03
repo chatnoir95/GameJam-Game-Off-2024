@@ -15,8 +15,8 @@ MonoBehaviour:
   expediteur: National Student Union
   contentLetter: Demand public oversight of surveillance measures to ensure privacy
     on university campuses.
-  accepteText: Give it
-  refuseText: Keep it
+  accepteText: Yes
+  refuseText: No
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
   acceptImpactPeuple: 10
@@ -27,4 +27,4 @@ MonoBehaviour:
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 48
-  chanceToSpawn: 0
+  chanceToSpawn: 50

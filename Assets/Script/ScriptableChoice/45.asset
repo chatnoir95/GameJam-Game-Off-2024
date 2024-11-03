@@ -15,8 +15,8 @@ MonoBehaviour:
   expediteur: Minister of Welfare
   contentLetter: "Propose to the public the new CHIPS implant mandate as a \u201Cvoluntary\u201D
     safety measure."
-  accepteText: Give it
-  refuseText: Keep it
+  accepteText: Yes
+  refuseText: No
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
   acceptImpactPeuple: 5
@@ -27,4 +27,4 @@ MonoBehaviour:
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 45
-  chanceToSpawn: 0
+  chanceToSpawn: 50

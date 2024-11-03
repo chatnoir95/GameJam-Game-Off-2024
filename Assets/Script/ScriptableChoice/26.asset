@@ -15,8 +15,8 @@ MonoBehaviour:
   expediteur: HappyLife CEO
   contentLetter: "Seek indirect access to citizen data by partnering with the health
     ministry\u2019s outreach program."
-  accepteText: Give it
-  refuseText: Keep it
+  accepteText: Yes
+  refuseText: No
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
   acceptImpactPeuple: 5
@@ -27,4 +27,4 @@ MonoBehaviour:
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 26
-  chanceToSpawn: 0
+  chanceToSpawn: 50

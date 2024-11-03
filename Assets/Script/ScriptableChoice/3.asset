@@ -15,8 +15,8 @@ MonoBehaviour:
   expediteur: Association of cooker
   contentLetter: "Hiding a report showing that \u201Cstrategic planning\u201D meetings
     consist of luxurious meals"
-  accepteText: Give it
-  refuseText: Keep it
+  accepteText: Hide it
+  refuseText: Publish it
   logoLetter: {fileID: 0}
   acceptImpactCorp: -10
   acceptImpactPeuple: -5
@@ -27,4 +27,4 @@ MonoBehaviour:
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 3
-  chanceToSpawn: 0
+  chanceToSpawn: 50

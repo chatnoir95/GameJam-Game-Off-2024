@@ -15,8 +15,8 @@ MonoBehaviour:
   expediteur: HappyLife CEO
   contentLetter: "Access to the government\u2019s citizens database for the CHIPS
     brain implant project"
-  accepteText: Give it
-  refuseText: Keep it
+  accepteText: Yes
+  refuseText: No
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
   acceptImpactPeuple: -10
@@ -27,4 +27,4 @@ MonoBehaviour:
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 25
-  chanceToSpawn: 0
+  chanceToSpawn: 50

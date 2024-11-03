@@ -15,8 +15,8 @@ MonoBehaviour:
   expediteur: Patriotic Accessories Association
   contentLetter: "Distribute \u201Ccertificates of patriotism\u201D for those who
     wear plain socks"
-  accepteText: Give it
-  refuseText: Keep it
+  accepteText: Yes
+  refuseText: No
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
   acceptImpactPeuple: -10
@@ -27,4 +27,4 @@ MonoBehaviour:
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 11
-  chanceToSpawn: 0
+  chanceToSpawn: 50

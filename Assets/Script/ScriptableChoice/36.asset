@@ -15,8 +15,8 @@ MonoBehaviour:
   expediteur: National Trade Oversight Committee
   contentLetter: Demand investigation into lobbying pressures on recent trade agreements
     for transparency.
-  accepteText: Give it
-  refuseText: Keep it
+  accepteText: Yes
+  refuseText: No
   logoLetter: {fileID: 0}
   acceptImpactCorp: -10
   acceptImpactPeuple: 10
@@ -27,4 +27,4 @@ MonoBehaviour:
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 36
-  chanceToSpawn: 0
+  chanceToSpawn: 50
