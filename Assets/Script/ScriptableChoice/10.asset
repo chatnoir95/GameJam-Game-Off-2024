@@ -12,17 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 10
   m_EditorClassIdentifier: 
-  expediteur: Association des Jardiniers de la Capitale
-  contentLetter: Instituer une campagne de plantation en l'honneur du Dirigeant
+  expediteur: National Fashion Observatory
+  contentLetter: "Announce that the Leader is launching a new fashion trend of \u201Ccompulsory
+    plain socks\u201D"
   accepteText: Give it
   refuseText: Keep it
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
+  acceptImpactCorp: 10
   acceptImpactPeuple: 5
   acceptImpactGouv: -5
   refuseImpactCorp: 0
   refuseImpactPeuple: 10
-  refuseImpactGouv: -5
+  refuseImpactGouv: 0
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 10

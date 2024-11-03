@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 26
   m_EditorClassIdentifier: 
-  expediteur: "Comit\xE9 des Sportifs Patriotes"
-  contentLetter: "Exiger la diffusion d\u2019un documentaire affirmant que le Dirigeant
-    court plus vite que n'importe quel athl\xE8te"
+  expediteur: HappyLife CEO
+  contentLetter: "Seek indirect access to citizen data by partnering with the health
+    ministry\u2019s outreach program."
   accepteText: Give it
   refuseText: Keep it
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 10
-  acceptImpactPeuple: -5
-  acceptImpactGouv: 5
-  refuseImpactCorp: -10
-  refuseImpactPeuple: 10
+  acceptImpactCorp: 5
+  acceptImpactPeuple: 5
+  acceptImpactGouv: 10
+  refuseImpactCorp: -5
+  refuseImpactPeuple: -10
   refuseImpactGouv: -5
   acceptUnlockLetters: []
   refuseUnlockLetters: []

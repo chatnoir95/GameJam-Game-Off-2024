@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 20
   m_EditorClassIdentifier: 
-  expediteur: "F\xE9d\xE9ration des Climatiseurs Officiels"
-  contentLetter: "Demander l\u2019autorisation de revendre les anciens ventilateurs
-    confisqu\xE9s (id 015 accept\xE9)"
+  expediteur: Supreme Science Council
+  contentLetter: "Publish study claiming that the Leader \u201Cpossesses an innate
+    superior intellect\u201D"
   accepteText: Give it
   refuseText: Keep it
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
-  acceptImpactPeuple: 5
-  acceptImpactGouv: 0
-  refuseImpactCorp: 0
-  refuseImpactPeuple: 5
-  refuseImpactGouv: -5
+  acceptImpactPeuple: -10
+  acceptImpactGouv: 10
+  refuseImpactCorp: -5
+  refuseImpactPeuple: 10
+  refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 20

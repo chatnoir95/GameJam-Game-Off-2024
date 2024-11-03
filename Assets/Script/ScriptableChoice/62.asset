@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
+  m_Name: 62
+  m_EditorClassIdentifier: 
+  expediteur: Building Security Supervisor
+  contentLetter: Request code for Room 103; Building C; North Wing; 6th floor; for
+    unidentified purpose.
+  accepteText: Give it
+  refuseText: Keep it
+  logoLetter: {fileID: 0}
+  acceptImpactCorp: 5
+  acceptImpactPeuple: -5
+  acceptImpactGouv: 5
+  refuseImpactCorp: 0
+  refuseImpactPeuple: 10
+  refuseImpactGouv: -5
+  acceptUnlockLetters: []
+  refuseUnlockLetters: []
+  index: 62
+  chanceToSpawn: 0

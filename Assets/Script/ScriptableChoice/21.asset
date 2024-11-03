@@ -12,17 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 21
   m_EditorClassIdentifier: 
-  expediteur: Union des Patriotes Agricoles
-  contentLetter: "Publier un rapport affirmant que la r\xE9colte record est due aux
-    \xAB encouragements \xBB du Dirigeant"
+  expediteur: Association of Official Authors
+  contentLetter: Require all school textbooks to mention the Overseer's date of birth
   accepteText: Give it
   refuseText: Keep it
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
-  acceptImpactPeuple: 5
+  acceptImpactPeuple: -10
   acceptImpactGouv: 5
-  refuseImpactCorp: 0
-  refuseImpactPeuple: -5
+  refuseImpactCorp: -5
+  refuseImpactPeuple: 10
   refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []

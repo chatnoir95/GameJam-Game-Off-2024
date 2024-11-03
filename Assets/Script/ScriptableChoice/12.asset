@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 12
   m_EditorClassIdentifier: 
-  expediteur: Observatoire de la Mode National
-  contentLetter: "Annoncer que le Dirigeant lance une nouvelle mode de \u201Cchaussettes
-    unies obligatoires\u201D"
+  expediteur: Club of Patriotes Scientists
+  contentLetter: "Publish an article explaining that the Leader invented \u201Cclean
+    air\u201D"
   accepteText: Give it
   refuseText: Keep it
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 10
-  acceptImpactPeuple: 5
-  acceptImpactGouv: -5
+  acceptImpactCorp: -5
+  acceptImpactPeuple: 0
+  acceptImpactGouv: 5
   refuseImpactCorp: 0
-  refuseImpactPeuple: 10
-  refuseImpactGouv: 0
+  refuseImpactPeuple: 5
+  refuseImpactGouv: -5
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 12

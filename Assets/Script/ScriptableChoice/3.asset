@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 3
   m_EditorClassIdentifier: 
-  expediteur: Association des Grands Chefs
-  contentLetter: "Cacher un rapport montrant que les r\xE9unions de \u201Cplanification
-    strat\xE9gique\u201D consistent en repas luxueux"
+  expediteur: Association of cooker
+  contentLetter: "Hiding a report showing that \u201Cstrategic planning\u201D meetings
+    consist of luxurious meals"
   accepteText: Give it
   refuseText: Keep it
   logoLetter: {fileID: 0}

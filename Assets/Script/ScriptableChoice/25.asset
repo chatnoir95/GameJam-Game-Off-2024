@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 25
   m_EditorClassIdentifier: 
-  expediteur: Association des Auteurs Officiels
-  contentLetter: Exiger que tous les manuels scolaires mentionnent la date de naissance
-    du Dirigeant
+  expediteur: HappyLife CEO
+  contentLetter: "Access to the government\u2019s citizens database for the CHIPS
+    brain implant project"
   accepteText: Give it
   refuseText: Keep it
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
+  acceptImpactCorp: 10
   acceptImpactPeuple: -10
-  acceptImpactGouv: 5
-  refuseImpactCorp: -5
+  acceptImpactGouv: 10
+  refuseImpactCorp: 0
   refuseImpactPeuple: 10
   refuseImpactGouv: -10
   acceptUnlockLetters: []

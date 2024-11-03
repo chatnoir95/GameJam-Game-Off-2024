@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 29
   m_EditorClassIdentifier: 
-  expediteur: "Union des Travailleurs de la Sid\xE9rurgie"
-  contentLetter: "Annoncer que le Dirigeant a unifi\xE9 les travailleurs sous un
-    \xAB code moral unique \xBB"
+  expediteur: OmniCorp Construction
+  contentLetter: Ask to expand contract to add additional facilities; citing future
+    university needs.
   accepteText: Give it
   refuseText: Keep it
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
-  acceptImpactPeuple: 5
+  acceptImpactPeuple: -10
   acceptImpactGouv: 5
   refuseImpactCorp: -5
-  refuseImpactPeuple: 10
-  refuseImpactGouv: -5
+  refuseImpactPeuple: 5
+  refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 29

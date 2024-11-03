@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 7
   m_EditorClassIdentifier: 
-  expediteur: "Chef des Affaires Int\xE9rieures"
-  contentLetter: "Confisquer les t\xE9l\xE9phones contenant des m\xE8mes satiriques
-    sur le r\xE9gime"
+  expediteur: Head of Internal Affairs
+  contentLetter: Confiscate telephones containing satirical memes about the regime
   accepteText: Give it
   refuseText: Keep it
   logoLetter: {fileID: 0}

@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 15
   m_EditorClassIdentifier: 
-  expediteur: "Minist\xE8re de l'Environnement"
-  contentLetter: Interdire la production de ventilateurs et d'appareils de climatisation
+  expediteur: Bakers' Union
+  contentLetter: "Announcing that the Leader eats only \u201Cpatriotic bread\u201D"
   accepteText: Give it
   refuseText: Keep it
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
-  acceptImpactPeuple: -10
-  acceptImpactGouv: 5
+  acceptImpactCorp: 10
+  acceptImpactPeuple: 5
+  acceptImpactGouv: 0
   refuseImpactCorp: 0
   refuseImpactPeuple: 10
-  refuseImpactGouv: -10
+  refuseImpactGouv: -5
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 15

@@ -12,18 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 14
   m_EditorClassIdentifier: 
-  expediteur: Club des Scientifiques Patriotes
-  contentLetter: "Publier un article expliquant que le Dirigeant a invent\xE9 \xAB
-    l\u2019air pur \xBB"
+  expediteur: Concerned Parents Group
+  contentLetter: Request statistics on children's candy consumption
   accepteText: Give it
   refuseText: Keep it
   logoLetter: {fileID: 0}
-  acceptImpactCorp: -5
-  acceptImpactPeuple: 0
-  acceptImpactGouv: 5
+  acceptImpactCorp: 0
+  acceptImpactPeuple: 10
+  acceptImpactGouv: -5
   refuseImpactCorp: 0
-  refuseImpactPeuple: 5
-  refuseImpactGouv: -5
+  refuseImpactPeuple: -5
+  refuseImpactGouv: 5
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 14

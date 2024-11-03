@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 2
   m_EditorClassIdentifier: 
-  expediteur: Chef du Bureau de la Censure
-  contentLetter: "\"Censurer toutes les r\xE9f\xE9rences au \"\"travail acharn\xE9\"\"
-    qui existaient avant la naissance du Dirigeant\""
+  expediteur: Head of the Censorship Bureau
+  contentLetter: "Censor all references to \u201Chard work\u201D that existed before
+    the birth of the Leader"
   accepteText: Give it
   refuseText: Keep it
   logoLetter: {fileID: 0}

@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 11
   m_EditorClassIdentifier: 
-  expediteur: "Ministre des Affaires Ext\xE9rieures"
-  contentLetter: "Publier un communiqu\xE9 affirmant que le Dirigeant a \xAB d\xE9couvert
-    \xBB un pays voisin."
+  expediteur: Patriotic Accessories Association
+  contentLetter: "Distribute \u201Ccertificates of patriotism\u201D for those who
+    wear plain socks"
   accepteText: Give it
   refuseText: Keep it
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
-  acceptImpactPeuple: -5
+  acceptImpactCorp: 5
+  acceptImpactPeuple: -10
   acceptImpactGouv: 5
-  refuseImpactCorp: 0
+  refuseImpactCorp: -5
   refuseImpactPeuple: 10
   refuseImpactGouv: -10
   acceptUnlockLetters: []

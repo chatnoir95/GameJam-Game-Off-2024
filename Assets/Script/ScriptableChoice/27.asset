@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 27
   m_EditorClassIdentifier: 
-  expediteur: Institut des Traditions Populaires
-  contentLetter: "Organiser une journ\xE9e nationale pour c\xE9l\xE9brer \xAB l\u2019h\xE9ritage
-    culinaire \xBB du Dirigeant"
+  expediteur: HappyLife Health Division
+  contentLetter: "Submit research request for CHIPS clinical trials to increase \u201Cvoluntary\u201D
+    participation rates."
   accepteText: Give it
   refuseText: Keep it
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
-  acceptImpactPeuple: 5
-  acceptImpactGouv: -5
-  refuseImpactCorp: -5
-  refuseImpactPeuple: 10
+  acceptImpactCorp: 10
+  acceptImpactPeuple: -10
+  acceptImpactGouv: 5
+  refuseImpactCorp: -10
+  refuseImpactPeuple: 5
   refuseImpactGouv: -5
   acceptUnlockLetters: []
   refuseUnlockLetters: []

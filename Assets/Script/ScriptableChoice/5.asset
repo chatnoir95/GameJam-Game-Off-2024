@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 5
   m_EditorClassIdentifier: 
-  expediteur: "Groupe de M\xE8res Indign\xE9es"
-  contentLetter: "Publier de vrais chiffres sur le taux de r\xE9ussite scolaire;
-    soup\xE7onn\xE9s d\u2019\xEAtre exag\xE9r\xE9s"
+  expediteur: Group of Indignant Mothers
+  contentLetter: Publish real figures on school success rates; suspected of being
+    exaggerated
   accepteText: Give it
   refuseText: Keep it
   logoLetter: {fileID: 0}

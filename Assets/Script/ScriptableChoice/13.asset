@@ -12,16 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 13
   m_EditorClassIdentifier: 
-  expediteur: Association des Accessoires Patriotiques
-  contentLetter: "Distribuer des \xAB certificats de patriotisme \xBB pour ceux qui
-    portent les chaussettes unies"
+  expediteur: Ministry of the Environment
+  contentLetter: Ban the production of fans and air conditioners
   accepteText: Give it
   refuseText: Keep it
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 5
+  acceptImpactCorp: 0
   acceptImpactPeuple: -10
   acceptImpactGouv: 5
-  refuseImpactCorp: -5
+  refuseImpactCorp: 0
   refuseImpactPeuple: 10
   refuseImpactGouv: -10
   acceptUnlockLetters: []

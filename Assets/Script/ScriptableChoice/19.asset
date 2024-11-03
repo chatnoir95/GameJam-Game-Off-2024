@@ -12,18 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 19
   m_EditorClassIdentifier: 
-  expediteur: Association des Jeunes Patriotes
-  contentLetter: "Lancer un concours d\u2019\xE9criture sur \xAB Les repas pr\xE9f\xE9r\xE9s
-    du Dirigeant \xBB"
+  expediteur: National Inventors Club
+  contentLetter: "Announce that the leader has invented a \u201Cnew meditation technique\u201D"
   accepteText: Give it
   refuseText: Keep it
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 10
+  acceptImpactCorp: 0
   acceptImpactPeuple: 5
-  acceptImpactGouv: -5
-  refuseImpactCorp: 0
+  acceptImpactGouv: 10
+  refuseImpactCorp: -5
   refuseImpactPeuple: 10
-  refuseImpactGouv: 0
+  refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 19

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
+  m_Name: 39
+  m_EditorClassIdentifier: 
+  expediteur: NewEden Security Officer
+  contentLetter: Access to the ISS passenger list to organize their evacuation
+  accepteText: Give it
+  refuseText: Keep it
+  logoLetter: {fileID: 0}
+  acceptImpactCorp: 0
+  acceptImpactPeuple: 5
+  acceptImpactGouv: -10
+  refuseImpactCorp: -5
+  refuseImpactPeuple: 10
+  refuseImpactGouv: 0
+  acceptUnlockLetters: []
+  refuseUnlockLetters: []
+  index: 39
+  chanceToSpawn: 0

@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 23
   m_EditorClassIdentifier: 
-  expediteur: Club des Inventeurs Nationaux
-  contentLetter: "Annoncer que le Dirigeant a invent\xE9 une \xAB nouvelle technique
-    de m\xE9ditation \xBB"
+  expediteur: WASP AI Representative
+  contentLetter: Provide the security code for the nuclear power plant to test system
+    resilience
   accepteText: Give it
   refuseText: Keep it
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
-  acceptImpactPeuple: 5
-  acceptImpactGouv: 10
-  refuseImpactCorp: -5
-  refuseImpactPeuple: 10
+  acceptImpactCorp: 10
+  acceptImpactPeuple: -5
+  acceptImpactGouv: 5
+  refuseImpactCorp: 0
+  refuseImpactPeuple: 5
   refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []

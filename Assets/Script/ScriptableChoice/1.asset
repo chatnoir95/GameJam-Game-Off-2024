@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 1
   m_EditorClassIdentifier: 
-  expediteur: "Ministre de l\u2019Information"
-  contentLetter: "\"Publier un faux rapport affirmant que le Supr\xEAme Dirigeant
-    a invent\xE9 le concept de \"\"travail acharn\xE9\"\"\""
+  expediteur: Minister of Information
+  contentLetter: "Publish a false report claiming that the Supreme Leader invented
+    the concept of \u201Chard work\u201D"
   accepteText: Give it
   refuseText: Keep it
   logoLetter: {fileID: 0}

@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 28
   m_EditorClassIdentifier: 
-  expediteur: "Minist\xE8re de la Culture"
-  contentLetter: "Organiser un \xAB concours culinaire patriotique \xBB pour apaiser
-    les critiques"
+  expediteur: New University Representative
+  contentLetter: Obtain a copy of the contract with OmniCorp and the plans for the
+    future university
   accepteText: Give it
   refuseText: Keep it
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
+  acceptImpactCorp: 10
   acceptImpactPeuple: 5
   acceptImpactGouv: -5
-  refuseImpactCorp: -5
+  refuseImpactCorp: 0
   refuseImpactPeuple: 10
   refuseImpactGouv: -5
   acceptUnlockLetters: []

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 8
   m_EditorClassIdentifier: 
-  expediteur: Alliance des Producteurs de Chaussettes
-  contentLetter: '"Proclamer le ""Mois National des Chaussettes de Travail"""'
+  expediteur: Alliance of Sock Manufacturers.
+  contentLetter: "Proclaim \u201CNational Work Socks Month\u201D"
   accepteText: Give it
   refuseText: Keep it
   logoLetter: {fileID: 0}

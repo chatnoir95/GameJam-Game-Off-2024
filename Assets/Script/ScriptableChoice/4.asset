@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 4
   m_EditorClassIdentifier: 
-  expediteur: "\"Journal d'\xC9tat \"\"Gloire \xC9ternelle au Dirigeant\"\"\""
-  contentLetter: "\"Publier un article pr\xE9tendant que le Dirigeant peut \"\"communiquer
-    avec les oiseaux\"\"\""
+  expediteur: "State newspaper \u201CEternal Glory to the Leader\u201D."
+  contentLetter: "Publish article claiming that the Overseer can \u201Ccommunicate
+    with birds\u201D"
   accepteText: Give it
   refuseText: Keep it
   logoLetter: {fileID: 0}
