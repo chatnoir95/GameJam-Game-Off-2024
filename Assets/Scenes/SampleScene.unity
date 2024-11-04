@@ -897,6 +897,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lettreDisponibles: []
   followingLetters: []
+  specialLetters:
+  - {fileID: 11400000, guid: a3fe870cdccc55a4bb75daf2ef55e510, type: 2}
+  - {fileID: 11400000, guid: 366150a57f8563049ab31bec24ac58a5, type: 2}
+  - {fileID: 11400000, guid: 2f011900c375d904e93c8a65b703e552, type: 2}
+  - {fileID: 11400000, guid: f278bff1fb8bacf4bae4d2063f74548d, type: 2}
+  - {fileID: 11400000, guid: 2c4e98756cb1aa64995ab183a285966b, type: 2}
+  - {fileID: 11400000, guid: 78fea575590eb16449101a0214297be1, type: 2}
   textAcceptButton: {fileID: 1734156364}
   textRefuseButton: {fileID: 2099360713}
   textContenueLettre: {fileID: 1141254765}

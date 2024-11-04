@@ -9,7 +9,9 @@ public class LetterManager : MonoBehaviour
 {
     public List<ScriptableLetter> lettreDisponibles = new List<ScriptableLetter>();
     
-    public List<ScriptableLetter> followingLetters = new List<ScriptableLetter>(); 
+    public List<ScriptableLetter> followingLetters = new List<ScriptableLetter>();
+    
+    public List<ScriptableLetter> specialLetters = new List<ScriptableLetter>();
 
 
     public Text textAcceptButton, textRefuseButton, textContenueLettre, textExpediteur;
@@ -18,10 +20,30 @@ public class LetterManager : MonoBehaviour
 
     [SerializeField] private Image imageLogo;
 
+
+    public static LetterManager instance;
+    private void Awake()
+    {
+        if (instance != null)
+        {
+            Debug.LogWarning("careful more than one instance of LetterManager");
+            return;
+        }
+        instance = this;
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     public ScriptableLetter TirageLettre()
     {
+
+        // check if value of rep is at a losing point, in that case return a special losing letter 
+        if( UIManager.instance.CheckIfLose() != null )
+        {
+            return UIManager.instance.CheckIfLose();
+        }
+        
+
         if (followingLetters.Count != 0)
         {
             for (int i = followingLetters.Count -1; i >= 0; i--)
@@ -74,6 +96,18 @@ public class LetterManager : MonoBehaviour
 
         lettreActive = scriptableLetter;
 
+    }
+
+    public ScriptableLetter GetSpecialLetter(string letterName)
+    {
+        foreach (ScriptableLetter letter in specialLetters)
+        {
+            if (letter.name == letterName)
+            { return letter; }
+        }
+
+        Debug.LogWarning("special letter not found");
+        return null;
     }
 
     // EN COURS ON CLICK 

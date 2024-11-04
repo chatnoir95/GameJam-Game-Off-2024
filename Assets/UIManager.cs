@@ -37,6 +37,37 @@ public class UIManager : MonoBehaviour
         repCorp += modCorp;
     }
 
+    public ScriptableLetter CheckIfLose()
+    {
+        if (repGouv >= maxRep)
+        {
+            return LetterManager.instance.GetSpecialLetter("HightGouv");
+        }
+        if (repGouv <= 0)
+        {
+            return LetterManager.instance.GetSpecialLetter("LowGouv");
+        }
+
+        if (repCorp >= maxRep)
+        {
+            return LetterManager.instance.GetSpecialLetter("HightCorp");
+        }
+        if (repCorp <= 0)
+        {
+            return LetterManager.instance.GetSpecialLetter("LowCorp");
+        }
+
+        if (repPeuple >= maxRep)
+        {
+            return LetterManager.instance.GetSpecialLetter("HightPeuple");
+        }
+        if (repPeuple <= 0)
+        {
+            return LetterManager.instance.GetSpecialLetter("LowPeuple");
+        }
+
+        return null;
+    }
 
     void Start()
     {

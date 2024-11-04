@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
-  m_Name: letter 2
+  m_Name: LowPeuple
   m_EditorClassIdentifier: 
-  expediteur: test 2
-  contentLetter: 
-  accepteText: 
-  refuseText: 
+  expediteur: 'Low people '
+  contentLetter: lose low rep people
+  accepteText: 'lose '
+  refuseText: lose
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 7
-  acceptImpactPeuple: -9
-  acceptImpactGouv: 2
-  refuseImpactCorp: -6
-  refuseImpactPeuple: -7
-  refuseImpactGouv: 15
+  acceptImpactCorp: 0
+  acceptImpactPeuple: 0
+  acceptImpactGouv: 0
+  refuseImpactCorp: 0
+  refuseImpactPeuple: 0
+  refuseImpactGouv: 0
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 0
