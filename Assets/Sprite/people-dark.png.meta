@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      people-dark_0: -4310618632888593858
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

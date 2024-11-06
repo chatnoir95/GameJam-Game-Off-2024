@@ -40,6 +40,7 @@ public class LetterManager : MonoBehaviour
         // check if value of rep is at a losing point, in that case return a special losing letter 
         if( UIManager.instance.CheckIfLose() != null )
         {
+            UIManager.instance.retryButton.SetActive(true);
             return UIManager.instance.CheckIfLose();
         }
         

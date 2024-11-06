@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      lobby-dark_0: -2454963039105009729
+      lobby-dark_1: -4242729273891409020
+      lobby-dark_2: -5531119858974707948
+      lobby-dark_3: -5456968082250453263
+      lobby-dark_4: -4061165771305003232
+      lobby-dark_5: 9181642658865677860
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

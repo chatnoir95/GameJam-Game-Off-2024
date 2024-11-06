@@ -1,6 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using static UnityEditor.Progress;
 using System.IO;
 
@@ -10,6 +11,8 @@ public class UIManager : MonoBehaviour
     [SerializeField] float maxRep, startingRep;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private float repGouv, repPeuple, repCorp;
+
+    public GameObject retryButton;
 
     public static UIManager instance;
     private void Awake()
@@ -80,6 +83,11 @@ public class UIManager : MonoBehaviour
         repGouv = startingRep;
         repCorp = startingRep;
         repPeuple = startingRep;
+    }
+
+    public void RetryButton()
+    {
+        SceneManager.LoadScene(0);
     }
 
         // Update is called once per frame

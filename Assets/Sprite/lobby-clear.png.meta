@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      lobby-clear_0: 8678281399016975761
+      lobby-clear_1: 5627188686101968157
+      lobby-clear_2: -342948358192336062
+      lobby-clear_3: 8694587430193805021
+      lobby-clear_4: 6074725578035683113
+      lobby-clear_5: 1929590819371758498
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
