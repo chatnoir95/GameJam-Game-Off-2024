@@ -953,7 +953,8 @@ MonoBehaviour:
   maxRep: 100
   startingRep: 50
   mailLeft: 0
-  startingMail: 0
+  startingMail: 5
+  mailLeftText: {fileID: 1371261631}
   retryButton: {fileID: 1630567441}
 --- !u!114 &877570515
 MonoBehaviour:
@@ -988,6 +989,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f278bff1fb8bacf4bae4d2063f74548d, type: 2}
   - {fileID: 11400000, guid: 2c4e98756cb1aa64995ab183a285966b, type: 2}
   - {fileID: 11400000, guid: 78fea575590eb16449101a0214297be1, type: 2}
+  - {fileID: 11400000, guid: 4ec38564898002b4da2a34acdeec587b, type: 2}
   textAcceptButton: {fileID: 1734156364}
   textRefuseButton: {fileID: 2099360713}
   textContenueLettre: {fileID: 1141254765}

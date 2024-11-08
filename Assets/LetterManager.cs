@@ -37,6 +37,14 @@ public class LetterManager : MonoBehaviour
     public ScriptableLetter TirageLettre()
     {
 
+        UIManager.instance.DecreaseMail();
+
+        if (UIManager.instance.mailLeft <= 0 )
+        {
+            return GetSpecialLetter("WinClearAllLetter");
+        }
+
+
         // check if value of rep is at a losing point, in that case return a special losing letter 
         if( UIManager.instance.CheckIfLose() != null )
         {

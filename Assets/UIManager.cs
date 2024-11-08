@@ -9,8 +9,8 @@ public class UIManager : MonoBehaviour
 {
     [SerializeField] private Image repGouvBar, repPeupleBar, repCorpBar;
     [SerializeField] float maxRep, startingRep;
-    [SerializeField] int mailLeft, startingMail;
-    
+    public int mailLeft, startingMail;
+    [SerializeField] Text mailLeftText;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private float repGouv, repPeuple, repCorp;
 
@@ -33,7 +33,7 @@ public class UIManager : MonoBehaviour
         repCorpBar.fillAmount = repCorp / maxRep;
         repPeupleBar.fillAmount = repPeuple / maxRep;
 
-
+        mailLeftText.text = mailLeft.ToString();
     }
 
 
@@ -42,6 +42,19 @@ public class UIManager : MonoBehaviour
         repGouv += modGouv;
         repPeuple += modPeuple;
         repCorp += modCorp;
+
+ 
+    }
+
+    public void DecreaseMail()
+    {
+
+        if (mailLeft > 0)
+        {
+            mailLeft -= 1;
+            ActualisationUiBar();
+        }
+
     }
 
     public ScriptableLetter CheckIfLose()
