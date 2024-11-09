@@ -122,6 +122,8 @@ public class LetterManager : MonoBehaviour
     // EN COURS ON CLICK 
     public void AcceptButton()
     {
+
+        AudioScript.instance.LaunchSoundSFX(AudioScript.instance.buttonSFX);
         UIManager.instance.UpdateGouvCorpPeuple(lettreActive.acceptImpactGouv, lettreActive.acceptImpactCorp, lettreActive.acceptImpactPeuple);
         UIManager.instance.ActualisationUiBar();
 
@@ -139,6 +141,7 @@ public class LetterManager : MonoBehaviour
 
     public void RefuseButton()
     {
+        AudioScript.instance.LaunchSoundSFX(AudioScript.instance.buttonSFX);
         UIManager.instance.UpdateGouvCorpPeuple(lettreActive.refuseImpactGouv, lettreActive.refuseImpactCorp, lettreActive.refuseImpactPeuple);
         UIManager.instance.ActualisationUiBar();
 
