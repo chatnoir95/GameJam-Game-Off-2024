@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 31
   m_EditorClassIdentifier: 
-  expediteur: "Hexar\xE8s BioTech Research Team"
-  contentLetter: Request expedited approval to start clinical trials on the adapted
-    Psaouludine formula.
+  expediteur: OmniCorp Construction
+  contentLetter: Ask to expand contract to add additional facilities; citing future
+    university needs.
   accepteText: Yes
   refuseText: No
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 10
+  acceptImpactCorp: 5
   acceptImpactPeuple: -10
-  acceptImpactGouv: 10
+  acceptImpactGouv: 5
   refuseImpactCorp: -5
-  refuseImpactPeuple: 10
+  refuseImpactPeuple: 5
   refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []

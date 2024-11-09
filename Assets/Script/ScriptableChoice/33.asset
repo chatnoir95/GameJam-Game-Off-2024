@@ -12,14 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 33
   m_EditorClassIdentifier: 
-  expediteur: WASP AI Director
-  contentLetter: "Compare WASP\u2019s results with the positions of state submarines"
+  expediteur: "Hexar\xE8s BioTech Research Team"
+  contentLetter: Request expedited approval to start clinical trials on the adapted
+    Psaouludine formula.
   accepteText: Yes
   refuseText: No
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
-  acceptImpactPeuple: -5
-  acceptImpactGouv: 5
+  acceptImpactPeuple: -10
+  acceptImpactGouv: 10
   refuseImpactCorp: -5
   refuseImpactPeuple: 10
   refuseImpactGouv: -10

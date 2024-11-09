@@ -12,19 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 68
   m_EditorClassIdentifier: 
-  expediteur: Fact news
-  contentLetter: Due to the new law that remove lift for people. Impared people are
-    contesting in the street
-  accepteText: Ok
-  refuseText: Sorry
+  expediteur: Energy Policy Review Board
+  contentLetter: "Conduct a public survey on privatization; citing recent lobby influence
+    on the capital\u2019s power grid."
+  accepteText: Yes
+  refuseText: No
   logoLetter: {fileID: 0}
-  acceptImpactCorp: -10
-  acceptImpactPeuple: -10
-  acceptImpactGouv: -10
-  refuseImpactCorp: -20
-  refuseImpactPeuple: -20
-  refuseImpactGouv: -20
+  acceptImpactCorp: 10
+  acceptImpactPeuple: 5
+  acceptImpactGouv: 5
+  refuseImpactCorp: -5
+  refuseImpactPeuple: -10
+  refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 68
-  chanceToSpawn: 100
+  chanceToSpawn: 50

@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 37
   m_EditorClassIdentifier: 
-  expediteur: NewEden Space Station Director
-  contentLetter: "Access to the International Space Station\u2019s safety protocols
-    for refueling in emergencies"
+  expediteur: Trade Consortium Representative
+  contentLetter: Request access to other trade contracts to prepare counterproposals
+    on current negotiations.
   accepteText: Yes
   refuseText: No
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
-  acceptImpactPeuple: -5
-  acceptImpactGouv: 5
-  refuseImpactCorp: 0
-  refuseImpactPeuple: 10
-  refuseImpactGouv: -10
+  acceptImpactPeuple: 5
+  acceptImpactGouv: 10
+  refuseImpactCorp: -10
+  refuseImpactPeuple: -5
+  refuseImpactGouv: -5
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 37

@@ -12,16 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 7
   m_EditorClassIdentifier: 
-  expediteur: Head of Internal Affairs
-  contentLetter: Confiscate telephones containing satirical memes about the regime
-  accepteText: Yes
-  refuseText: No
+  expediteur: Group of Indignant Mothers
+  contentLetter: Publish real figures on school success rates; suspected of being
+    exaggerated
+  accepteText: Hide it
+  refuseText: Publish it
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
-  acceptImpactPeuple: -5
-  acceptImpactGouv: 10
+  acceptImpactPeuple: -10
+  acceptImpactGouv: 5
   refuseImpactCorp: 0
-  refuseImpactPeuple: 5
+  refuseImpactPeuple: 10
   refuseImpactGouv: -5
   acceptUnlockLetters: []
   refuseUnlockLetters: []

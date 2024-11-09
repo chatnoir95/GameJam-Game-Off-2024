@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: 69
   m_EditorClassIdentifier: 
   expediteur: Food department
-  contentLetter: Force everyone to eat cereals the morning
-  accepteText: Yes
-  refuseText: No
+  contentLetter: Do you like hot chocolate or coffee ?
+  accepteText: Hot chocolate
+  refuseText: Coffee
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 10
-  acceptImpactPeuple: -10
-  acceptImpactGouv: 10
+  acceptImpactCorp: 5
+  acceptImpactPeuple: 5
+  acceptImpactGouv: 0
   refuseImpactCorp: -5
-  refuseImpactPeuple: 10
-  refuseImpactGouv: -10
+  refuseImpactPeuple: -5
+  refuseImpactGouv: 0
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 69

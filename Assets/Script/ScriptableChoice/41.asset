@@ -12,16 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 41
   m_EditorClassIdentifier: 
-  expediteur: WASP AI CEO
-  contentLetter: Access to government servers to improve the CHIPS project
+  expediteur: NewEden Space Council
+  contentLetter: Ask for public funding to improve internal security and reduce dependency
+    on foreign agencies.
   accepteText: Yes
   refuseText: No
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 10
-  acceptImpactPeuple: -5
+  acceptImpactCorp: 5
+  acceptImpactPeuple: 10
   acceptImpactGouv: 5
   refuseImpactCorp: -5
-  refuseImpactPeuple: 5
+  refuseImpactPeuple: -5
   refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []

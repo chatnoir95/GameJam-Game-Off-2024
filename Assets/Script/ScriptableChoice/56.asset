@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 56
   m_EditorClassIdentifier: 
-  expediteur: Nuclear Defense Office
-  contentLetter: Recover and deliver lost launch codes for the nuclear suitcase to
-    ensure readiness.
+  expediteur: Security Division
+  contentLetter: Release the investigation report on the Resistants to prepare further
+    crackdowns on gatherings.
   accepteText: Yes
   refuseText: No
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 10
+  acceptImpactCorp: 5
   acceptImpactPeuple: -10
-  acceptImpactGouv: 5
+  acceptImpactGouv: 10
   refuseImpactCorp: -5
-  refuseImpactPeuple: 10
-  refuseImpactGouv: -5
+  refuseImpactPeuple: 5
+  refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 56

@@ -12,18 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 35
   m_EditorClassIdentifier: 
-  expediteur: Trade Consortium Representative
-  contentLetter: Request access to other trade contracts to prepare counterproposals
-    on current negotiations.
+  expediteur: WASP AI Director
+  contentLetter: "Compare WASP\u2019s results with the positions of state submarines"
   accepteText: Yes
   refuseText: No
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
-  acceptImpactPeuple: 5
-  acceptImpactGouv: 10
-  refuseImpactCorp: -10
-  refuseImpactPeuple: -5
-  refuseImpactGouv: -5
+  acceptImpactPeuple: -5
+  acceptImpactGouv: 5
+  refuseImpactCorp: -5
+  refuseImpactPeuple: 10
+  refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 35

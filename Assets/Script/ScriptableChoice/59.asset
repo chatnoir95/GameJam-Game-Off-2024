@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 59
   m_EditorClassIdentifier: 
-  expediteur: Health Compliance Officer
-  contentLetter: Order EM478XY2008 employee to take a government-issued pill as part
-    of ongoing collaboration.
+  expediteur: Nuclear Defense Office
+  contentLetter: Recover and deliver lost launch codes for the nuclear suitcase to
+    ensure readiness.
   accepteText: Yes
   refuseText: No
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 5
+  acceptImpactCorp: 10
   acceptImpactPeuple: -10
-  acceptImpactGouv: 10
+  acceptImpactGouv: 5
   refuseImpactCorp: -5
   refuseImpactPeuple: 10
   refuseImpactGouv: -5

@@ -12,17 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 6
   m_EditorClassIdentifier: 
-  expediteur: Minister of Education
-  contentLetter: Modify reports to ensure 100% school success rate
-  accepteText: Yes
-  refuseText: No
+  expediteur: "State newspaper \u201CEternal Glory to the Leader\u201D."
+  contentLetter: "Publish article claiming that the leader can \u201Ccommunicate
+    with birds\u201D"
+  accepteText: Hide it
+  refuseText: Publish it
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
-  acceptImpactPeuple: -10
-  acceptImpactGouv: 10
+  acceptImpactPeuple: 10
+  acceptImpactGouv: -10
   refuseImpactCorp: 0
-  refuseImpactPeuple: 10
-  refuseImpactGouv: -5
+  refuseImpactPeuple: -5
+  refuseImpactGouv: 5
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 6

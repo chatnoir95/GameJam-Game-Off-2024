@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 5
   m_EditorClassIdentifier: 
-  expediteur: Group of Indignant Mothers
-  contentLetter: Publish real figures on school success rates; suspected of being
-    exaggerated
+  expediteur: Association of cooker
+  contentLetter: "Hiding a report showing that \u201Cstrategic planning\u201D meetings
+    consist of luxurious meals"
   accepteText: Hide it
   refuseText: Publish it
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
-  acceptImpactPeuple: -10
+  acceptImpactCorp: -10
+  acceptImpactPeuple: -5
   acceptImpactGouv: 5
   refuseImpactCorp: 0
   refuseImpactPeuple: 10
-  refuseImpactGouv: -5
+  refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 5

@@ -12,18 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 4
   m_EditorClassIdentifier: 
-  expediteur: "State newspaper \u201CEternal Glory to the Leader\u201D."
-  contentLetter: "Publish article claiming that the leader can \u201Ccommunicate
-    with birds\u201D"
-  accepteText: Hide it
-  refuseText: Publish it
+  expediteur: Propaganda Division
+  contentLetter: "We've been asked to prepare a propaganda plan regarding all the
+    messages you've had with the Censorship Bureau. We have thought of two plans\u2014what
+    would you prefer?"
+  accepteText: Blood propaganda
+  refuseText: Soft propaganda
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
-  acceptImpactPeuple: 10
-  acceptImpactGouv: -10
+  acceptImpactPeuple: 0
+  acceptImpactGouv: 0
   refuseImpactCorp: 0
-  refuseImpactPeuple: -5
-  refuseImpactGouv: 5
+  refuseImpactPeuple: 0
+  refuseImpactGouv: 0
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 4

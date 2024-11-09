@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 40
   m_EditorClassIdentifier: 
-  expediteur: International Space Security Council
-  contentLetter: Request heightened security and monitoring of ISS data to prevent
-    similar incidents.
+  expediteur: NewEden Diplomatic Liaison
+  contentLetter: Seek collaboration with foreign space agencies to share emergency
+    protocols and reduce costs.
   accepteText: Yes
   refuseText: No
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
-  acceptImpactPeuple: -10
-  acceptImpactGouv: 10
+  acceptImpactPeuple: 5
+  acceptImpactGouv: 5
   refuseImpactCorp: -5
-  refuseImpactPeuple: 10
+  refuseImpactPeuple: -5
   refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []

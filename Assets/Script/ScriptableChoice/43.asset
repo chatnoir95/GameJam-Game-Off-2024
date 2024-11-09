@@ -12,16 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 43
   m_EditorClassIdentifier: 
-  expediteur: HappyLife Marketing Director
-  contentLetter: Access to citizens' medical data for CHIPS commercialization
+  expediteur: International Space Security Council
+  contentLetter: Request heightened security and monitoring of ISS data to prevent
+    similar incidents.
   accepteText: Yes
   refuseText: No
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 10
-  acceptImpactPeuple: 10
-  acceptImpactGouv: -5
+  acceptImpactCorp: 5
+  acceptImpactPeuple: -10
+  acceptImpactGouv: 10
   refuseImpactCorp: -5
-  refuseImpactPeuple: 5
+  refuseImpactPeuple: 10
   refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
