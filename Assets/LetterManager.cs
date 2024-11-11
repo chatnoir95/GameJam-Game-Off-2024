@@ -13,6 +13,7 @@ public class LetterManager : MonoBehaviour
     
     public List<ScriptableLetter> specialLetters = new List<ScriptableLetter>();
 
+    public Animator letterAnimator;
 
     public Text textAcceptButton, textRefuseButton, textContenueLettre, textExpediteur;
 
@@ -89,6 +90,8 @@ public class LetterManager : MonoBehaviour
 
     public void NouvelleLettre(ScriptableLetter scriptableLetter)
     {
+        letterAnimator.SetTrigger("newLetter");
+
         // applique le bon text pour les boutton de choix 
         textAcceptButton.text = scriptableLetter.accepteText;
         textRefuseButton.text = scriptableLetter.refuseText;
