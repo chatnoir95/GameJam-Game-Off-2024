@@ -4,15 +4,17 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using static UnityEditor.Progress;
 using System.IO;
+using System.Collections;
 
 public class UIManager : MonoBehaviour
 {
+    [SerializeField] float vitesseRemplissageRepBar = 1; // ratio appliquer au delta time, pour gérer la vitesse de remplissage des barres rep lors d'une modif de leur valeur
     [SerializeField] private Image repGouvBar, repPeupleBar, repCorpBar;
     [SerializeField] float maxRep, startingRep;
     public int mailLeft, startingMail;
     [SerializeField] Text mailLeftText;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    private float repGouv, repPeuple, repCorp;
+    public float repGouv, repPeuple, repCorp;
 
     public GameObject retryButton;
 
@@ -29,13 +31,37 @@ public class UIManager : MonoBehaviour
 
     public void ActualisationUiBar()
     {
-        repGouvBar.fillAmount = repGouv / maxRep;
-        repCorpBar.fillAmount = repCorp / maxRep;
-        repPeupleBar.fillAmount = repPeuple / maxRep;
+        //repGouvBar.fillAmount = repGouv / maxRep;
+        //repCorpBar.fillAmount = repCorp / maxRep;
+        //repPeupleBar.fillAmount = repPeuple / maxRep;
+
+        StartCoroutine(DynamicRepBar(repGouvBar, repGouv)); 
+        StartCoroutine(DynamicRepBar(repCorpBar, repCorp));
+        StartCoroutine(DynamicRepBar(repPeupleBar, repPeuple));
 
         mailLeftText.text = mailLeft.ToString();
     }
 
+
+    IEnumerator DynamicRepBar(Image fillBar, float targetAmont) // coroutine for get a dynamic Update for the fill bar 
+    {
+        targetAmont = targetAmont/maxRep; // target need to be between 0-1
+
+        //Debug.Log(targetAmont + " / " + fillBar.fillAmount);
+        while (fillBar.fillAmount >= targetAmont +0.02 || fillBar.fillAmount <= targetAmont - 0.02) // verifie si le remplissage de la barre de rep 
+        {
+            yield return null;
+            if (fillBar.fillAmount <= targetAmont)
+            {
+                fillBar.fillAmount = fillBar.fillAmount + Time.deltaTime * vitesseRemplissageRepBar;
+            }
+            else if(fillBar.fillAmount >= targetAmont)
+                {
+                    fillBar.fillAmount = fillBar.fillAmount - Time.deltaTime * vitesseRemplissageRepBar;
+                }
+
+        }
+    }
 
     public void UpdateGouvCorpPeuple(float modGouv, float modCorp, float modPeuple)
     {

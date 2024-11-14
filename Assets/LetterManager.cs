@@ -230,18 +230,18 @@ public class LetterManager : MonoBehaviour
                 // Saving the ScriptableObject as an asset
                 string assetPath = $"Assets/Script/ScriptableChoice/{values[0]}.asset";
                 AssetDatabase.CreateAsset(newItem, assetPath);
-                Debug.Log($"Created ScriptableObject for {values[0]} at {assetPath}");
+                //Debug.Log($"Created ScriptableObject for {values[0]} at {assetPath}");
 
                 // add the new letter to the list
                 if (values[1] != "")
                 {
-                    Debug.Log("index a trouvé : " + values[1]);
+                    //Debug.Log("index a trouvé : " + values[1]);
                     for (int y = 0; y < lettreDisponibles.Count; y++)
                     {
-                        Debug.Log("check ID : " + lettreDisponibles[y].index);
+                      //  Debug.Log("check ID : " + lettreDisponibles[y].index);
                         if (lettreDisponibles[y].index == int.Parse(values[1]))
                         {
-                            Debug.Log("ID trouvé : " + lettreDisponibles[y].index);
+                        //    Debug.Log("ID trouvé : " + lettreDisponibles[y].index);
                             if (values[2] != "")
                             {
                                 if (int.Parse(values[2]) == 0)
