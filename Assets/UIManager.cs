@@ -17,7 +17,7 @@ public class UIManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private float repGouv, repPeuple, repCorp;
     [SerializeField] Color goodRepColor, midleRepColor, badRepColor;
-    public GameObject retryButton;
+    public GameObject retryButton, optionPanel;
 
     public static UIManager instance;
     private void Awake()
@@ -153,13 +153,17 @@ public class UIManager : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-        // Update is called once per frame
-        void Update()
-        {
-        
-        }
+    public void OpenOptionButton()
+    {
+        optionPanel.SetActive(true);
+        AudioScript.instance.LaunchSoundSFX(AudioScript.instance.buttonSFX);
+    }
 
-
+    public void CloseOptionButton()
+    { 
+        optionPanel.SetActive(false);
+        AudioScript.instance.LaunchSoundSFX(AudioScript.instance.buttonSFX);
+    }
 
     }
 
