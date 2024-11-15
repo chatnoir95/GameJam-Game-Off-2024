@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 using static UnityEditor.Progress;
 using System.IO;
 using System.Collections;
+using System;
 
 public class UIManager : MonoBehaviour
 {
@@ -14,8 +15,8 @@ public class UIManager : MonoBehaviour
     public int mailLeft, startingMail;
     [SerializeField] Text mailLeftText;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public float repGouv, repPeuple, repCorp;
-
+    private float repGouv, repPeuple, repCorp;
+    [SerializeField] Color goodRepColor, midleRepColor, badRepColor;
     public GameObject retryButton;
 
     public static UIManager instance;
@@ -56,9 +57,24 @@ public class UIManager : MonoBehaviour
                 fillBar.fillAmount = fillBar.fillAmount + Time.deltaTime * vitesseRemplissageRepBar;
             }
             else if(fillBar.fillAmount >= targetAmont)
-                {
-                    fillBar.fillAmount = fillBar.fillAmount - Time.deltaTime * vitesseRemplissageRepBar;
-                }
+            {
+                fillBar.fillAmount = fillBar.fillAmount - Time.deltaTime * vitesseRemplissageRepBar;
+            }
+
+            float ecartRep = Math.Abs(fillBar.fillAmount - 0.5f);
+
+            if (ecartRep < 0.20f)
+            {
+                fillBar.color = goodRepColor;
+            }
+            else if (ecartRep < 0.35f)
+            {
+                fillBar.color = midleRepColor;
+            }
+            else if (ecartRep <= 0.5f)
+            {
+                fillBar.color = badRepColor;
+            }
 
         }
     }

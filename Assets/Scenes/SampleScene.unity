@@ -1085,9 +1085,9 @@ MonoBehaviour:
   mailLeft: 0
   startingMail: 30
   mailLeftText: {fileID: 1371261631}
-  repGouv: 0
-  repPeuple: 0
-  repCorp: 0
+  goodRepColor: {r: 0.18325405, g: 0.7735849, b: 0.12041653, a: 1}
+  midleRepColor: {r: 0.8584906, g: 0.6925377, b: 0.2794144, a: 1}
+  badRepColor: {r: 0.5754717, g: 0, b: 0, a: 1}
   retryButton: {fileID: 1630567441}
 --- !u!114 &877570515
 MonoBehaviour:
@@ -1238,7 +1238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SFXSource: {fileID: 511381374}
   MusicSource: {fileID: 1810141290}
-  music: {fileID: 0}
+  music: {fileID: 8300000, guid: 79169c23fe291414182a46d8f6994324, type: 3}
   buttonSFX: {fileID: 8300000, guid: e632f06f1b7edee46938a851adeda3b9, type: 3}
 --- !u!4 &1077911197
 Transform:
@@ -2247,7 +2247,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.2
+  m_Volume: 0.02
   m_Pitch: 1
   Loop: 1
   Mute: 0

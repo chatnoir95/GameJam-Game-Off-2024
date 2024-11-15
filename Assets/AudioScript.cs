@@ -20,9 +20,9 @@ public class AudioScript : MonoBehaviour
 
     void Start()
     {
-        //launch music at the start of the game
-       // LaunchMusic(music);
-        
+       // launch music at the start of the game
+        LaunchMusic(music);
+
     }
    
     
