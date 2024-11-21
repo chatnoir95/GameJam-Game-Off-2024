@@ -18,6 +18,8 @@ MonoBehaviour:
     would you prefer?"
   accepteText: Blood propaganda
   refuseText: Soft propaganda
+  ImpactAcceptText: 
+  ImpactRefuseText: 
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
   acceptImpactPeuple: 0

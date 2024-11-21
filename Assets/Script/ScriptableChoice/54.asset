@@ -17,6 +17,10 @@ MonoBehaviour:
     riot-related rumors.
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: Transparency campaign improves government perception; though
+    some worry about media manipulation.
+  ImpactRefuseText: Committee warns of rising public doubt in transparency; leading
+    to increased scrutiny.
   logoLetter: {fileID: 0}
   acceptImpactCorp: -5
   acceptImpactPeuple: 10

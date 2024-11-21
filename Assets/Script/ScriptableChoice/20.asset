@@ -17,6 +17,10 @@ MonoBehaviour:
     tension with farmers
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: Farmers regain confidence; though the public sees it as a waste
+    of resources.
+  ImpactRefuseText: Farmers express their discontent; leading to shortages in some
+    areas.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
   acceptImpactPeuple: 5

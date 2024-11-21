@@ -17,6 +17,10 @@ MonoBehaviour:
     mandatory
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: "The Ministry agrees; sparking protests; though HappyLife\u2019s
+    influence increases."
+  ImpactRefuseText: HappyLife threatens to scale down operations; creating an economic
+    impact.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
   acceptImpactPeuple: -10

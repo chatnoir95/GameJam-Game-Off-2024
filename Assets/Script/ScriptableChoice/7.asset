@@ -17,6 +17,9 @@ MonoBehaviour:
     exaggerated
   accepteText: Hide it
   refuseText: Publish it
+  ImpactAcceptText: Mothers mobilize; challenging the truth of official school success
+    rates
+  ImpactRefuseText: Mothers are reassured; but the Ministry of Education loses credibility
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
   acceptImpactPeuple: -10

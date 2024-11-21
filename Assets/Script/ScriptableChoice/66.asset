@@ -16,6 +16,10 @@ MonoBehaviour:
   contentLetter: "Access to information and plans for the capital\u2019s power grid."
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: Energy Ministry strengthens infrastructure plans but creates
+    fears of energy control and blackout risks.
+  ImpactRefuseText: Ministry criticizes lack of cooperation; threatening energy inefficiencies
+    in the capital.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
   acceptImpactPeuple: -5

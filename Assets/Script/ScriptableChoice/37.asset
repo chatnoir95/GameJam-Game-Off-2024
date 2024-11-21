@@ -17,6 +17,10 @@ MonoBehaviour:
     on current negotiations.
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: Access leads to a stronger negotiating position; increasing trade
+    efficiency.
+  ImpactRefuseText: Consortium warns of potential withdrawal from trade agreements;
+    risking economic losses.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
   acceptImpactPeuple: 5

@@ -16,6 +16,10 @@ MonoBehaviour:
   contentLetter: Modify reports to ensure 100% school success rate
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: '"""Perfect standards"" are maintained; but the population grows
+    increasingly skeptical"'
+  ImpactRefuseText: The transparency of figures is praised by citizens; though it
+    weakens the ministry
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
   acceptImpactPeuple: -10

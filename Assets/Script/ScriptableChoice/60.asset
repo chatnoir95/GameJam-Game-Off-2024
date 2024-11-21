@@ -17,6 +17,10 @@ MonoBehaviour:
     incompetence.
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: Investigation reassures public; though tensions rise over government
+    oversight and internal issues.
+  ImpactRefuseText: Unit threatens to publicly disclose management failures; potentially
+    causing national scandal.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
   acceptImpactPeuple: 5

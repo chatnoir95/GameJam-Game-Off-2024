@@ -16,6 +16,10 @@ MonoBehaviour:
   contentLetter: Require all school textbooks to mention the Overseer's date of birth
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: Textbooks are modified; but teachers notice the absurdity of
+    this constant glorification.
+  ImpactRefuseText: The ministry threatens reluctant teachers; creating tensions
+    in the educational sector.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
   acceptImpactPeuple: -10

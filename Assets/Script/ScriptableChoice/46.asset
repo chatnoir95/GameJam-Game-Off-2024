@@ -16,6 +16,10 @@ MonoBehaviour:
   contentLetter: Access to citizens' medical data for CHIPS commercialization
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: HappyLife increases sales; though medical privacy is compromised;
+    drawing criticism.
+  ImpactRefuseText: HappyLife launches a campaign accusing the government of holding
+    back medical advances.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
   acceptImpactPeuple: 10

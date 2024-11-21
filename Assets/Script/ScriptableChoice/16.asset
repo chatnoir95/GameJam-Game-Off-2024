@@ -16,6 +16,10 @@ MonoBehaviour:
   contentLetter: Request statistics on children's candy consumption
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: The public welcomes this transparency; though the government
+    sees it as a low priority.
+  ImpactRefuseText: Parents grow suspicious and band together; increasing demand
+    for information about children.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
   acceptImpactPeuple: 10

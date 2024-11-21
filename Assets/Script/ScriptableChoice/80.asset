@@ -17,6 +17,10 @@ MonoBehaviour:
     you give me the winning lottery ticket ?
   accepteText: 'Give '
   refuseText: No way
+  ImpactAcceptText: "People are not stupid. 3 times in a month Ren\xE9 won at the
+    lottery. People's trust has fallen"
+  ImpactRefuseText: A generous fund has been set up by the public to protest the
+    government's inhumanity in the face of all the people dying on the street;
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
   acceptImpactPeuple: -70

@@ -17,6 +17,10 @@ MonoBehaviour:
     efficiency.
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: Director enhances surveillance; but public protests grow over
+    alleged authoritarian measures.
+  ImpactRefuseText: Director accuses government of obstructing security efforts;
+    risking dissent and lack of control.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
   acceptImpactPeuple: -10

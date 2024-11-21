@@ -16,6 +16,10 @@ MonoBehaviour:
   contentLetter: Access to the installation contract of WASP modules for campus control
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: The campus is secured; but students protest against excessive
+    surveillance.
+  ImpactRefuseText: The university criticizes lack of cooperation and threatens to
+    reduce projects with the government.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
   acceptImpactPeuple: -5

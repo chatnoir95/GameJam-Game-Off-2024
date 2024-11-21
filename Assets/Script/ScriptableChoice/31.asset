@@ -17,6 +17,10 @@ MonoBehaviour:
     university needs.
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: "Expansion boosts OmniCorp\u2019s influence; but raises costs;
+    attracting criticism for overspending."
+  ImpactRefuseText: OmniCorp criticizes lack of support; slowing university project
+    progress; frustrating students.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
   acceptImpactPeuple: -10

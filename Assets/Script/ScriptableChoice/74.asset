@@ -17,6 +17,9 @@ MonoBehaviour:
     best possible funeral. Can you give me the winning lottery ticket ?
   accepteText: 'Give '
   refuseText: No way
+  ImpactAcceptText: "Ren\xE9 thanks you"
+  ImpactRefuseText: A generous fund has been set up by the public to protest the
+    government's inhumanity in the face of the dog's death.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
   acceptImpactPeuple: 0

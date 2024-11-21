@@ -16,6 +16,10 @@ MonoBehaviour:
   contentLetter: "Proclaim \u201CNational Work Socks Month\u201D"
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: Increased support for textile producers; though people are divided
+    between amusement and puzzlement
+  ImpactRefuseText: Citizens see this campaign as a symbol of the regime's bureaucratic
+    rigidity
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
   acceptImpactPeuple: 0

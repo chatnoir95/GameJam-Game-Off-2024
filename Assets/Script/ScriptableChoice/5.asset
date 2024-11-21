@@ -17,6 +17,10 @@ MonoBehaviour:
     consist of luxurious meals"
   accepteText: Hide it
   refuseText: Publish it
+  ImpactAcceptText: Loyalty among leaders is reinforced; even though citizens suspect
+    unjustified spending
+  ImpactRefuseText: The population is shocked but admires the transparency; leading
+    to increased trust
   logoLetter: {fileID: 0}
   acceptImpactCorp: -10
   acceptImpactPeuple: -5

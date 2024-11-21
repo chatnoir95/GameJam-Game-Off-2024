@@ -17,6 +17,10 @@ MonoBehaviour:
     health measures.
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: Public sees increased loyalty; though privacy advocates criticize
+    invasive measures.
+  ImpactRefuseText: Division warns of possible personnel dissent; potentially impacting
+    loyalty and productivity.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
   acceptImpactPeuple: -5

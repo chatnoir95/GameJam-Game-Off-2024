@@ -16,6 +16,10 @@ MonoBehaviour:
   contentLetter: "Compare WASP\u2019s results with the positions of state submarines"
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: WASP AI reinforces its status and naval security; though military
+    secrecy is affected.
+  ImpactRefuseText: WASP releases a statement on the lack of cooperation; affecting
+    perceptions of security.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
   acceptImpactPeuple: -5

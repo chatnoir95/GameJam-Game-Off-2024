@@ -16,6 +16,8 @@ MonoBehaviour:
   contentLetter: Do you like hot chocolate or coffee ?
   accepteText: Hot chocolate
   refuseText: Coffee
+  ImpactAcceptText: Everyone in our country prefer chocolate
+  ImpactRefuseText: Everyone in our country prefer chocolate
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
   acceptImpactPeuple: 5

@@ -16,6 +16,10 @@ MonoBehaviour:
   contentLetter: "Obtain the year\u2019s trade agreements for a confidential project"
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: Trade agreements are obtained; strengthening collaboration; though
+    confidentiality is questioned.
+  ImpactRefuseText: The Committee accuses the government of withholding information;
+    threatening negotiations.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
   acceptImpactPeuple: 5

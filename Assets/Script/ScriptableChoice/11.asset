@@ -17,6 +17,10 @@ MonoBehaviour:
     a neighboring country"
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: '"Increase in admiration for the Leader; though some laugh at
+    the ""geographic discovery."""'
+  ImpactRefuseText: Loss of credibility; international criticism over this dubious
+    claim.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
   acceptImpactPeuple: -5

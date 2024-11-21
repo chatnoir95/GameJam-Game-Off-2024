@@ -17,6 +17,10 @@ MonoBehaviour:
     on foreign agencies.
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: Public support grows for local development; though costs spark
+    some economic criticism.
+  ImpactRefuseText: "Council voices concerns over the budget; risking NewEden\u2019s
+    operations."
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
   acceptImpactPeuple: 10

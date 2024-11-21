@@ -17,6 +17,10 @@ MonoBehaviour:
     runs faster than any athlete.
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: Sports propaganda temporarily increases enthusiasm; but the people
+    are doubtful.
+  ImpactRefuseText: Athletes openly express frustration; and some refuse to participate
+    in official competitions.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
   acceptImpactPeuple: -5

@@ -16,6 +16,10 @@ MonoBehaviour:
   contentLetter: Inventory all rooms; requests building plans for accuracy.
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: Officer prepares an efficient inventory; but citizens question
+    transparency of surveillance efforts.
+  ImpactRefuseText: "Officer warns of disorganization; raising questions about government\u2019s
+    infrastructure."
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
   acceptImpactPeuple: -5

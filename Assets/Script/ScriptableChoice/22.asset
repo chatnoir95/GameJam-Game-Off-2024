@@ -17,6 +17,10 @@ MonoBehaviour:
     superior intellect\u201D"
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: The public; though skeptical; is forced to acknowledge this myth
+    to avoid repercussions.
+  ImpactRefuseText: The council sees this as an insult; leading to a smear campaign
+    against dissenters.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
   acceptImpactPeuple: -10

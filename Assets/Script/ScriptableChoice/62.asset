@@ -17,6 +17,10 @@ MonoBehaviour:
     of ongoing collaboration.
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: Compliance strengthens government control; though public fears
+    of government overreach increase.
+  ImpactRefuseText: Employee warns others; sparking a public movement against forced
+    health measures.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
   acceptImpactPeuple: -10

@@ -17,6 +17,10 @@ MonoBehaviour:
     for refueling in emergencies"
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: NewEden improves its security; though some criticize the concessions
+    made.
+  ImpactRefuseText: NewEden threatens to withdraw from space agreements; causing
+    international tensions.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
   acceptImpactPeuple: -5

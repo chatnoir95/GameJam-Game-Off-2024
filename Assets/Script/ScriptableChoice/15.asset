@@ -16,6 +16,10 @@ MonoBehaviour:
   contentLetter: Ban the production of fans and air conditioners
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: Citizens are forced to adapt; though the ministry loses credibility
+    over its decisions.
+  ImpactRefuseText: The public finds it ridiculous and questions the management of
+    essential goods.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
   acceptImpactPeuple: -10

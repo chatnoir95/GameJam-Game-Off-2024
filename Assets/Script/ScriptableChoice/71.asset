@@ -17,6 +17,8 @@ MonoBehaviour:
     contesting in the street
   accepteText: Ok
   refuseText: Sorry
+  ImpactAcceptText: 
+  ImpactRefuseText: 
   logoLetter: {fileID: 0}
   acceptImpactCorp: -10
   acceptImpactPeuple: -10

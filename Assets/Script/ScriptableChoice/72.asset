@@ -16,6 +16,8 @@ MonoBehaviour:
   contentLetter: Force everyone to eat cereals the morning
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: 
+  ImpactRefuseText: 
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
   acceptImpactPeuple: -10

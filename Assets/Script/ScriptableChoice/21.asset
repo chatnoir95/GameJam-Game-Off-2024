@@ -16,6 +16,10 @@ MonoBehaviour:
   contentLetter: "Announce that the leader has invented a \u201Cnew meditation technique\u201D"
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: The people are impressed by this supposed wisdom; despite a few
+    amused smiles.
+  ImpactRefuseText: The public openly mocks this announcement; which strongly irritates
+    the ministry.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
   acceptImpactPeuple: 5

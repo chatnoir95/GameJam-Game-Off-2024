@@ -138,7 +138,7 @@ public class LetterManager : MonoBehaviour
             }
         }
 
-
+        InfoManager.instance.NextInfo(lettreActive.ImpactAcceptText);// change the info text with the consequence of the choice 
         NouvelleLettre(TirageLettre());
     }
 
@@ -156,7 +156,7 @@ public class LetterManager : MonoBehaviour
             }
         }
 
-
+        InfoManager.instance.NextInfo(lettreActive.ImpactRefuseText);
         NouvelleLettre(TirageLettre());
     }
 
@@ -220,7 +220,8 @@ public class LetterManager : MonoBehaviour
                 {
                     newItem.chanceToSpawn = int.Parse(values[13]);
                 }
-
+                newItem.ImpactAcceptText = values[14];
+                newItem.ImpactRefuseText = values[15];
 
 
                 // Ajout d'imbrication

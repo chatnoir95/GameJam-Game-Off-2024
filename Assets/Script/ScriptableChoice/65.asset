@@ -17,6 +17,10 @@ MonoBehaviour:
     unidentified purpose.
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: Supervisor gains access; completing security task; though questions
+    arise about motives.
+  ImpactRefuseText: Supervisor raises concerns about lack of support; suspecting
+    interference.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
   acceptImpactPeuple: -5

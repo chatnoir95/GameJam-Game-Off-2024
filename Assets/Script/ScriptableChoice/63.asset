@@ -17,6 +17,10 @@ MonoBehaviour:
     obedience.
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: Increased monitoring raises tensions but boosts government control
+    narrative.
+  ImpactRefuseText: "Health Agency doubts government\u2019s authority; risking internal
+    dissension and lowered loyalty."
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
   acceptImpactPeuple: -10

@@ -17,6 +17,10 @@ MonoBehaviour:
     on university campuses.
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: Oversight is implemented; pacifying students but prompting debates
+    over academic independence.
+  ImpactRefuseText: Students threaten widespread protests; accusing the government
+    of oppression.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
   acceptImpactPeuple: 10

@@ -17,6 +17,10 @@ MonoBehaviour:
     air\u201D"
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: Citizens ignore this proposal; mocking the rigidity of this new
+    patriotic requirement.
+  ImpactRefuseText: The population feels somewhat reassured; finding the situation
+    less absurd than usual.
   logoLetter: {fileID: 0}
   acceptImpactCorp: -5
   acceptImpactPeuple: 0

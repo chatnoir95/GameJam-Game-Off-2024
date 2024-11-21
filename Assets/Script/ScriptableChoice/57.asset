@@ -17,6 +17,10 @@ MonoBehaviour:
     additional insights.
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: Government expands monitoring; boosting control but sparking
+    public protest over invasive methods.
+  ImpactRefuseText: Task force accuses government of neglect; hinting at potential
+    sabotage or resistance growth.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
   acceptImpactPeuple: -10

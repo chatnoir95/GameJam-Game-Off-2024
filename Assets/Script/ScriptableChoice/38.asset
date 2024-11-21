@@ -17,6 +17,10 @@ MonoBehaviour:
     for transparency.
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: Investigation gains public approval for transparency; though
+    lobbyists express frustration.
+  ImpactRefuseText: Committee expresses mistrust in government; risking future trade
+    efficiency.
   logoLetter: {fileID: 0}
   acceptImpactCorp: -10
   acceptImpactPeuple: 10

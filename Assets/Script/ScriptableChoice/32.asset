@@ -16,6 +16,10 @@ MonoBehaviour:
   contentLetter: Access to the Psaouludine drug formula to adapt it
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: Pharmaceutical lobby increases support; though doctors criticize
+    the rapid distribution.
+  ImpactRefuseText: "Hexar\xE8s accuses the government of favoring unequal competition;
+    creating tensions."
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
   acceptImpactPeuple: 10

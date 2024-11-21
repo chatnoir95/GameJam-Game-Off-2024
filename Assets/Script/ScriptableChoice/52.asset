@@ -17,6 +17,10 @@ MonoBehaviour:
     release.
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: Public receives censored information; lowering tension but sparking
+    rumors about transparency.
+  ImpactRefuseText: "Advisor suspects the government\u2019s inability to manage sensitive
+    information; risking leaks."
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
   acceptImpactPeuple: -5

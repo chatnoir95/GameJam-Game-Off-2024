@@ -17,6 +17,10 @@ MonoBehaviour:
     on the capital\u2019s power grid."
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: Survey reveals mixed reactions; support for energy independence
+    grows but fears of price hikes persist.
+  ImpactRefuseText: Board warns of public dissatisfaction; potentially sparking political
+    backlash on energy policy.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
   acceptImpactPeuple: 5

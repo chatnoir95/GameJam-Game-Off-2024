@@ -17,6 +17,10 @@ MonoBehaviour:
     analysis; avoiding direct servers.
   accepteText: Yes
   refuseText: No
+  ImpactAcceptText: Public perception of privacy protection improves; though effectiveness
+    of WASP AI is limited.
+  ImpactRefuseText: WASP AI insists on full access; threatening to expose government
+    inefficiencies.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
   acceptImpactPeuple: 5

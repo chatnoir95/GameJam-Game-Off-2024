@@ -17,6 +17,9 @@ MonoBehaviour:
     lotery ?
   accepteText: 'Give '
   refuseText: No way
+  ImpactAcceptText: "Ren\xE9 thanks you"
+  ImpactRefuseText: "After a filmed speech by Ren\xE9. All the people's confidence
+    in our wonderful government fell"
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
   acceptImpactPeuple: 0
