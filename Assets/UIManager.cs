@@ -19,6 +19,8 @@ public class UIManager : MonoBehaviour
     [SerializeField] Color goodRepColor, midleRepColor, badRepColor;
     public GameObject retryButton, optionPanel;
 
+    public bool gameIsOver = false;
+
     public static UIManager instance;
     private void Awake()
     {
@@ -103,28 +105,35 @@ public class UIManager : MonoBehaviour
     {
         if (repGouv >= maxRep)
         {
+            gameIsOver = true;
             return LetterManager.instance.GetSpecialLetter("HightGouv");
+
         }
         if (repGouv <= 0)
         {
+            gameIsOver = true;
             return LetterManager.instance.GetSpecialLetter("LowGouv");
         }
 
         if (repCorp >= maxRep)
         {
+            gameIsOver = true;
             return LetterManager.instance.GetSpecialLetter("HightCorp");
         }
         if (repCorp <= 0)
         {
+            gameIsOver = true;
             return LetterManager.instance.GetSpecialLetter("LowCorp");
         }
 
         if (repPeuple >= maxRep)
         {
+            gameIsOver = true;
             return LetterManager.instance.GetSpecialLetter("HightPeuple");
         }
         if (repPeuple <= 0)
         {
+            gameIsOver = true;
             return LetterManager.instance.GetSpecialLetter("LowPeuple");
         }
 

@@ -125,39 +125,45 @@ public class LetterManager : MonoBehaviour
     // EN COURS ON CLICK 
     public void AcceptButton()
     {
-
-        AudioScript.instance.LaunchSoundSFX(AudioScript.instance.buttonSFX);
-        UIManager.instance.UpdateGouvCorpPeuple(lettreActive.acceptImpactGouv, lettreActive.acceptImpactCorp, lettreActive.acceptImpactPeuple);
-        UIManager.instance.ActualisationUiBar();
-
-        if (lettreActive.acceptUnlockLetters.Count != 0)
+        if (!UIManager.instance.gameIsOver)
         {
-            for (int i = 0; i < lettreActive.acceptUnlockLetters.Count; i++)
-            {
-                followingLetters.Add(lettreActive.acceptUnlockLetters[i]);
-            }
-        }
+            AudioScript.instance.LaunchSoundSFX(AudioScript.instance.buttonSFX); // launch button SFX
+            UIManager.instance.UpdateGouvCorpPeuple(lettreActive.acceptImpactGouv, lettreActive.acceptImpactCorp, lettreActive.acceptImpactPeuple); // apply rep change, 
+            UIManager.instance.ActualisationUiBar();
 
-        InfoManager.instance.NextInfo(lettreActive.ImpactAcceptText);// change the info text with the consequence of the choice 
-        NouvelleLettre(TirageLettre());
+            if (lettreActive.acceptUnlockLetters.Count != 0)
+            {
+                for (int i = 0; i < lettreActive.acceptUnlockLetters.Count; i++)
+                {
+                    followingLetters.Add(lettreActive.acceptUnlockLetters[i]);
+                }
+            }
+
+            InfoManager.instance.NextInfo(lettreActive.ImpactAcceptText);// change info text with the consequence of the choice 
+            NouvelleLettre(TirageLettre());
+
+        }
     }
 
     public void RefuseButton()
     {
-        AudioScript.instance.LaunchSoundSFX(AudioScript.instance.buttonSFX);
-        UIManager.instance.UpdateGouvCorpPeuple(lettreActive.refuseImpactGouv, lettreActive.refuseImpactCorp, lettreActive.refuseImpactPeuple);
-        UIManager.instance.ActualisationUiBar();
-
-        if (lettreActive.refuseUnlockLetters.Count != 0)
+        if (!UIManager.instance.gameIsOver)
         {
-            for (int i = 0; i < lettreActive.refuseUnlockLetters.Count; i++)
-            {
-                followingLetters.Add(lettreActive.refuseUnlockLetters[i]);
-            }
-        }
+            AudioScript.instance.LaunchSoundSFX(AudioScript.instance.buttonSFX);
+            UIManager.instance.UpdateGouvCorpPeuple(lettreActive.refuseImpactGouv, lettreActive.refuseImpactCorp, lettreActive.refuseImpactPeuple);
+            UIManager.instance.ActualisationUiBar();
 
-        InfoManager.instance.NextInfo(lettreActive.ImpactRefuseText);
-        NouvelleLettre(TirageLettre());
+            if (lettreActive.refuseUnlockLetters.Count != 0)
+            {
+                for (int i = 0; i < lettreActive.refuseUnlockLetters.Count; i++)
+                {
+                    followingLetters.Add(lettreActive.refuseUnlockLetters[i]);
+                }
+            }
+
+            InfoManager.instance.NextInfo(lettreActive.ImpactRefuseText);
+            NouvelleLettre(TirageLettre());
+        }
     }
 
 
