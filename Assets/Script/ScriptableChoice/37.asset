@@ -12,21 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 37
   m_EditorClassIdentifier: 
-  expediteur: Trade Consortium Representative
-  contentLetter: Request access to other trade contracts to prepare counterproposals
-    on current negotiations.
+  expediteur: "BioTech Hexar\xE8s Laboratory"
+  contentLetter: Request cooperation with a public health agency to continue trials
+    abroad with government endorsement.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Access leads to a stronger negotiating position; increasing trade
-    efficiency.
-  ImpactRefuseText: Consortium warns of potential withdrawal from trade agreements;
-    risking economic losses.
+  ImpactAcceptText: "Trials resume internationally; pleasing Hexar\xE8s; though critics
+    accuse government of \u201Cexporting risks.\u201D"
+  ImpactRefuseText: "Hexar\xE8s ends the trials; risking public perception of lost
+    medical innovation."
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
-  acceptImpactPeuple: 5
+  acceptImpactPeuple: -5
   acceptImpactGouv: 10
-  refuseImpactCorp: -10
-  refuseImpactPeuple: -5
+  refuseImpactCorp: -5
+  refuseImpactPeuple: 5
   refuseImpactGouv: -5
   acceptUnlockLetters: []
   refuseUnlockLetters: []

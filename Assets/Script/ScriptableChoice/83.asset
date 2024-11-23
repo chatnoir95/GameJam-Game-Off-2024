@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 83
   m_EditorClassIdentifier: 
-  expediteur: "Ren\xE9"
-  contentLetter: I still need money. A lot of people are dying on the street. Can
-    you give me the winning lottery ticket ?
+  expediteur: Guy
+  contentLetter: I still need money. My dog died today and I want to give him the
+    best possible funeral. Can you give me the winning lottery ticket ?
   accepteText: 'Give '
   refuseText: No way
   ImpactAcceptText: "Ren\xE9 thanks you"
   ImpactRefuseText: A generous fund has been set up by the public to protest the
-    government's inhumanity in the face of all the people dying on the street;
+    government's inhumanity in the face of the dog's death.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
   acceptImpactPeuple: 0

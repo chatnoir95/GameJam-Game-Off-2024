@@ -12,17 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 70
   m_EditorClassIdentifier: 
-  expediteur: Health department
-  contentLetter: Do you agree to remove all the lift for people ?
-  accepteText: Health first
-  refuseText: No
-  ImpactAcceptText: Health is the key
-  ImpactRefuseText: 'Fun fact: Because of the 80-hour work weeks; people only use
-    the elevator a maximum of twice a day. It is actually great for their health! '
+  expediteur: Health Compliance Officer
+  contentLetter: Are you happy ?
+  accepteText: Yes
+  refuseText: Yes
+  ImpactAcceptText: Very well; you'll be able to help us longer at the Office.
+  ImpactRefuseText: Very well; you'll be able to help us longer at the Office.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
-  acceptImpactPeuple: 0
-  acceptImpactGouv: 0
+  acceptImpactCorp: -5
+  acceptImpactPeuple: -5
+  acceptImpactGouv: 10
   refuseImpactCorp: 0
   refuseImpactPeuple: 0
   refuseImpactGouv: 0

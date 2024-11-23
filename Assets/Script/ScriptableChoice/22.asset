@@ -12,21 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 22
   m_EditorClassIdentifier: 
-  expediteur: Supreme Science Council
-  contentLetter: "Publish study claiming that the Leader \u201Cpossesses an innate
-    superior intellect\u201D"
+  expediteur: Minister of Agriculture
+  contentLetter: Organize an agricultural festival in the Leader's honor to correct
+    tension with farmers
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: The public; though skeptical; is forced to acknowledge this myth
-    to avoid repercussions.
-  ImpactRefuseText: The council sees this as an insult; leading to a smear campaign
-    against dissenters.
+  ImpactAcceptText: Farmers regain confidence; though the public sees it as a waste
+    of resources.
+  ImpactRefuseText: Farmers express their discontent; leading to shortages in some
+    areas.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 10
-  acceptImpactPeuple: -10
-  acceptImpactGouv: 10
-  refuseImpactCorp: -5
-  refuseImpactPeuple: 10
+  acceptImpactCorp: 5
+  acceptImpactPeuple: 5
+  acceptImpactGouv: -5
+  refuseImpactCorp: 0
+  refuseImpactPeuple: -10
   refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []

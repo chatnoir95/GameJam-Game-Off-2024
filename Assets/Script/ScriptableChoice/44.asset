@@ -12,22 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 44
   m_EditorClassIdentifier: 
-  expediteur: WASP AI CEO
-  contentLetter: Access to government servers to improve the CHIPS project
-  accepteText: Yes
-  refuseText: No
-  ImpactAcceptText: The project progresses; tech lobbies are pleased; but some citizens
-    feel over-monitored.
-  ImpactRefuseText: WASP criticizes lack of support for progress; threatening to
-    reduce government projects.
+  expediteur: Independant journalist
+  contentLetter: The International Space Station has been hacked and it's gonna to
+    crash ! I know it's new Eden I just need proof !
+  accepteText: Give him the proofs
+  refuseText: Eliminate witness
+  ImpactAcceptText: The corporation putts enormous pressure on the government; and
+    no investigation will begin.
+  ImpactRefuseText: Thank you for your cooperation. We'll take care of removing all
+    traces.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 10
-  acceptImpactPeuple: -5
-  acceptImpactGouv: 5
-  refuseImpactCorp: -5
-  refuseImpactPeuple: 5
-  refuseImpactGouv: -10
+  acceptImpactCorp: 0
+  acceptImpactPeuple: 0
+  acceptImpactGouv: 0
+  refuseImpactCorp: 0
+  refuseImpactPeuple: 0
+  refuseImpactGouv: 0
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 44
-  chanceToSpawn: 50
+  chanceToSpawn: 30

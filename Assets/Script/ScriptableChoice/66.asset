@@ -12,21 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 66
   m_EditorClassIdentifier: 
-  expediteur: Ministry of Energy Representative
-  contentLetter: "Access to information and plans for the capital\u2019s power grid."
+  expediteur: Nuclear Defense Office
+  contentLetter: Recover and deliver lost launch codes for the nuclear suitcase to
+    ensure readiness
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Energy Ministry strengthens infrastructure plans but creates
-    fears of energy control and blackout risks.
-  ImpactRefuseText: Ministry criticizes lack of cooperation; threatening energy inefficiencies
-    in the capital.
+  ImpactAcceptText: Defense feels reassured; though public becomes uneasy about nuclear
+    handling.
+  ImpactRefuseText: Public outcry ensues over potential incompetence; weakening government
+    trust.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 5
-  acceptImpactPeuple: -5
-  acceptImpactGouv: 10
-  refuseImpactCorp: 0
+  acceptImpactCorp: 10
+  acceptImpactPeuple: -10
+  acceptImpactGouv: 5
+  refuseImpactCorp: -5
   refuseImpactPeuple: 10
-  refuseImpactGouv: -10
+  refuseImpactGouv: -5
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 66

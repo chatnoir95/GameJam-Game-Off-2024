@@ -12,21 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 60
   m_EditorClassIdentifier: 
-  expediteur: Internal Affairs Investigation Unit
-  contentLetter: Verify nuclear codes management after refusal; citing potential
-    incompetence.
+  expediteur: Media Relations Office
+  contentLetter: Request access to uncensored riot information to prevent rumors
+    and manage media.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Investigation reassures public; though tensions rise over government
-    oversight and internal issues.
-  ImpactRefuseText: Unit threatens to publicly disclose management failures; potentially
-    causing national scandal.
+  ImpactAcceptText: Media releases detailed information; calming the public but raising
+    concerns about control.
+  ImpactRefuseText: "Media doubts government\u2019s transparency; risking negative
+    press and public mistrust."
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
+  acceptImpactCorp: -5
   acceptImpactPeuple: 5
-  acceptImpactGouv: -5
+  acceptImpactGouv: -10
   refuseImpactCorp: -5
-  refuseImpactPeuple: -10
+  refuseImpactPeuple: -5
   refuseImpactGouv: 10
   acceptUnlockLetters: []
   refuseUnlockLetters: []

@@ -12,22 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 12
   m_EditorClassIdentifier: 
-  expediteur: National Fashion Observatory
-  contentLetter: "Announce that the Leader is launching a new fashion trend of \u201Ccompulsory
-    plain socks\u201D"
+  expediteur: Minister of External Affairs
+  contentLetter: "Issue a press release stating that the Leader has \u201Cdiscovered\u201D
+    a neighboring country"
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Plain socks become a patriotic symbol; though they spark some
-    popular mockery.
-  ImpactRefuseText: The public is pleased with the lack of strict dress code; feeling
-    generally relieved.
+  ImpactAcceptText: '"Increase in admiration for the Leader; though some laugh at
+    the ""geographic discovery."""'
+  ImpactRefuseText: Loss of credibility; international criticism over this dubious
+    claim.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 10
-  acceptImpactPeuple: 5
-  acceptImpactGouv: -5
+  acceptImpactCorp: 0
+  acceptImpactPeuple: -5
+  acceptImpactGouv: 5
   refuseImpactCorp: 0
   refuseImpactPeuple: 10
-  refuseImpactGouv: 0
+  refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 12

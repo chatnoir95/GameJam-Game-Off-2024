@@ -12,20 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 39
   m_EditorClassIdentifier: 
-  expediteur: NewEden Space Station Director
-  contentLetter: "Access to the International Space Station\u2019s safety protocols
-    for refueling in emergencies"
+  expediteur: WASP AI Director
+  contentLetter: "Compare WASP\u2019s results with the positions of state submarines"
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: NewEden improves its security; though some criticize the concessions
-    made.
-  ImpactRefuseText: NewEden threatens to withdraw from space agreements; causing
-    international tensions.
+  ImpactAcceptText: WASP AI reinforces its status and naval security; though military
+    secrecy is affected.
+  ImpactRefuseText: WASP releases a statement on the lack of cooperation; affecting
+    perceptions of security.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
   acceptImpactPeuple: -5
   acceptImpactGouv: 5
-  refuseImpactCorp: 0
+  refuseImpactCorp: -5
   refuseImpactPeuple: 10
   refuseImpactGouv: -10
   acceptUnlockLetters: []

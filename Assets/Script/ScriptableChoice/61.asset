@@ -12,21 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 61
   m_EditorClassIdentifier: 
-  expediteur: Property Management Officer
-  contentLetter: Inventory all rooms; requests building plans for accuracy.
+  expediteur: Public Relations Committee
+  contentLetter: Release public communication on transparency efforts to alleviate
+    riot-related rumors.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Officer prepares an efficient inventory; but citizens question
-    transparency of surveillance efforts.
-  ImpactRefuseText: "Officer warns of disorganization; raising questions about government\u2019s
-    infrastructure."
+  ImpactAcceptText: Transparency campaign improves government perception; though
+    some worry about media manipulation.
+  ImpactRefuseText: Committee warns of rising public doubt in transparency; leading
+    to increased scrutiny.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 5
-  acceptImpactPeuple: -5
-  acceptImpactGouv: 10
+  acceptImpactCorp: -5
+  acceptImpactPeuple: 10
+  acceptImpactGouv: -5
   refuseImpactCorp: -5
-  refuseImpactPeuple: 10
-  refuseImpactGouv: -5
+  refuseImpactPeuple: -5
+  refuseImpactGouv: 5
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 61

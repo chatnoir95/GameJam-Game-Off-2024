@@ -12,20 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 46
   m_EditorClassIdentifier: 
-  expediteur: HappyLife Marketing Director
-  contentLetter: Access to citizens' medical data for CHIPS commercialization
+  expediteur: NewEden Space Council
+  contentLetter: Ask for public funding to improve internal security and reduce dependency
+    on foreign agencies.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: HappyLife increases sales; though medical privacy is compromised;
-    drawing criticism.
-  ImpactRefuseText: HappyLife launches a campaign accusing the government of holding
-    back medical advances.
+  ImpactAcceptText: Public support grows for local development; though costs spark
+    some economic criticism.
+  ImpactRefuseText: "Council voices concerns over the budget; risking NewEden\u2019s
+    operations."
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 10
+  acceptImpactCorp: 5
   acceptImpactPeuple: 10
-  acceptImpactGouv: -5
+  acceptImpactGouv: 5
   refuseImpactCorp: -5
-  refuseImpactPeuple: 5
+  refuseImpactPeuple: -5
   refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []

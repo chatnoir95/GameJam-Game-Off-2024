@@ -12,23 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 80
   m_EditorClassIdentifier: 
-  expediteur: "Ren\xE9"
-  contentLetter: I still need money. A lot of people are dying on the street. Can
-    you give me the winning lottery ticket ?
-  accepteText: 'Give '
-  refuseText: No way
-  ImpactAcceptText: "People are not stupid. 3 times in a month Ren\xE9 won at the
-    lottery. People's trust has fallen"
-  ImpactRefuseText: A generous fund has been set up by the public to protest the
-    government's inhumanity in the face of all the people dying on the street;
+  expediteur: Fact news
+  contentLetter: Due to the new law that removes lifts for everyone. Impared people
+    are contesting in the street. In anycase they can't go anywhere else..
+  accepteText: Ok
+  refuseText: Sorry
+  ImpactAcceptText: This is an important public health measure.
+  ImpactRefuseText: You're job isn't to give youre opinion.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
-  acceptImpactPeuple: -70
-  acceptImpactGouv: -5
-  refuseImpactCorp: 0
+  acceptImpactCorp: -10
+  acceptImpactPeuple: -10
+  acceptImpactGouv: -10
+  refuseImpactCorp: -20
   refuseImpactPeuple: -20
-  refuseImpactGouv: 5
+  refuseImpactGouv: -20
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 80
-  chanceToSpawn: 20
+  chanceToSpawn: 100

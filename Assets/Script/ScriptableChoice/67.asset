@@ -12,22 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 67
   m_EditorClassIdentifier: 
-  expediteur: Power Supply Lobby
-  contentLetter: Request for greater influence in energy policies after sharing of
-    power grid plans.
+  expediteur: Internal Affairs Investigation Unit
+  contentLetter: Verify nuclear codes management after refusal; citing potential
+    incompetence.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Lobby increases influence over policy; leading to fears of monopolization
-    and privatization.
-  ImpactRefuseText: Lobby withdraws support; risking energy inefficiencies and negative
-    public perception.
+  ImpactAcceptText: Investigation reassures public; though tensions rise over government
+    oversight and internal issues.
+  ImpactRefuseText: Unit threatens to publicly disclose management failures; potentially
+    causing national scandal.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 10
-  acceptImpactPeuple: -5
-  acceptImpactGouv: 10
-  refuseImpactCorp: -10
-  refuseImpactPeuple: 10
-  refuseImpactGouv: -5
+  acceptImpactCorp: 0
+  acceptImpactPeuple: 5
+  acceptImpactGouv: -5
+  refuseImpactCorp: -5
+  refuseImpactPeuple: -10
+  refuseImpactGouv: 10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 67

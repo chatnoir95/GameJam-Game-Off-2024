@@ -12,21 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 42
   m_EditorClassIdentifier: 
-  expediteur: NewEden Security Officer
-  contentLetter: Access to the ISS passenger list to organize their evacuation
+  expediteur: OmniCorp Construction
+  contentLetter: Demand investigation into lobbying pressures on recent trade agreements
+    for transparency.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: NewEden ensures safety; but citizens find this information release
-    excessive.
-  ImpactRefuseText: "Rumors of incompetence spread; lowering trust in NewEden\u2019s
-    safety protocols."
+  ImpactAcceptText: Investigation gains public approval for transparency; though
+    lobbyists express frustration.
+  ImpactRefuseText: Committee expresses mistrust in government; risking future trade
+    efficiency.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
-  acceptImpactPeuple: 5
-  acceptImpactGouv: -10
-  refuseImpactCorp: -5
-  refuseImpactPeuple: 10
-  refuseImpactGouv: 0
+  acceptImpactCorp: -10
+  acceptImpactPeuple: 10
+  acceptImpactGouv: 10
+  refuseImpactCorp: 5
+  refuseImpactPeuple: -5
+  refuseImpactGouv: -5
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 42

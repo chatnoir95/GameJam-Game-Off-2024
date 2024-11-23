@@ -12,21 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 16
   m_EditorClassIdentifier: 
-  expediteur: Concerned Parents Group
-  contentLetter: Request statistics on children's candy consumption
+  expediteur: Ministry of the Environment
+  contentLetter: Ban the production of fans and air conditioners
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: The public welcomes this transparency; though the government
-    sees it as a low priority.
-  ImpactRefuseText: Parents grow suspicious and band together; increasing demand
-    for information about children.
+  ImpactAcceptText: Citizens are forced to adapt; though the ministry loses credibility
+    over its decisions.
+  ImpactRefuseText: The public finds it ridiculous and questions the management of
+    essential goods.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
-  acceptImpactPeuple: 10
-  acceptImpactGouv: -5
+  acceptImpactPeuple: -10
+  acceptImpactGouv: 5
   refuseImpactCorp: 0
-  refuseImpactPeuple: -5
-  refuseImpactGouv: 5
+  refuseImpactPeuple: 10
+  refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 16

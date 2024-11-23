@@ -12,21 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 57
   m_EditorClassIdentifier: 
-  expediteur: Anti-Resistance Task Force
-  contentLetter: Further surveillance on suspected Resistants; expand report for
-    additional insights.
+  expediteur: University Council
+  contentLetter: Request revision of surveillance policies on campus in response
+    to student backlash
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Government expands monitoring; boosting control but sparking
-    public protest over invasive methods.
-  ImpactRefuseText: Task force accuses government of neglect; hinting at potential
-    sabotage or resistance growth.
+  ImpactAcceptText: Policy adjustments calm protests; improving public perception.
+  ImpactRefuseText: Students intensify protests; claiming government suppression;
+    and media coverage spreads.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
-  acceptImpactPeuple: -10
+  acceptImpactPeuple: 10
   acceptImpactGouv: 5
-  refuseImpactCorp: -5
-  refuseImpactPeuple: 10
+  refuseImpactCorp: -10
+  refuseImpactPeuple: -10
   refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []

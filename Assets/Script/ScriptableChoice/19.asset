@@ -12,22 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 19
   m_EditorClassIdentifier: 
-  expediteur: Union of Agricultural Patriots
-  contentLetter: "Publish report stating that record harvest is due to \u201Cencouragement\u201D
-    from the Leader"
+  expediteur: Minister of Right-Mindedness
+  contentLetter: "Announcing that the Leader eats only \u201Cpatriotic bread\u201D"
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: "Citizens see the Leader as an \u201Cagricultural savior;\u201D
-    boosting his popularity."
-  ImpactRefuseText: Farmers complain about a lack of recognition; and some refuse
-    to participate in ceremonies.
+  ImpactAcceptText: The population is intrigued; and bakers see their sales increase
+    despite the criticism.
+  ImpactRefuseText: The public mocks this eccentricity; calling the regime absurd.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
+  acceptImpactCorp: 10
   acceptImpactPeuple: 5
-  acceptImpactGouv: 5
+  acceptImpactGouv: 0
   refuseImpactCorp: 0
-  refuseImpactPeuple: -5
-  refuseImpactGouv: -10
+  refuseImpactPeuple: 10
+  refuseImpactGouv: -5
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 19

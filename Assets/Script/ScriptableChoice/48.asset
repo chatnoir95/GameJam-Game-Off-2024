@@ -12,21 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 48
   m_EditorClassIdentifier: 
-  expediteur: Minister of Welfare
-  contentLetter: "Propose to the public the new CHIPS implant mandate as a \u201Cvoluntary\u201D
-    safety measure."
+  expediteur: International Space Security Council
+  contentLetter: Request heightened security and monitoring of ISS data to prevent
+    similar incidents.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Public compliance grows gradually; though privacy advocates protest.
-  ImpactRefuseText: Welfare Ministry struggles to gain support; and HappyLife pressures
-    government for mandate.
+  ImpactAcceptText: Enhanced security calms public fears but sparks debates over
+    surveillance.
+  ImpactRefuseText: "Security Council doubts government\u2019s commitment; threatening
+    to cut ties with NewEden."
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 10
-  acceptImpactPeuple: 5
-  acceptImpactGouv: 5
+  acceptImpactCorp: 5
+  acceptImpactPeuple: -10
+  acceptImpactGouv: 10
   refuseImpactCorp: -5
-  refuseImpactPeuple: -5
-  refuseImpactGouv: -5
+  refuseImpactPeuple: 10
+  refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 48

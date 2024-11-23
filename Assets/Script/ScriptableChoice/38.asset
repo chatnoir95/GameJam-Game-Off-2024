@@ -12,22 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 38
   m_EditorClassIdentifier: 
-  expediteur: National Trade Oversight Committee
-  contentLetter: Demand investigation into lobbying pressures on recent trade agreements
-    for transparency.
-  accepteText: Yes
-  refuseText: No
-  ImpactAcceptText: Investigation gains public approval for transparency; though
-    lobbyists express frustration.
-  ImpactRefuseText: Committee expresses mistrust in government; risking future trade
-    efficiency.
+  expediteur: Independant scientist
+  contentLetter: I discovered a Psaouludine variant possibly created by BioTech.
+  accepteText: Confront bioTech
+  refuseText: Eliminate witness
+  ImpactAcceptText: The corporation putts enormous pressure on the government; and
+    no investigation will begin.
+  ImpactRefuseText: Thank you for your cooperation. We'll take care of removing all
+    traces.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: -10
-  acceptImpactPeuple: 10
-  acceptImpactGouv: 10
-  refuseImpactCorp: 5
-  refuseImpactPeuple: -5
-  refuseImpactGouv: -5
+  acceptImpactCorp: 0
+  acceptImpactPeuple: 0
+  acceptImpactGouv: 0
+  refuseImpactCorp: 0
+  refuseImpactPeuple: 0
+  refuseImpactGouv: 0
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 38

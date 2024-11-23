@@ -12,22 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 26
   m_EditorClassIdentifier: 
-  expediteur: Internal Affairs Committee
-  contentLetter: Request additional testing by WASP AI on the nuclear plant based
-    on prior findings.
+  expediteur: 'Propaganda Division '
+  contentLetter: Demand the broadcasting of a documentary affirming that the leader
+    runs faster than any athlete.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Testing reveals security gaps; reassuring the public about enhanced
-    safety efforts.
-  ImpactRefuseText: Committee complains about gaps remaining unaddressed; sparking
-    public fears over nuclear safety.
+  ImpactAcceptText: Sports propaganda temporarily increases enthusiasm; but the people
+    are doubtful.
+  ImpactRefuseText: Athletes openly express frustration; and some refuse to participate
+    in official competitions.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 5
-  acceptImpactPeuple: 10
+  acceptImpactCorp: 10
+  acceptImpactPeuple: -5
   acceptImpactGouv: 5
-  refuseImpactCorp: -5
-  refuseImpactPeuple: -10
-  refuseImpactGouv: -10
+  refuseImpactCorp: -10
+  refuseImpactPeuple: 10
+  refuseImpactGouv: -5
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 26

@@ -12,19 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 69
   m_EditorClassIdentifier: 
-  expediteur: Food department
-  contentLetter: Do you like hot chocolate or coffee ?
-  accepteText: Hot chocolate
-  refuseText: Coffee
-  ImpactAcceptText: Everyone in our country prefer chocolate
-  ImpactRefuseText: Everyone in our country prefer chocolate
+  expediteur: Health Compliance Officer
+  contentLetter: 'Order for EM478XY2008 employee : take a government-issued pill
+    as part of ongoing collaboration'''
+  accepteText: Yes
+  refuseText: No
+  ImpactAcceptText: Compliance strengthens government control; though public fears
+    of government overreach increase.
+  ImpactRefuseText: Employee warns others; sparking a public movement against forced
+    health measures.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
-  acceptImpactPeuple: 5
-  acceptImpactGouv: 0
+  acceptImpactPeuple: -10
+  acceptImpactGouv: 10
   refuseImpactCorp: -5
-  refuseImpactPeuple: -5
-  refuseImpactGouv: 0
+  refuseImpactPeuple: 10
+  refuseImpactGouv: -5
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 69

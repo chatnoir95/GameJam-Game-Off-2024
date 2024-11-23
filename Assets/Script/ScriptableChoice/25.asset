@@ -12,21 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 25
   m_EditorClassIdentifier: 
-  expediteur: WASP AI Representative
-  contentLetter: Provide the security code for the nuclear power plant to test system
-    resilience
+  expediteur: 'Propaganda Division '
+  contentLetter: Require all school textbooks to mention the Leader's date of birth
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: WASP AI assesses the systems; enhancing security and avoiding
-    incidents.
-  ImpactRefuseText: WASP AI threatens to publish a report on poor nuclear safety
-    transparency.
+  ImpactAcceptText: Textbooks are modified; but teachers notice the absurdity of
+    this constant glorification.
+  ImpactRefuseText: The ministry threatens reluctant teachers; creating tensions
+    in the educational sector.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 10
-  acceptImpactPeuple: -5
+  acceptImpactCorp: 0
+  acceptImpactPeuple: -10
   acceptImpactGouv: 5
-  refuseImpactCorp: 0
-  refuseImpactPeuple: 5
+  refuseImpactCorp: -5
+  refuseImpactPeuple: 10
   refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []

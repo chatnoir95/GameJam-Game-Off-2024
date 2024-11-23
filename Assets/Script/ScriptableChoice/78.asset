@@ -12,22 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 78
   m_EditorClassIdentifier: 
-  expediteur: "Ren\xE9"
-  contentLetter: I still need money. My wife died today and I want to give him the
-    best possible funeral. Can you give me the winning lottery ticket ?
-  accepteText: 'Give '
-  refuseText: No way
-  ImpactAcceptText: "Ren\xE9 thanks you"
-  ImpactRefuseText: "A generous fund has been set up by the public to protest the
-    government's inhumanity in the face of the Ren\xE9's wife death."
+  expediteur: Health department
+  contentLetter: Do you agree to remove all the lifts for people ?
+  accepteText: Health first
+  refuseText: No
+  ImpactAcceptText: Health is the key
+  ImpactRefuseText: 'Fun fact: Because of the 80-hour work weeks; people only use
+    the elevator a maximum of twice a day. It is actually great for their health! '
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
   acceptImpactPeuple: 0
-  acceptImpactGouv: -5
+  acceptImpactGouv: 0
   refuseImpactCorp: 0
-  refuseImpactPeuple: -20
-  refuseImpactGouv: 5
+  refuseImpactPeuple: 0
+  refuseImpactGouv: 0
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 78
-  chanceToSpawn: 20
+  chanceToSpawn: 50

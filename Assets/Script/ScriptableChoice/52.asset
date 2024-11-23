@@ -12,22 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 52
   m_EditorClassIdentifier: 
-  expediteur: Internal Security Advisor
-  contentLetter: Find the June 19 riot report; ensuring part of it is censored before
-    release.
+  expediteur: WASP AI Director
+  contentLetter: Request alternative methods for limited data access via third-party
+    analysis; avoiding direct servers.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Public receives censored information; lowering tension but sparking
-    rumors about transparency.
-  ImpactRefuseText: "Advisor suspects the government\u2019s inability to manage sensitive
-    information; risking leaks."
+  ImpactAcceptText: Public perception of privacy protection improves; though effectiveness
+    of WASP AI is limited.
+  ImpactRefuseText: WASP AI insists on full access; threatening to expose government
+    inefficiencies.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
-  acceptImpactPeuple: -5
+  acceptImpactCorp: 5
+  acceptImpactPeuple: 5
   acceptImpactGouv: 5
-  refuseImpactCorp: -5
-  refuseImpactPeuple: 10
-  refuseImpactGouv: -10
+  refuseImpactCorp: -10
+  refuseImpactPeuple: -5
+  refuseImpactGouv: -5
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 52

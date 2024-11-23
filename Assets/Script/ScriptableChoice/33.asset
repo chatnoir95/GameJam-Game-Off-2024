@@ -12,22 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 33
   m_EditorClassIdentifier: 
-  expediteur: "Hexar\xE8s BioTech Research Team"
-  contentLetter: Request expedited approval to start clinical trials on the adapted
-    Psaouludine formula.
+  expediteur: New University Representative
+  contentLetter: Obtain a copy of the contract with OmniCorp and the plans for the
+    future university
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Clinical trials start; satisfying lobbyists; though citizens
-    worry about safety shortcuts.
-  ImpactRefuseText: "Hexar\xE8s threatens to relocate research efforts abroad; causing
-    economic and scientific setbacks."
+  ImpactAcceptText: Construction progresses; but questions are raised about contract
+    transparency.
+  ImpactRefuseText: The university suspects government obstruction; creating tension.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
-  acceptImpactPeuple: -10
-  acceptImpactGouv: 10
-  refuseImpactCorp: -5
+  acceptImpactPeuple: 5
+  acceptImpactGouv: -5
+  refuseImpactCorp: 0
   refuseImpactPeuple: 10
-  refuseImpactGouv: -10
+  refuseImpactGouv: -5
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 33

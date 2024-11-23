@@ -12,22 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 76
   m_EditorClassIdentifier: 
-  expediteur: "Ren\xE9"
-  contentLetter: I still need money. My wife died today and I want to give him the
-    best possible funeral. Can you give me the winning lottery ticket ?
-  accepteText: 'Give '
-  refuseText: No way
-  ImpactAcceptText: "Ren\xE9 thanks you"
-  ImpactRefuseText: "A generous fund has been set up by the public to protest the
-    government's inhumanity in the face of the Ren\xE9's wife death."
+  expediteur: Energy Policy Review Board
+  contentLetter: "Conduct a public survey on privatization; citing recent lobby influence
+    on the capital\u2019s power grid"
+  accepteText: Yes
+  refuseText: No
+  ImpactAcceptText: Survey reveals mixed reactions; support for energy independence
+    grows but fears of price hikes persist.
+  ImpactRefuseText: Board warns of public dissatisfaction; potentially sparking political
+    backlash on energy policy.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
-  acceptImpactPeuple: 0
-  acceptImpactGouv: -5
-  refuseImpactCorp: 0
-  refuseImpactPeuple: -20
-  refuseImpactGouv: 5
+  acceptImpactCorp: 10
+  acceptImpactPeuple: 5
+  acceptImpactGouv: 5
+  refuseImpactCorp: -5
+  refuseImpactPeuple: -10
+  refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 76
-  chanceToSpawn: 20
+  chanceToSpawn: 50

@@ -12,19 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 36
   m_EditorClassIdentifier: 
-  expediteur: Trade Committee Member
-  contentLetter: "Obtain the year\u2019s trade agreements for a confidential project"
+  expediteur: "BioTech Hexar\xE8s Laboratory"
+  contentLetter: Request expedited approval to start clinical trials on the adapted
+    Psaouludine formula.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Trade agreements are obtained; strengthening collaboration; though
-    confidentiality is questioned.
-  ImpactRefuseText: The Committee accuses the government of withholding information;
-    threatening negotiations.
+  ImpactAcceptText: Clinical trials start; satisfying lobbyists; though citizens
+    worry about safety shortcuts.
+  ImpactRefuseText: "Hexar\xE8s threatens to relocate research efforts abroad; causing
+    economic and scientific setbacks."
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 5
-  acceptImpactPeuple: 5
-  acceptImpactGouv: 0
-  refuseImpactCorp: 0
+  acceptImpactCorp: 10
+  acceptImpactPeuple: -10
+  acceptImpactGouv: 10
+  refuseImpactCorp: -5
   refuseImpactPeuple: 10
   refuseImpactGouv: -10
   acceptUnlockLetters: []

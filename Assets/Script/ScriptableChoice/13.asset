@@ -12,22 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 13
   m_EditorClassIdentifier: 
-  expediteur: Patriotic Accessories Association
-  contentLetter: "Distribute \u201Ccertificates of patriotism\u201D for those who
-    wear plain socks"
+  expediteur: Minister of Right-Mindedness
+  contentLetter: "Announce that the Leader is launching a new fashion trend of \u201Ccompulsory
+    plain socks\u201D"
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Some citizens are enthusiastic; but others see this action as
-    an attempt at control
-  ImpactRefuseText: Citizens ignore this proposal; mocking the rigidity of this new
-    patriotic requirement.
+  ImpactAcceptText: Plain socks become a patriotic symbol; though they spark some
+    popular mockery.
+  ImpactRefuseText: The public is pleased with the lack of strict dress code; feeling
+    generally relieved.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 5
-  acceptImpactPeuple: -10
-  acceptImpactGouv: 5
-  refuseImpactCorp: -5
+  acceptImpactCorp: 10
+  acceptImpactPeuple: 5
+  acceptImpactGouv: -5
+  refuseImpactCorp: 0
   refuseImpactPeuple: 10
-  refuseImpactGouv: -10
+  refuseImpactGouv: 0
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 13

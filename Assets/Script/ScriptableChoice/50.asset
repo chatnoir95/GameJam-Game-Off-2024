@@ -12,22 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 50
   m_EditorClassIdentifier: 
-  expediteur: University Council
-  contentLetter: Request revision of surveillance policies on campus in response
-    to student backlash.
-  accepteText: Yes
-  refuseText: No
-  ImpactAcceptText: Policy adjustments calm protests; improving public perception.
-  ImpactRefuseText: Students intensify protests; claiming government suppression;
-    and media coverage spreads.
+  expediteur: Security Division
+  contentLetter: The ISS has just crashed. Confessing to an international murder
+    due to your incompetence was the last thing you needed to do to stay alive in
+    our glorious country
+  accepteText: Ok
+  refuseText: Ok
+  ImpactAcceptText: No one knows who did it.
+  ImpactRefuseText: No one knows who did it.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 5
-  acceptImpactPeuple: 10
-  acceptImpactGouv: 5
-  refuseImpactCorp: -10
-  refuseImpactPeuple: -10
-  refuseImpactGouv: -10
+  acceptImpactCorp: 0
+  acceptImpactPeuple: 0
+  acceptImpactGouv: -100
+  refuseImpactCorp: 0
+  refuseImpactPeuple: 0
+  refuseImpactGouv: -100
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 50
-  chanceToSpawn: 50
+  chanceToSpawn: 100

@@ -12,20 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 35
   m_EditorClassIdentifier: 
-  expediteur: WASP AI Director
-  contentLetter: "Compare WASP\u2019s results with the positions of state submarines"
+  expediteur: "BioTech Hexar\xE8s Laboratory"
+  contentLetter: Access to the Psaouludine drug formula to adapt it
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: WASP AI reinforces its status and naval security; though military
-    secrecy is affected.
-  ImpactRefuseText: WASP releases a statement on the lack of cooperation; affecting
-    perceptions of security.
+  ImpactAcceptText: Pharmaceutical lobby increases support; though doctors criticize
+    the rapid distribution.
+  ImpactRefuseText: "Hexar\xE8s accuses the government of favoring unequal competition;
+    creating tensions."
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
-  acceptImpactPeuple: -5
-  acceptImpactGouv: 5
-  refuseImpactCorp: -5
-  refuseImpactPeuple: 10
+  acceptImpactPeuple: 10
+  acceptImpactGouv: -5
+  refuseImpactCorp: 0
+  refuseImpactPeuple: 5
   refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []

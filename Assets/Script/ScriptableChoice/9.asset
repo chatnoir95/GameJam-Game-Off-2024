@@ -12,20 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 9
   m_EditorClassIdentifier: 
-  expediteur: Head of Internal Affairs
-  contentLetter: Confiscate telephones containing satirical memes about the regime
+  expediteur: Minister of Education
+  contentLetter: Modify reports to ensure 99% school success rate
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: The regime tightens its control; but mistrust of government surveillance
-    grows.
-  ImpactRefuseText: The population breathes a sigh of relief; rumors of state surveillance
-    are defused.
+  ImpactAcceptText: '"""Perfect standards"" are maintained; but the population grows
+    increasingly skeptical"'
+  ImpactRefuseText: The transparency of figures is praised by citizens; though it
+    weakens the ministry
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
-  acceptImpactPeuple: -5
+  acceptImpactPeuple: -10
   acceptImpactGouv: 10
   refuseImpactCorp: 0
-  refuseImpactPeuple: 5
+  refuseImpactPeuple: 10
   refuseImpactGouv: -5
   acceptUnlockLetters: []
   refuseUnlockLetters: []

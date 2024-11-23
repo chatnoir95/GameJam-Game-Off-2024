@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 10
   m_EditorClassIdentifier: 
-  expediteur: Alliance of Sock Manufacturers.
-  contentLetter: "Proclaim \u201CNational Work Socks Month\u201D"
+  expediteur: Head of the Censorship Bureau
+  contentLetter: Confiscate telephones containing satirical memes about the regime
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Increased support for textile producers; though people are divided
-    between amusement and puzzlement
-  ImpactRefuseText: Citizens see this campaign as a symbol of the regime's bureaucratic
-    rigidity
+  ImpactAcceptText: The regime tightens its control; but mistrust of government surveillance
+    grows.
+  ImpactRefuseText: The population breathes a sigh of relief; rumors of state surveillance
+    are defused.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 10
-  acceptImpactPeuple: 0
-  acceptImpactGouv: -5
+  acceptImpactCorp: 0
+  acceptImpactPeuple: -5
+  acceptImpactGouv: 10
   refuseImpactCorp: 0
   refuseImpactPeuple: 5
   refuseImpactGouv: -5

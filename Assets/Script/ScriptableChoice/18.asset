@@ -12,21 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 18
   m_EditorClassIdentifier: 
-  expediteur: Federation of Official Air Conditioners
-  contentLetter: Request authorization to resell confiscated old fans
+  expediteur: Concerned Parents Group
+  contentLetter: Request statistics on children's candy consumption
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: The population appreciates the recycling initiative; though sales
-    remain controlled.
-  ImpactRefuseText: Citizens are unhappy with the confiscation without recycling
-    options; fueling further criticism.
+  ImpactAcceptText: The public welcomes this transparency; though the government
+    sees it as a low priority.
+  ImpactRefuseText: Parents grow suspicious and band together; increasing demand
+    for information about children.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 10
-  acceptImpactPeuple: 5
-  acceptImpactGouv: 0
+  acceptImpactCorp: 0
+  acceptImpactPeuple: 10
+  acceptImpactGouv: -5
   refuseImpactCorp: 0
-  refuseImpactPeuple: 5
-  refuseImpactGouv: -5
+  refuseImpactPeuple: -5
+  refuseImpactGouv: 5
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 18

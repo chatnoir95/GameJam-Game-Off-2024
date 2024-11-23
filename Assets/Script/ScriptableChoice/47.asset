@@ -12,22 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 47
   m_EditorClassIdentifier: 
-  expediteur: HappyLife Representative
-  contentLetter: Make a secret deal with the Ministry of Welfare to make CHIPS implants
-    mandatory
+  expediteur: NewEden Security Officer
+  contentLetter: Access to the ISS passenger list to organize their evacuation
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: "The Ministry agrees; sparking protests; though HappyLife\u2019s
-    influence increases."
-  ImpactRefuseText: HappyLife threatens to scale down operations; creating an economic
-    impact.
+  ImpactAcceptText: NewEden ensures safety; but citizens find this information release
+    excessive.
+  ImpactRefuseText: "Rumors of incompetence spread; lowering trust in NewEden\u2019s
+    safety protocols."
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 5
-  acceptImpactPeuple: -10
-  acceptImpactGouv: 10
-  refuseImpactCorp: 0
+  acceptImpactCorp: 0
+  acceptImpactPeuple: 5
+  acceptImpactGouv: -10
+  refuseImpactCorp: -5
   refuseImpactPeuple: 10
-  refuseImpactGouv: -5
+  refuseImpactGouv: 0
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 47

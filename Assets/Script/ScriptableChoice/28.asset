@@ -12,22 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 28
   m_EditorClassIdentifier: 
-  expediteur: HappyLife CEO
-  contentLetter: "Seek indirect access to citizen data by partnering with the health
-    ministry\u2019s outreach program."
+  expediteur: WASP AI Director
+  contentLetter: Request additional testing by WASP AI on the nuclear plant based
+    on prior findings.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: "Partnership boosts HappyLife\u2019s CHIPS project with wider
-    acceptance."
-  ImpactRefuseText: HappyLife retaliates; launching an anti-government campaign to
-    sway public opinion.
+  ImpactAcceptText: Testing reveals security gaps; reassuring the public about enhanced
+    safety efforts.
+  ImpactRefuseText: Committee complains about gaps remaining unaddressed; sparking
+    public fears over nuclear safety.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
-  acceptImpactPeuple: 5
-  acceptImpactGouv: 10
+  acceptImpactPeuple: 10
+  acceptImpactGouv: 5
   refuseImpactCorp: -5
   refuseImpactPeuple: -10
-  refuseImpactGouv: -5
+  refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 28

@@ -12,22 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 53
   m_EditorClassIdentifier: 
-  expediteur: Media Relations Office
-  contentLetter: Request access to uncensored riot information to prevent rumors
-    and manage media.
+  expediteur: HappyLife CEO
+  contentLetter: Access to citizens' medical data for CHIPS commercialization
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Media releases detailed information; calming the public but raising
-    concerns about control.
-  ImpactRefuseText: "Media doubts government\u2019s transparency; risking negative
-    press and public mistrust."
+  ImpactAcceptText: HappyLife increases sales; though medical privacy is compromised;
+    drawing criticism.
+  ImpactRefuseText: HappyLife launches a campaign accusing the government of holding
+    back medical advances.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: -5
-  acceptImpactPeuple: 5
-  acceptImpactGouv: -10
+  acceptImpactCorp: 10
+  acceptImpactPeuple: 10
+  acceptImpactGouv: -5
   refuseImpactCorp: -5
-  refuseImpactPeuple: -5
-  refuseImpactGouv: 10
+  refuseImpactPeuple: 5
+  refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 53

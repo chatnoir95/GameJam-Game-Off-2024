@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 8
   m_EditorClassIdentifier: 
-  expediteur: Minister of Education
-  contentLetter: Modify reports to ensure 100% school success rate
-  accepteText: Yes
-  refuseText: No
-  ImpactAcceptText: '"""Perfect standards"" are maintained; but the population grows
-    increasingly skeptical"'
-  ImpactRefuseText: The transparency of figures is praised by citizens; though it
-    weakens the ministry
+  expediteur: Group of Indignant Mothers
+  contentLetter: Publish real figures on school success rates; suspected of being
+    exaggerated
+  accepteText: Hide it
+  refuseText: Publish it
+  ImpactAcceptText: Mothers mobilize; challenging the truth of official school success
+    rates
+  ImpactRefuseText: Mothers are reassured; but the Ministry of Education loses credibility
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
   acceptImpactPeuple: -10
-  acceptImpactGouv: 10
+  acceptImpactGouv: 5
   refuseImpactCorp: 0
   refuseImpactPeuple: 10
   refuseImpactGouv: -5

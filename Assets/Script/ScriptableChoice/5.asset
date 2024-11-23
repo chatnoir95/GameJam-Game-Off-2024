@@ -12,22 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 5
   m_EditorClassIdentifier: 
-  expediteur: Association of cooker
-  contentLetter: "Hiding a report showing that \u201Cstrategic planning\u201D meetings
-    consist of luxurious meals"
-  accepteText: Hide it
-  refuseText: Publish it
-  ImpactAcceptText: Loyalty among leaders is reinforced; even though citizens suspect
-    unjustified spending
-  ImpactRefuseText: The population is shocked but admires the transparency; leading
-    to increased trust
+  expediteur: Propaganda Division
+  contentLetter: "We've been asked to prepare a propaganda plan regarding all the
+    messages you've had with the Censorship Bureau. We have thought of two plans\u2014what
+    would you prefer?"
+  accepteText: Blood propaganda
+  refuseText: Soft propaganda
+  ImpactAcceptText: People are in front of the Office's building. The government
+    must violently repress the demonstration
+  ImpactRefuseText: As usual the propaganda works !
   logoLetter: {fileID: 0}
-  acceptImpactCorp: -10
-  acceptImpactPeuple: -5
-  acceptImpactGouv: 5
+  acceptImpactCorp: 0
+  acceptImpactPeuple: 0
+  acceptImpactGouv: 0
   refuseImpactCorp: 0
-  refuseImpactPeuple: 10
-  refuseImpactGouv: -10
+  refuseImpactPeuple: 0
+  refuseImpactGouv: 0
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 5

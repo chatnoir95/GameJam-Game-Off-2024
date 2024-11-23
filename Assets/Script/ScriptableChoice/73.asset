@@ -12,22 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 73
   m_EditorClassIdentifier: 
-  expediteur: "Ren\xE9"
-  contentLetter: I need some money could you give me the winning ticket of the next
-    lotery ?
-  accepteText: 'Give '
-  refuseText: No way
-  ImpactAcceptText: "Ren\xE9 thanks you"
-  ImpactRefuseText: "After a filmed speech by Ren\xE9. All the people's confidence
-    in our wonderful government fell"
+  expediteur: Building Security Supervisor
+  contentLetter: Request code for Room 103; Building C; North Wing; 6th floor; for
+    unidentified purpose.
+  accepteText: Yes
+  refuseText: No
+  ImpactAcceptText: Supervisor gains access; completing security task; though questions
+    arise about motives.
+  ImpactRefuseText: Supervisor raises concerns about lack of support; suspecting
+    interference.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
-  acceptImpactPeuple: 0
-  acceptImpactGouv: -5
+  acceptImpactCorp: 5
+  acceptImpactPeuple: -5
+  acceptImpactGouv: 5
   refuseImpactCorp: 0
-  refuseImpactPeuple: -20
-  refuseImpactGouv: 5
+  refuseImpactPeuple: 10
+  refuseImpactGouv: -5
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 73
-  chanceToSpawn: 20
+  chanceToSpawn: 50

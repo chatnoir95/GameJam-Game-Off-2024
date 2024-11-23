@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
+  m_Name: 89
+  m_EditorClassIdentifier: 
+  expediteur: Guy
+  contentLetter: I still need money. A lot of people are dying on the street. Can
+    you give me the winning lottery ticket ?
+  accepteText: 'Give '
+  refuseText: No way
+  ImpactAcceptText: "People are not stupid. 3 times in a month Ren\xE9 won at the
+    lottery. People's trust has fallen"
+  ImpactRefuseText: A generous fund has been set up by the public to protest the
+    government's inhumanity in the face of all the people dying on the street;
+  logoLetter: {fileID: 0}
+  acceptImpactCorp: 0
+  acceptImpactPeuple: -70
+  acceptImpactGouv: -5
+  refuseImpactCorp: 0
+  refuseImpactPeuple: -20
+  refuseImpactGouv: 5
+  acceptUnlockLetters: []
+  refuseUnlockLetters: []
+  index: 89
+  chanceToSpawn: 20

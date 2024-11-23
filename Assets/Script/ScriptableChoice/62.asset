@@ -12,21 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 62
   m_EditorClassIdentifier: 
-  expediteur: Health Compliance Officer
-  contentLetter: Order EM478XY2008 employee to take a government-issued pill as part
-    of ongoing collaboration.
+  expediteur: Agricultural Market Analyst
+  contentLetter: Provide a confidential analysis of public raclette consumption habits.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Compliance strengthens government control; though public fears
-    of government overreach increase.
-  ImpactRefuseText: Employee warns others; sparking a public movement against forced
-    health measures.
+  ImpactAcceptText: Analyst releases a strategic plan for supply; boosting agricultural
+    interests; though public trust decreases.
+  ImpactRefuseText: Analysts criticize government for obstructing economic growth;
+    warning of rising prices.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
-  acceptImpactPeuple: -10
+  acceptImpactPeuple: -5
   acceptImpactGouv: 10
-  refuseImpactCorp: -5
-  refuseImpactPeuple: 10
+  refuseImpactCorp: 0
+  refuseImpactPeuple: 5
   refuseImpactGouv: -5
   acceptUnlockLetters: []
   refuseUnlockLetters: []
