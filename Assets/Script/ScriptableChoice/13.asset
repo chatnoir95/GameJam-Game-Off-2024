@@ -17,9 +17,9 @@ MonoBehaviour:
     plain socks\u201D"
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Plain socks become a patriotic symbol; though they spark some
+  ImpactAcceptText: Plain socks become a patriotic symbol, though they spark some
     popular mockery.
-  ImpactRefuseText: The public is pleased with the lack of strict dress code; feeling
+  ImpactRefuseText: The public is pleased with the lack of strict dress code, feeling
     generally relieved.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10

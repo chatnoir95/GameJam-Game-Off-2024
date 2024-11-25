@@ -17,9 +17,9 @@ MonoBehaviour:
     wear plain socks"
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Some citizens are enthusiastic; but others see this action as
+  ImpactAcceptText: Some citizens are enthusiastic, but others see this action as
     an attempt at control
-  ImpactRefuseText: Citizens ignore this proposal; mocking the rigidity of this new
+  ImpactRefuseText: Citizens ignore this proposal, mocking the rigidity of this new
     patriotic requirement.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5

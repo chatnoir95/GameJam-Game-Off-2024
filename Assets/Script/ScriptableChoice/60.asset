@@ -17,9 +17,9 @@ MonoBehaviour:
     and manage media.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Media releases detailed information; calming the public but raising
+  ImpactAcceptText: Media releases detailed information, calming the public but raising
     concerns about control.
-  ImpactRefuseText: "Media doubts government\u2019s transparency; risking negative
+  ImpactRefuseText: "Media doubts government\u2019s transparency, risking negative
     press and public mistrust."
   logoLetter: {fileID: 0}
   acceptImpactCorp: -5

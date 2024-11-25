@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: 73
   m_EditorClassIdentifier: 
   expediteur: Building Security Supervisor
-  contentLetter: Request code for Room 103; Building C; North Wing; 6th floor; for
+  contentLetter: Request code for Room 103, Building C, North Wing, 6th floor, for
     unidentified purpose.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Supervisor gains access; completing security task; though questions
+  ImpactAcceptText: Supervisor gains access, completing security task, though questions
     arise about motives.
-  ImpactRefuseText: Supervisor raises concerns about lack of support; suspecting
+  ImpactRefuseText: Supervisor raises concerns about lack of support, suspecting
     interference.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5

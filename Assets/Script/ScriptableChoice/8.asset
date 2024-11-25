@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: 8
   m_EditorClassIdentifier: 
   expediteur: Group of Indignant Mothers
-  contentLetter: Publish real figures on school success rates; suspected of being
+  contentLetter: Publish real figures on school success rates, suspected of being
     exaggerated
   accepteText: Hide it
   refuseText: Publish it
-  ImpactAcceptText: Mothers mobilize; challenging the truth of official school success
+  ImpactAcceptText: Mothers mobilize, challenging the truth of official school success
     rates
-  ImpactRefuseText: Mothers are reassured; but the Ministry of Education loses credibility
+  ImpactRefuseText: Mothers are reassured, but the Ministry of Education loses credibility
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
   acceptImpactPeuple: -10

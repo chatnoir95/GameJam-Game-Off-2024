@@ -17,7 +17,7 @@ MonoBehaviour:
     resilience
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: WASP AI assesses the systems; enhancing security and avoiding
+  ImpactAcceptText: WASP AI assesses the systems, enhancing security and avoiding
     incidents.
   ImpactRefuseText: WASP AI threatens to publish a report on poor nuclear safety
     transparency.

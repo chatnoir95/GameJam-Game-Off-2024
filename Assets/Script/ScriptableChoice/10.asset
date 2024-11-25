@@ -16,9 +16,9 @@ MonoBehaviour:
   contentLetter: Confiscate telephones containing satirical memes about the regime
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: The regime tightens its control; but mistrust of government surveillance
+  ImpactAcceptText: The regime tightens its control, but mistrust of government surveillance
     grows.
-  ImpactRefuseText: The population breathes a sigh of relief; rumors of state surveillance
+  ImpactRefuseText: The population breathes a sigh of relief, rumors of state surveillance
     are defused.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0

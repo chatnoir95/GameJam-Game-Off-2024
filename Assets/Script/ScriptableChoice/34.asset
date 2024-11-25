@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: 34
   m_EditorClassIdentifier: 
   expediteur: OmniCorp Construction
-  contentLetter: Ask to expand contract to add additional facilities; citing future
+  contentLetter: Ask to expand contract to add additional facilities, citing future
     university needs.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: "Expansion boosts OmniCorp\u2019s influence; but raises costs;
+  ImpactAcceptText: "Expansion boosts OmniCorp\u2019s influence, but raises costs,
     attracting criticism for overspending."
-  ImpactRefuseText: OmniCorp criticizes lack of support; slowing university project
-    progress; frustrating students.
+  ImpactRefuseText: OmniCorp criticizes lack of support, slowing university project
+    progress, frustrating students.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5
   acceptImpactPeuple: -10

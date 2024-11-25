@@ -17,7 +17,7 @@ MonoBehaviour:
     brain implant project"
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: HappyLife begins implants; increasing interest in innovations
+  ImpactAcceptText: HappyLife begins implants, increasing interest in innovations
     despite some public hesitance.
   ImpactRefuseText: HappyLife issues statements accusing the government of holding
     back technological progress.

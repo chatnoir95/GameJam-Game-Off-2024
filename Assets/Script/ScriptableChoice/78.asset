@@ -17,7 +17,7 @@ MonoBehaviour:
   accepteText: Health first
   refuseText: No
   ImpactAcceptText: Health is the key
-  ImpactRefuseText: 'Fun fact: Because of the 80-hour work weeks; people only use
+  ImpactRefuseText: 'Fun fact: Because of the 80-hour work weeks, people only use
     the elevator a maximum of twice a day. It is actually great for their health! '
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0

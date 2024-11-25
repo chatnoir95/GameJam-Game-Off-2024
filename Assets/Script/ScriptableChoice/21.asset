@@ -17,9 +17,9 @@ MonoBehaviour:
     from the Leader"
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: "Citizens see the Leader as an \u201Cagricultural savior;\u201D
+  ImpactAcceptText: "Citizens see the Leader as an \u201Cagricultural savior,\u201D
     boosting his popularity."
-  ImpactRefuseText: Farmers complain about a lack of recognition; and some refuse
+  ImpactRefuseText: Farmers complain about a lack of recognition, and some refuse
     to participate in ceremonies.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0

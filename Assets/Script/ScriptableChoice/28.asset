@@ -17,9 +17,9 @@ MonoBehaviour:
     on prior findings.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Testing reveals security gaps; reassuring the public about enhanced
+  ImpactAcceptText: Testing reveals security gaps, reassuring the public about enhanced
     safety efforts.
-  ImpactRefuseText: Committee complains about gaps remaining unaddressed; sparking
+  ImpactRefuseText: Committee complains about gaps remaining unaddressed, sparking
     public fears over nuclear safety.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5

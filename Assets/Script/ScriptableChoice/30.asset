@@ -19,7 +19,7 @@ MonoBehaviour:
   refuseText: No
   ImpactAcceptText: "Partnership boosts HappyLife\u2019s CHIPS project with wider
     acceptance."
-  ImpactRefuseText: HappyLife retaliates; launching an anti-government campaign to
+  ImpactRefuseText: HappyLife retaliates, launching an anti-government campaign to
     sway public opinion.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5

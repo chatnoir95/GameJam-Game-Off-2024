@@ -19,7 +19,7 @@ MonoBehaviour:
   refuseText: No
   ImpactAcceptText: Enhanced security calms public fears but sparks debates over
     surveillance.
-  ImpactRefuseText: "Security Council doubts government\u2019s commitment; threatening
+  ImpactRefuseText: "Security Council doubts government\u2019s commitment, threatening
     to cut ties with NewEden."
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5

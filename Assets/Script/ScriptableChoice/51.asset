@@ -16,9 +16,9 @@ MonoBehaviour:
   contentLetter: Access to government servers to improve the CHIPS project
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: The project progresses; tech lobbies are pleased; but some citizens
+  ImpactAcceptText: The project progresses, tech lobbies are pleased, but some citizens
     feel over-monitored.
-  ImpactRefuseText: WASP criticizes lack of support for progress; threatening to
+  ImpactRefuseText: WASP criticizes lack of support for progress, threatening to
     reduce government projects.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10

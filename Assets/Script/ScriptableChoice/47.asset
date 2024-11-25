@@ -16,9 +16,9 @@ MonoBehaviour:
   contentLetter: Access to the ISS passenger list to organize their evacuation
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: NewEden ensures safety; but citizens find this information release
+  ImpactAcceptText: NewEden ensures safety, but citizens find this information release
     excessive.
-  ImpactRefuseText: "Rumors of incompetence spread; lowering trust in NewEden\u2019s
+  ImpactRefuseText: "Rumors of incompetence spread, lowering trust in NewEden\u2019s
     safety protocols."
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0

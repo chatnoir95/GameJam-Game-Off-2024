@@ -17,9 +17,9 @@ MonoBehaviour:
     crackdowns on gatherings.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Security forces intensify controls; boosting government power
+  ImpactAcceptText: Security forces intensify controls, boosting government power
     but drawing criticism for heavy tactics.
-  ImpactRefuseText: Security suspects lack of commitment to safety; intensifying
+  ImpactRefuseText: Security suspects lack of commitment to safety, intensifying
     scrutiny on government stability.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5

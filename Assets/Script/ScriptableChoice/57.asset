@@ -17,8 +17,8 @@ MonoBehaviour:
     to student backlash
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Policy adjustments calm protests; improving public perception.
-  ImpactRefuseText: Students intensify protests; claiming government suppression;
+  ImpactAcceptText: Policy adjustments calm protests, improving public perception.
+  ImpactRefuseText: Students intensify protests, claiming government suppression,
     and media coverage spreads.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5

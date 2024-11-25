@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: 67
   m_EditorClassIdentifier: 
   expediteur: Internal Affairs Investigation Unit
-  contentLetter: Verify nuclear codes management after refusal; citing potential
+  contentLetter: Verify nuclear codes management after refusal, citing potential
     incompetence.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Investigation reassures public; though tensions rise over government
+  ImpactAcceptText: Investigation reassures public, though tensions rise over government
     oversight and internal issues.
-  ImpactRefuseText: Unit threatens to publicly disclose management failures; potentially
+  ImpactRefuseText: Unit threatens to publicly disclose management failures, potentially
     causing national scandal.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0

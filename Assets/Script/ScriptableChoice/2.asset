@@ -19,7 +19,7 @@ MonoBehaviour:
   refuseText: No
   ImpactAcceptText: The archives are modified to reinforce the myth of the Leader
     inventing the concept
-  ImpactRefuseText: Mockery over excessive censorship; some citizens begin making
+  ImpactRefuseText: Mockery over excessive censorship, some citizens begin making
     jokes online
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10

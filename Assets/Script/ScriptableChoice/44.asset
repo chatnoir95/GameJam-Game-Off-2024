@@ -17,7 +17,7 @@ MonoBehaviour:
     crash ! I know it's new Eden I just need proof !
   accepteText: Give him the proofs
   refuseText: Eliminate witness
-  ImpactAcceptText: The corporation putts enormous pressure on the government; and
+  ImpactAcceptText: The corporation putts enormous pressure on the government, and
     no investigation will begin.
   ImpactRefuseText: Thank you for your cooperation. We'll take care of removing all
     traces.

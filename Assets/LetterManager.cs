@@ -167,7 +167,14 @@ public class LetterManager : MonoBehaviour
     }
 
 
+    private string ChangeSemicolon(string text) // change the ';' of string by ',' 
+    {
+        char charToChange = ';';
+        char newChar = ',';
 
+        text = text.Replace(charToChange, newChar);
+        return text;
+    }
 
     [ContextMenu("Create Scriptable Objects From CSV")]
     public void CreateItemsFromCSV()
@@ -202,11 +209,11 @@ public class LetterManager : MonoBehaviour
 
                 newItem.index = int.Parse(values[0]);
 
-                newItem.expediteur = values[3];
+                newItem.expediteur = ChangeSemicolon(values[3]);
                // Debug.Log($"Created ScriptableObject for 3 {values[3]}");
-                newItem.contentLetter = values[4];
-                newItem.accepteText = values[5];
-                newItem.refuseText = values[6];
+                newItem.contentLetter = ChangeSemicolon(values[4]);
+                newItem.accepteText = ChangeSemicolon(values[5]);
+                newItem.refuseText = ChangeSemicolon(values[6]) ;
 
 
                 //Debug.Log($"Created ScriptableObject for 4 {values[4]}");
@@ -226,8 +233,8 @@ public class LetterManager : MonoBehaviour
                 {
                     newItem.chanceToSpawn = int.Parse(values[13]);
                 }
-                newItem.ImpactAcceptText = values[14];
-                newItem.ImpactRefuseText = values[15];
+                newItem.ImpactAcceptText = ChangeSemicolon(values[14]);
+                newItem.ImpactRefuseText = ChangeSemicolon(values[15]);
 
 
                 // Ajout d'imbrication

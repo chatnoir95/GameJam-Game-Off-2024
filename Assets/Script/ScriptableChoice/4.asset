@@ -17,7 +17,7 @@ MonoBehaviour:
     hackers and circulated on Social Media
   accepteText: Delete access to Social Media
   refuseText: Plan a propaganda
-  ImpactAcceptText: People are in the street; all corporations send reprimands ...
+  ImpactAcceptText: People are in the street, all corporations send reprimands ...
     but at least they don't talk about the hack at all
   ImpactRefuseText: Streisand effect won't work if we reapeat that thoses hackers
     are terrorist

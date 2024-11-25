@@ -16,7 +16,7 @@ MonoBehaviour:
   contentLetter: I discovered a Psaouludine variant possibly created by BioTech.
   accepteText: Confront bioTech
   refuseText: Eliminate witness
-  ImpactAcceptText: The corporation putts enormous pressure on the government; and
+  ImpactAcceptText: The corporation putts enormous pressure on the government, and
     no investigation will begin.
   ImpactRefuseText: Thank you for your cooperation. We'll take care of removing all
     traces.

@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: 68
   m_EditorClassIdentifier: 
   expediteur: Property Management Officer
-  contentLetter: Inventory all rooms; requests building plans for accuracy.
+  contentLetter: Inventory all rooms, requests building plans for accuracy.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Officer prepares an efficient inventory; but citizens question
+  ImpactAcceptText: Officer prepares an efficient inventory, but citizens question
     transparency of surveillance efforts.
-  ImpactRefuseText: "Officer warns of disorganization; raising questions about government\u2019s
+  ImpactRefuseText: "Officer warns of disorganization, raising questions about government\u2019s
     infrastructure."
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5

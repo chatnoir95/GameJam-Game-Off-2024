@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 17
   m_EditorClassIdentifier: 
   expediteur: Old Lady
-  contentLetter: It's to hot for me; my doctor gives me 2 weeks to live
+  contentLetter: It's to hot for me, my doctor gives me 2 weeks to live
   accepteText: Offer collector plain socks
   refuseText: Leave her unsupported
   ImpactAcceptText: She doesn't seem to realize how lucky she is.

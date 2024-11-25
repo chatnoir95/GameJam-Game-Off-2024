@@ -17,9 +17,9 @@ MonoBehaviour:
     the concept of \u201Chard work\u201D"
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: '"The people are temporarily impressed by the Leader''s ""wisdom;""
+  ImpactAcceptText: '"The people are temporarily impressed by the Leader''s ""wisdom,""
     even if the information seems doubtful"'
-  ImpactRefuseText: Citizens; tired of propaganda; lose a little more trust in the
+  ImpactRefuseText: Citizens, tired of propaganda, lose a little more trust in the
     regime
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0

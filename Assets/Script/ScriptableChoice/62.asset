@@ -16,9 +16,9 @@ MonoBehaviour:
   contentLetter: Provide a confidential analysis of public raclette consumption habits.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Analyst releases a strategic plan for supply; boosting agricultural
-    interests; though public trust decreases.
-  ImpactRefuseText: Analysts criticize government for obstructing economic growth;
+  ImpactAcceptText: Analyst releases a strategic plan for supply, boosting agricultural
+    interests, though public trust decreases.
+  ImpactRefuseText: Analysts criticize government for obstructing economic growth,
     warning of rising prices.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5

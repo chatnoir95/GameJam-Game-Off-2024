@@ -17,9 +17,9 @@ MonoBehaviour:
     power grid plans.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Lobby increases influence over policy; leading to fears of monopolization
+  ImpactAcceptText: Lobby increases influence over policy, leading to fears of monopolization
     and privatization.
-  ImpactRefuseText: Lobby withdraws support; risking energy inefficiencies and negative
+  ImpactRefuseText: Lobby withdraws support, risking energy inefficiencies and negative
     public perception.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10

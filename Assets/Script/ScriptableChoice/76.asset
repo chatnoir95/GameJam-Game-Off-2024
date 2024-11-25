@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: 76
   m_EditorClassIdentifier: 
   expediteur: Energy Policy Review Board
-  contentLetter: "Conduct a public survey on privatization; citing recent lobby influence
+  contentLetter: "Conduct a public survey on privatization, citing recent lobby influence
     on the capital\u2019s power grid"
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Survey reveals mixed reactions; support for energy independence
+  ImpactAcceptText: Survey reveals mixed reactions, support for energy independence
     grows but fears of price hikes persist.
-  ImpactRefuseText: Board warns of public dissatisfaction; potentially sparking political
+  ImpactRefuseText: Board warns of public dissatisfaction, potentially sparking political
     backlash on energy policy.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10

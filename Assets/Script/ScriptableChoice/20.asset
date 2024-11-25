@@ -16,10 +16,10 @@ MonoBehaviour:
   contentLetter: Request authorization to resell confiscated old fans
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: The population appreciates the recycling initiative; though sales
+  ImpactAcceptText: The population appreciates the recycling initiative, though sales
     remain controlled.
   ImpactRefuseText: Citizens are unhappy with the confiscation without recycling
-    options; fueling further criticism.
+    options, fueling further criticism.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
   acceptImpactPeuple: 5

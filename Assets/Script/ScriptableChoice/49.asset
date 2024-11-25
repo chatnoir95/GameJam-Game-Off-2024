@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   expediteur: Belgium News
   contentLetter: The ISS has just crashed into the Belgium power plant. An automatic
-    state meeting is held with no one present; since everyone is dead. To be continued..
+    state meeting is held with no one present, since everyone is dead. To be continued..
     or not
   accepteText: Ok
   refuseText: Ok
-  ImpactAcceptText: People still suspicious about this story; but no one care about
+  ImpactAcceptText: People still suspicious about this story, but no one care about
     Belgium
-  ImpactRefuseText: People still suspicious about this story; but no one care about
+  ImpactRefuseText: People still suspicious about this story, but no one care about
     Belgium
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0

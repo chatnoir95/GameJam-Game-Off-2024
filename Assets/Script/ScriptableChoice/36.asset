@@ -17,9 +17,9 @@ MonoBehaviour:
     Psaouludine formula.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Clinical trials start; satisfying lobbyists; though citizens
+  ImpactAcceptText: Clinical trials start, satisfying lobbyists, though citizens
     worry about safety shortcuts.
-  ImpactRefuseText: "Hexar\xE8s threatens to relocate research efforts abroad; causing
+  ImpactRefuseText: "Hexar\xE8s threatens to relocate research efforts abroad, causing
     economic and scientific setbacks."
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10

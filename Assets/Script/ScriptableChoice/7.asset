@@ -17,9 +17,9 @@ MonoBehaviour:
     with birds\u201D"
   accepteText: Hide it
   refuseText: Publish it
-  ImpactAcceptText: Many citizens find this claim ridiculous; further eroding the
+  ImpactAcceptText: Many citizens find this claim ridiculous, further eroding the
     credibility of propaganda
-  ImpactRefuseText: State propaganda temporarily gains popularity; though it provokes
+  ImpactRefuseText: State propaganda temporarily gains popularity, though it provokes
     some amused smiles
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0

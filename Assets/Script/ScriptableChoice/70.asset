@@ -16,8 +16,8 @@ MonoBehaviour:
   contentLetter: Are you happy ?
   accepteText: Yes
   refuseText: Yes
-  ImpactAcceptText: Very well; you'll be able to help us longer at the Office.
-  ImpactRefuseText: Very well; you'll be able to help us longer at the Office.
+  ImpactAcceptText: Very well, you'll be able to help us longer at the Office.
+  ImpactRefuseText: Very well, you'll be able to help us longer at the Office.
   logoLetter: {fileID: 0}
   acceptImpactCorp: -5
   acceptImpactPeuple: -5

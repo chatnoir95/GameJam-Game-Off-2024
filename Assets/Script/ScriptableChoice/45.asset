@@ -19,7 +19,7 @@ MonoBehaviour:
   refuseText: No
   ImpactAcceptText: Partnership strengthens space security but draws criticism for
     dependency on foreign powers.
-  ImpactRefuseText: "NewEden\u2019s reputation suffers; risking funding cuts from
+  ImpactRefuseText: "NewEden\u2019s reputation suffers, risking funding cuts from
     foreign partners."
   logoLetter: {fileID: 0}
   acceptImpactCorp: 5

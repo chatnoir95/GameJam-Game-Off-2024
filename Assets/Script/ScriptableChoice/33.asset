@@ -17,9 +17,9 @@ MonoBehaviour:
     future university
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Construction progresses; but questions are raised about contract
+  ImpactAcceptText: Construction progresses, but questions are raised about contract
     transparency.
-  ImpactRefuseText: The university suspects government obstruction; creating tension.
+  ImpactRefuseText: The university suspects government obstruction, creating tension.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
   acceptImpactPeuple: 5

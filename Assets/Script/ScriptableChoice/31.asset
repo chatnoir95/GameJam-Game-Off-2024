@@ -17,9 +17,9 @@ MonoBehaviour:
     participation rates."
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Trials proceed smoothly; increasing interest; but privacy activists
+  ImpactAcceptText: Trials proceed smoothly, increasing interest, but privacy activists
     denounce health data sharing.
-  ImpactRefuseText: Participation lags; creating delays and prompting HappyLife to
+  ImpactRefuseText: Participation lags, creating delays and prompting HappyLife to
     criticize government obstruction.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10

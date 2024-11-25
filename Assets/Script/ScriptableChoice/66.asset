@@ -17,9 +17,9 @@ MonoBehaviour:
     ensure readiness
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Defense feels reassured; though public becomes uneasy about nuclear
+  ImpactAcceptText: Defense feels reassured, though public becomes uneasy about nuclear
     handling.
-  ImpactRefuseText: Public outcry ensues over potential incompetence; weakening government
+  ImpactRefuseText: Public outcry ensues over potential incompetence, weakening government
     trust.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10

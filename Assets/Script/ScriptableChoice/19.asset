@@ -16,9 +16,9 @@ MonoBehaviour:
   contentLetter: "Announcing that the Leader eats only \u201Cpatriotic bread\u201D"
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: The population is intrigued; and bakers see their sales increase
+  ImpactAcceptText: The population is intrigued, and bakers see their sales increase
     despite the criticism.
-  ImpactRefuseText: The public mocks this eccentricity; calling the regime absurd.
+  ImpactRefuseText: The public mocks this eccentricity, calling the regime absurd.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
   acceptImpactPeuple: 5

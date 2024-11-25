@@ -17,9 +17,9 @@ MonoBehaviour:
     abroad with government endorsement.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: "Trials resume internationally; pleasing Hexar\xE8s; though critics
+  ImpactAcceptText: "Trials resume internationally, pleasing Hexar\xE8s, though critics
     accuse government of \u201Cexporting risks.\u201D"
-  ImpactRefuseText: "Hexar\xE8s ends the trials; risking public perception of lost
+  ImpactRefuseText: "Hexar\xE8s ends the trials, risking public perception of lost
     medical innovation."
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10

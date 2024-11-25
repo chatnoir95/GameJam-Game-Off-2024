@@ -17,8 +17,8 @@ MonoBehaviour:
     safety measure"
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Public compliance grows gradually; though privacy advocates protest.
-  ImpactRefuseText: Welfare Ministry struggles to gain support; and HappyLife pressures
+  ImpactAcceptText: Public compliance grows gradually, though privacy advocates protest.
+  ImpactRefuseText: Welfare Ministry struggles to gain support, and HappyLife pressures
     government for mandate.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
