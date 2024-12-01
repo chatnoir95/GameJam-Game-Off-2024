@@ -12,23 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 26
   m_EditorClassIdentifier: 
-  expediteur: 'Propaganda Division '
-  contentLetter: Demand the broadcasting of a documentary affirming that the leader
-    runs faster than any athlete.
+  expediteur: Propaganda Division
+  contentLetter: "Publish report stating that record harvest is due to \u201Cencouragement\u201D
+    from the Leader"
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Sports propaganda temporarily increases enthusiasm, but the people
-    are doubtful.
-  ImpactRefuseText: Athletes openly express frustration, and some refuse to participate
-    in official competitions.
+  ImpactAcceptText: "Citizens see the Leader as an \u201Cagricultural savior,\u201D
+    boosting his popularity."
+  ImpactRefuseText: Farmers complain about a lack of recognition, and some refuse
+    to participate in ceremonies.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
-  acceptImpactPeuple: -5
-  acceptImpactGouv: 5
-  refuseImpactCorp: -10
-  refuseImpactPeuple: 10
-  refuseImpactGouv: -5
+  acceptImpactPeuple: 30
+  acceptImpactGouv: 30
+  refuseImpactCorp: 0
+  refuseImpactPeuple: -20
+  refuseImpactGouv: -20
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 26
   chanceToSpawn: 50
+  idPrerequis: 0
+  decisionPrerequis: 3
+  isSpecialLetter: 0

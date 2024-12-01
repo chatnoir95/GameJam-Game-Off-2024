@@ -12,20 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 81
   m_EditorClassIdentifier: 
-  expediteur: Food department
-  contentLetter: Force everyone to eat patriotic cereals every morning
-  accepteText: Yes
-  refuseText: No
-  ImpactAcceptText: We're glad to have supplanted the milk and cereals lobby.
-  ImpactRefuseText: You don't know what our beautiful people are missing.
+  expediteur: Old Lady
+  contentLetter: I lost 30 min each time I acces my flat ...
+  accepteText: Relocate to her place of work
+  refuseText: Leave her unsupported
+  ImpactAcceptText: Now she can spend more time at work.
+  ImpactRefuseText: She seems really sad. It's looks like the end
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 10
-  acceptImpactPeuple: -10
-  acceptImpactGouv: 10
-  refuseImpactCorp: -5
-  refuseImpactPeuple: 10
-  refuseImpactGouv: -10
+  acceptImpactCorp: 20
+  acceptImpactPeuple: 10
+  acceptImpactGouv: 20
+  refuseImpactCorp: 0
+  refuseImpactPeuple: -30
+  refuseImpactGouv: 0
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 81
   chanceToSpawn: 50
+  idPrerequis: 80
+  decisionPrerequis: 1
+  isSpecialLetter: 0

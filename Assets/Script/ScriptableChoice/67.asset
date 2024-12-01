@@ -12,23 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 67
   m_EditorClassIdentifier: 
-  expediteur: Internal Affairs Investigation Unit
-  contentLetter: Verify nuclear codes management after refusal, citing potential
-    incompetence.
+  expediteur: Task Force Director
+  contentLetter: Demand full control over anti-Resistance operations for greater
+    efficiency.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Investigation reassures public, though tensions rise over government
-    oversight and internal issues.
-  ImpactRefuseText: Unit threatens to publicly disclose management failures, potentially
-    causing national scandal.
+  ImpactAcceptText: Director enhances surveillance, but public protests grow over
+    alleged authoritarian measures.
+  ImpactRefuseText: Director accuses government of obstructing security efforts,
+    risking dissent and lack of control.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
-  acceptImpactPeuple: 5
-  acceptImpactGouv: -5
-  refuseImpactCorp: -5
-  refuseImpactPeuple: -10
-  refuseImpactGouv: 10
+  acceptImpactCorp: 10
+  acceptImpactPeuple: -20
+  acceptImpactGouv: 30
+  refuseImpactCorp: -10
+  refuseImpactPeuple: 20
+  refuseImpactGouv: -20
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 67
   chanceToSpawn: 50
+  idPrerequis: 66
+  decisionPrerequis: 0
+  isSpecialLetter: 0

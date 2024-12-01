@@ -22,13 +22,16 @@ MonoBehaviour:
   ImpactRefuseText: "Health Agency doubts government\u2019s authority, risking internal
     dissension and lowered loyalty."
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 5
-  acceptImpactPeuple: -10
-  acceptImpactGouv: 10
-  refuseImpactCorp: -5
-  refuseImpactPeuple: 10
-  refuseImpactGouv: -5
+  acceptImpactCorp: 10
+  acceptImpactPeuple: -20
+  acceptImpactGouv: 30
+  refuseImpactCorp: -10
+  refuseImpactPeuple: 20
+  refuseImpactGouv: -20
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 71
   chanceToSpawn: 50
+  idPrerequis: 70
+  decisionPrerequis: 0
+  isSpecialLetter: 0

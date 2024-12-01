@@ -12,23 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 58
   m_EditorClassIdentifier: 
-  expediteur: National Student Union
-  contentLetter: Demand public oversight of surveillance measures to ensure privacy
-    on university campuses
+  expediteur: WASP AI Director
+  contentLetter: Access to the installation contract of WASP modules for campus control
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Oversight is implemented, pacifying students but prompting debates
-    over academic independence.
-  ImpactRefuseText: Students threaten widespread protests, accusing the government
-    of oppression.
+  ImpactAcceptText: The campus is secured, but students protest against excessive
+    surveillance.
+  ImpactRefuseText: The university criticizes lack of cooperation and threatens to
+    reduce projects with the government.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
-  acceptImpactPeuple: 10
-  acceptImpactGouv: -5
-  refuseImpactCorp: -5
-  refuseImpactPeuple: -10
-  refuseImpactGouv: -10
+  acceptImpactCorp: 20
+  acceptImpactPeuple: -20
+  acceptImpactGouv: 10
+  refuseImpactCorp: -20
+  refuseImpactPeuple: 20
+  refuseImpactGouv: 10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 58
   chanceToSpawn: 50
+  idPrerequis: 0
+  decisionPrerequis: 3
+  isSpecialLetter: 0

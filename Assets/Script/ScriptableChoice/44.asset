@@ -12,23 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 44
   m_EditorClassIdentifier: 
-  expediteur: Independant journalist
-  contentLetter: The International Space Station has been hacked and it's gonna to
-    crash ! I know it's new Eden I just need proof !
-  accepteText: Give him the proofs
-  refuseText: Eliminate witness
-  ImpactAcceptText: The corporation putts enormous pressure on the government, and
-    no investigation will begin.
-  ImpactRefuseText: Thank you for your cooperation. We'll take care of removing all
-    traces.
+  expediteur: "BioTech Hexar\xE8s Laboratory"
+  contentLetter: Request cooperation with a public health agency to continue trials
+    abroad with government endorsement.
+  accepteText: Yes
+  refuseText: No
+  ImpactAcceptText: "Trials resume internationally, pleasing Hexar\xE8s, though critics
+    accuse government of \u201Cexporting risks.\u201D"
+  ImpactRefuseText: "Hexar\xE8s ends the trials, risking public perception of lost
+    medical innovation."
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
-  acceptImpactPeuple: 0
-  acceptImpactGouv: 0
-  refuseImpactCorp: 0
-  refuseImpactPeuple: 0
-  refuseImpactGouv: 0
+  acceptImpactCorp: 20
+  acceptImpactPeuple: -10
+  acceptImpactGouv: 20
+  refuseImpactCorp: -10
+  refuseImpactPeuple: 10
+  refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 44
-  chanceToSpawn: 30
+  chanceToSpawn: 50
+  idPrerequis: 43
+  decisionPrerequis: 0
+  isSpecialLetter: 0

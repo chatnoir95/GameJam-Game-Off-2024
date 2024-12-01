@@ -12,23 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 12
   m_EditorClassIdentifier: 
-  expediteur: Minister of External Affairs
-  contentLetter: "Issue a press release stating that the Leader has \u201Cdiscovered\u201D
-    a neighboring country"
-  accepteText: Yes
-  refuseText: No
-  ImpactAcceptText: '"Increase in admiration for the Leader, though some laugh at
-    the ""geographic discovery."""'
-  ImpactRefuseText: Loss of credibility, international criticism over this dubious
-    claim.
+  expediteur: Group of Indignant Mothers
+  contentLetter: Publish real figures on school success rates, suspected of being
+    exaggerated
+  accepteText: Hide it
+  refuseText: Publish it
+  ImpactAcceptText: Mothers mobilize, challenging the truth of official school success
+    rates
+  ImpactRefuseText: Mothers are reassured, but the Ministry of Education loses credibility
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
-  acceptImpactPeuple: -5
-  acceptImpactGouv: 5
+  acceptImpactPeuple: -10
+  acceptImpactGouv: -15
   refuseImpactCorp: 0
-  refuseImpactPeuple: 10
-  refuseImpactGouv: -10
+  refuseImpactPeuple: 30
+  refuseImpactGouv: -30
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 12
   chanceToSpawn: 50
+  idPrerequis: 0
+  decisionPrerequis: 3
+  isSpecialLetter: 0

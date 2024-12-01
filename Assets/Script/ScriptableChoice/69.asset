@@ -22,13 +22,16 @@ MonoBehaviour:
   ImpactRefuseText: Employee warns others, sparking a public movement against forced
     health measures.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 5
-  acceptImpactPeuple: -10
-  acceptImpactGouv: 10
-  refuseImpactCorp: -5
-  refuseImpactPeuple: 10
-  refuseImpactGouv: -5
+  acceptImpactCorp: 10
+  acceptImpactPeuple: -20
+  acceptImpactGouv: 20
+  refuseImpactCorp: -10
+  refuseImpactPeuple: 20
+  refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 69
   chanceToSpawn: 50
+  idPrerequis: 0
+  decisionPrerequis: 3
+  isSpecialLetter: 0

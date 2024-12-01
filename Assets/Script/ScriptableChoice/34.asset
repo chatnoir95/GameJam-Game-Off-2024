@@ -12,23 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 34
   m_EditorClassIdentifier: 
-  expediteur: OmniCorp Construction
-  contentLetter: Ask to expand contract to add additional facilities, citing future
-    university needs.
+  expediteur: HappyLife CEO
+  contentLetter: "Access to the government\u2019s citizens database for the CHIPS
+    brain implant project"
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: "Expansion boosts OmniCorp\u2019s influence, but raises costs,
-    attracting criticism for overspending."
-  ImpactRefuseText: OmniCorp criticizes lack of support, slowing university project
-    progress, frustrating students.
+  ImpactAcceptText: HappyLife begins implants, increasing interest in innovations
+    despite some public hesitance.
+  ImpactRefuseText: HappyLife issues statements accusing the government of holding
+    back technological progress.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 5
-  acceptImpactPeuple: -10
-  acceptImpactGouv: 5
-  refuseImpactCorp: -5
-  refuseImpactPeuple: 5
-  refuseImpactGouv: -10
+  acceptImpactCorp: 30
+  acceptImpactPeuple: -20
+  acceptImpactGouv: 20
+  refuseImpactCorp: -30
+  refuseImpactPeuple: 20
+  refuseImpactGouv: -20
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 34
   chanceToSpawn: 50
+  idPrerequis: 0
+  decisionPrerequis: 3
+  isSpecialLetter: 0

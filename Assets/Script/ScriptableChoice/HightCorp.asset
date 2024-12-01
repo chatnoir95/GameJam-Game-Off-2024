@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: HightCorp
   m_EditorClassIdentifier: 
-  expediteur: hight Corp
-  contentLetter: lose hight Corp
+  expediteur: 'Minister of economy '
+  contentLetter: Corporations are now too influential, they managed to fire you to
+    replace you with someone on their side.
   accepteText: lose
   refuseText: lose
+  ImpactAcceptText: 
+  ImpactRefuseText: 
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
   acceptImpactPeuple: 0
@@ -23,8 +26,10 @@ MonoBehaviour:
   refuseImpactCorp: 0
   refuseImpactPeuple: 0
   refuseImpactGouv: 0
-  acceptUnlockLetters:
-  - {fileID: 11400000, guid: 78fea575590eb16449101a0214297be1, type: 2}
+  acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 0
   chanceToSpawn: 0
+  idPrerequis: 0
+  decisionPrerequis: 0
+  isSpecialLetter: 1

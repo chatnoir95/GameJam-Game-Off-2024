@@ -12,23 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 15
   m_EditorClassIdentifier: 
-  expediteur: 'Propaganda Division '
-  contentLetter: "Publish an article explaining that the Leader invented \u201Cclean
-    air\u201D"
+  expediteur: Alliance of Sock Manufacturers
+  contentLetter: "Proclaim \u201CNational Work Socks Month\u201D"
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Citizens ignore this proposal, mocking the rigidity of this new
-    patriotic requirement.
-  ImpactRefuseText: The population feels somewhat reassured, finding the situation
-    less absurd than usual.
+  ImpactAcceptText: Increased support for textile producers, though people are divided
+    between amusement and puzzlement
+  ImpactRefuseText: Citizens see this campaign as a symbol of the regime's bureaucratic
+    rigidity
   logoLetter: {fileID: 0}
-  acceptImpactCorp: -5
+  acceptImpactCorp: 20
   acceptImpactPeuple: 0
-  acceptImpactGouv: 5
-  refuseImpactCorp: 0
-  refuseImpactPeuple: 5
-  refuseImpactGouv: -5
+  acceptImpactGouv: 20
+  refuseImpactCorp: -10
+  refuseImpactPeuple: 10
+  refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 15
   chanceToSpawn: 50
+  idPrerequis: 0
+  decisionPrerequis: 3
+  isSpecialLetter: 0

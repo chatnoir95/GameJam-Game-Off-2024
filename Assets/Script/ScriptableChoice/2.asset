@@ -12,23 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 2
   m_EditorClassIdentifier: 
-  expediteur: Head of the Censorship Bureau
-  contentLetter: "Censor all references to \u201Chard work\u201D that existed before
-    the birth of the Leader"
+  expediteur: Propaganda Division
+  contentLetter: "Publish a false report claiming that the Supreme Leader invented
+    the concept of \u201Chard work\u201D"
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: The archives are modified to reinforce the myth of the Leader
-    inventing the concept
-  ImpactRefuseText: Mockery over excessive censorship, some citizens begin making
-    jokes online
+  ImpactAcceptText: '"The people are temporarily impressed by the Leader''s ""wisdom,""
+    even if the information seems doubtful"'
+  ImpactRefuseText: Citizens, tired of propaganda, lose a little more trust in the
+    regime
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
   acceptImpactPeuple: -10
-  acceptImpactGouv: 0
+  acceptImpactGouv: 20
   refuseImpactCorp: 0
   refuseImpactPeuple: 10
-  refuseImpactGouv: -5
+  refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 2
   chanceToSpawn: 50
+  idPrerequis: 0
+  decisionPrerequis: 3
+  isSpecialLetter: 0

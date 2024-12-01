@@ -12,23 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 46
   m_EditorClassIdentifier: 
-  expediteur: NewEden Space Council
-  contentLetter: Ask for public funding to improve internal security and reduce dependency
-    on foreign agencies.
+  expediteur: OmniCorp Construction
+  contentLetter: "Obtain the year\u2019s trade agreements for a confidential project"
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Public support grows for local development, though costs spark
-    some economic criticism.
-  ImpactRefuseText: "Council voices concerns over the budget, risking NewEden\u2019s
-    operations."
+  ImpactAcceptText: Trade agreements are obtained, strengthening collaboration, though
+    confidentiality is questioned.
+  ImpactRefuseText: The Committee accuses the government of withholding information,
+    threatening negotiations.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 5
-  acceptImpactPeuple: 10
-  acceptImpactGouv: 5
-  refuseImpactCorp: -5
-  refuseImpactPeuple: -5
-  refuseImpactGouv: -10
+  acceptImpactCorp: 20
+  acceptImpactPeuple: -20
+  acceptImpactGouv: -10
+  refuseImpactCorp: -20
+  refuseImpactPeuple: 0
+  refuseImpactGouv: 0
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 46
   chanceToSpawn: 50
+  idPrerequis: 0
+  decisionPrerequis: 3
+  isSpecialLetter: 0

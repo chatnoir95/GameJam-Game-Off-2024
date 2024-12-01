@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: WinClearAllLetter
   m_EditorClassIdentifier: 
-  expediteur: Gouv
-  contentLetter: 'Win no more letter to check '
+  expediteur: 'Game Jam Team '
+  contentLetter: You have cleaned your mailbox and finished the game! Thanks for
+    playing!
   accepteText: 'Win '
   refuseText: Win
+  ImpactAcceptText: 
+  ImpactRefuseText: 
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
   acceptImpactPeuple: 0
@@ -27,3 +30,5 @@ MonoBehaviour:
   refuseUnlockLetters: []
   index: 0
   chanceToSpawn: 80
+  idPrerequis: 0
+  isSpecialLetter: 1

@@ -12,22 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 51
   m_EditorClassIdentifier: 
-  expediteur: WASP AI Director
-  contentLetter: Access to government servers to improve the CHIPS project
+  expediteur: NewEden Space Station Director
+  contentLetter: I unofficially request heightened security and monitoring of ISS
+    data to prevent incidents.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: The project progresses, tech lobbies are pleased, but some citizens
-    feel over-monitored.
-  ImpactRefuseText: WASP criticizes lack of support for progress, threatening to
-    reduce government projects.
+  ImpactAcceptText: We hope no one finds out
+  ImpactRefuseText: NewEden Space Station Director seems glad to have theses documents
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 10
-  acceptImpactPeuple: -5
-  acceptImpactGouv: 5
-  refuseImpactCorp: -5
-  refuseImpactPeuple: 5
-  refuseImpactGouv: -10
+  acceptImpactCorp: 20
+  acceptImpactPeuple: 0
+  acceptImpactGouv: 0
+  refuseImpactCorp: -20
+  refuseImpactPeuple: 0
+  refuseImpactGouv: -20
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 51
   chanceToSpawn: 50
+  idPrerequis: 49
+  decisionPrerequis: 1
+  isSpecialLetter: 0

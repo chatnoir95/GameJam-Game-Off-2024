@@ -12,23 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 21
   m_EditorClassIdentifier: 
-  expediteur: 'Propaganda Division '
-  contentLetter: "Publish report stating that record harvest is due to \u201Cencouragement\u201D
-    from the Leader"
-  accepteText: Yes
-  refuseText: No
-  ImpactAcceptText: "Citizens see the Leader as an \u201Cagricultural savior,\u201D
-    boosting his popularity."
-  ImpactRefuseText: Farmers complain about a lack of recognition, and some refuse
-    to participate in ceremonies.
+  expediteur: Old Lady
+  contentLetter: It's to hot for me, my doctor gives me 2 weeks to live
+  accepteText: Offer collector plain socks
+  refuseText: Leave her unsupported
+  ImpactAcceptText: She doesn't seem to realize how lucky she is.
+  ImpactRefuseText: She seems really sad. Like really sad.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
-  acceptImpactPeuple: 5
-  acceptImpactGouv: 5
+  acceptImpactCorp: 10
+  acceptImpactPeuple: -10
+  acceptImpactGouv: 10
   refuseImpactCorp: 0
-  refuseImpactPeuple: -5
-  refuseImpactGouv: -10
+  refuseImpactPeuple: 30
+  refuseImpactGouv: 0
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 21
   chanceToSpawn: 50
+  idPrerequis: 16
+  decisionPrerequis: 1
+  isSpecialLetter: 0

@@ -12,23 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 48
   m_EditorClassIdentifier: 
-  expediteur: International Space Security Council
-  contentLetter: Request heightened security and monitoring of ISS data to prevent
-    similar incidents.
+  expediteur: Independant journalist
+  contentLetter: Demand investigation into lobbying pressures on recent trade agreements
+    for transparency.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Enhanced security calms public fears but sparks debates over
-    surveillance.
-  ImpactRefuseText: "Security Council doubts government\u2019s commitment, threatening
-    to cut ties with NewEden."
+  ImpactAcceptText: Investigation gains public approval for transparency, though
+    lobbyists express frustration.
+  ImpactRefuseText: The people expresses mistrust in government, risking future trade
+    efficiency.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 5
-  acceptImpactPeuple: -10
-  acceptImpactGouv: 10
-  refuseImpactCorp: -5
-  refuseImpactPeuple: 10
-  refuseImpactGouv: -10
+  acceptImpactCorp: -20
+  acceptImpactPeuple: 30
+  acceptImpactGouv: 0
+  refuseImpactCorp: 20
+  refuseImpactPeuple: -30
+  refuseImpactGouv: 0
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 48
   chanceToSpawn: 50
+  idPrerequis: 47
+  decisionPrerequis: 1
+  isSpecialLetter: 0

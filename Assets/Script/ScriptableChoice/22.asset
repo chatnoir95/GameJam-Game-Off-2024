@@ -12,23 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 22
   m_EditorClassIdentifier: 
-  expediteur: Minister of Agriculture
-  contentLetter: Organize an agricultural festival in the Leader's honor to correct
-    tension with farmers
+  expediteur: Concerned Parents Group
+  contentLetter: Request statistics on children's candy consumption
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Farmers regain confidence, though the public sees it as a waste
-    of resources.
-  ImpactRefuseText: Farmers express their discontent, leading to shortages in some
-    areas.
+  ImpactAcceptText: The public welcomes this transparency, though the government
+    sees it as a low priority.
+  ImpactRefuseText: Parents grow suspicious and band together, increasing demand
+    for information about children.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 5
-  acceptImpactPeuple: 5
-  acceptImpactGouv: -5
-  refuseImpactCorp: 0
+  acceptImpactCorp: -20
+  acceptImpactPeuple: 20
+  acceptImpactGouv: 10
+  refuseImpactCorp: 10
   refuseImpactPeuple: -10
-  refuseImpactGouv: -10
+  refuseImpactGouv: 0
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 22
   chanceToSpawn: 50
+  idPrerequis: 0
+  decisionPrerequis: 3
+  isSpecialLetter: 0

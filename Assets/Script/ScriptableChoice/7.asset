@@ -12,23 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 7
   m_EditorClassIdentifier: 
-  expediteur: "State newspaper \u201CEternal Glory to the Leader\u201D."
-  contentLetter: "Publish article claiming that the leader can \u201Ccommunicate
-    with birds\u201D"
-  accepteText: Hide it
+  expediteur: Propaganda Division
+  contentLetter: "This is a classic case of misinformation by rogue actors. Trust
+    us: everything you see online is simply a ploy to destabilize our great nation\u2019s
+    unity!"
+  accepteText: Publish it
   refuseText: Publish it
-  ImpactAcceptText: Many citizens find this claim ridiculous, further eroding the
-    credibility of propaganda
-  ImpactRefuseText: State propaganda temporarily gains popularity, though it provokes
-    some amused smiles
+  ImpactAcceptText: Keep it up and you'll soon be promoted !
+  ImpactRefuseText: Keep it up and you'll soon be promoted !
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
-  acceptImpactPeuple: 10
-  acceptImpactGouv: -10
+  acceptImpactPeuple: 0
+  acceptImpactGouv: 10
   refuseImpactCorp: 0
-  refuseImpactPeuple: -5
-  refuseImpactGouv: 5
+  refuseImpactPeuple: 0
+  refuseImpactGouv: 10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 7
-  chanceToSpawn: 50
+  chanceToSpawn: 100
+  idPrerequis: 6
+  decisionPrerequis: 0
+  isSpecialLetter: 0

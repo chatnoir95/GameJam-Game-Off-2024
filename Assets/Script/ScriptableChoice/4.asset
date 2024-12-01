@@ -12,23 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 4
   m_EditorClassIdentifier: 
-  expediteur: Security Division
-  contentLetter: All your emails to the Censorship Bureau have been collected by
-    hackers and circulated on Social Media
-  accepteText: Delete access to Social Media
-  refuseText: Plan a propaganda
-  ImpactAcceptText: People are in the street, all corporations send reprimands ...
-    but at least they don't talk about the hack at all
-  ImpactRefuseText: Streisand effect won't work if we reapeat that thoses hackers
-    are terrorist
+  expediteur: Old Lady
+  contentLetter: I can't keep up ith the new schedules
+  accepteText: Pass it on
+  refuseText: Leave her unsupported
+  ImpactAcceptText: You have been reprimanded.
+  ImpactRefuseText: She seems really sad.
   logoLetter: {fileID: 0}
   acceptImpactCorp: -10
-  acceptImpactPeuple: 10
-  acceptImpactGouv: 5
-  refuseImpactCorp: 0
-  refuseImpactPeuple: 0
-  refuseImpactGouv: 5
+  acceptImpactPeuple: 20
+  acceptImpactGouv: -20
+  refuseImpactCorp: 10
+  refuseImpactPeuple: -20
+  refuseImpactGouv: 10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 4
   chanceToSpawn: 50
+  idPrerequis: 2
+  decisionPrerequis: 1
+  isSpecialLetter: 0

@@ -12,23 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 59
   m_EditorClassIdentifier: 
-  expediteur: Head of the Censorship Bureau
-  contentLetter: Find the June 19 riot report, ensuring part of it is censored before
-    release
+  expediteur: University Council
+  contentLetter: Request revision of surveillance policies on campus in response
+    to student backlash
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Public receives censored information, lowering tension but sparking
-    rumors about transparency.
-  ImpactRefuseText: "Advisor suspects the government\u2019s inability to manage sensitive
-    information, risking leaks."
+  ImpactAcceptText: Policy adjustments calm protests, improving public perception.
+  ImpactRefuseText: Students intensify protests, claiming government suppression,
+    and media coverage spreads.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
-  acceptImpactPeuple: -5
-  acceptImpactGouv: 5
-  refuseImpactCorp: -5
-  refuseImpactPeuple: 10
-  refuseImpactGouv: -10
+  acceptImpactCorp: -10
+  acceptImpactPeuple: 20
+  acceptImpactGouv: 0
+  refuseImpactCorp: -20
+  refuseImpactPeuple: -20
+  refuseImpactGouv: -20
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 59
   chanceToSpawn: 50
+  idPrerequis: 58
+  decisionPrerequis: 0
+  isSpecialLetter: 0

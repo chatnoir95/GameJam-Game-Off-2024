@@ -22,13 +22,16 @@ MonoBehaviour:
   ImpactRefuseText: Board warns of public dissatisfaction, potentially sparking political
     backlash on energy policy.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 10
-  acceptImpactPeuple: 5
-  acceptImpactGouv: 5
-  refuseImpactCorp: -5
-  refuseImpactPeuple: -10
-  refuseImpactGouv: -10
+  acceptImpactCorp: 20
+  acceptImpactPeuple: -10
+  acceptImpactGouv: 10
+  refuseImpactCorp: -10
+  refuseImpactPeuple: -20
+  refuseImpactGouv: -20
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 76
   chanceToSpawn: 50
+  idPrerequis: 75
+  decisionPrerequis: 1
+  isSpecialLetter: 0

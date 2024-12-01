@@ -12,22 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 38
   m_EditorClassIdentifier: 
-  expediteur: Independant scientist
-  contentLetter: I discovered a Psaouludine variant possibly created by BioTech.
-  accepteText: Confront bioTech
-  refuseText: Eliminate witness
-  ImpactAcceptText: The corporation putts enormous pressure on the government, and
-    no investigation will begin.
-  ImpactRefuseText: Thank you for your cooperation. We'll take care of removing all
-    traces.
+  expediteur: New University Representative
+  contentLetter: Obtain a copy of the contract with OmniCorp and the plans for the
+    future university
+  accepteText: Yes
+  refuseText: No
+  ImpactAcceptText: Construction progresses, but questions are raised about contract
+    transparency.
+  ImpactRefuseText: The university suspects government obstruction, creating tension.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
-  acceptImpactPeuple: 0
-  acceptImpactGouv: 0
-  refuseImpactCorp: 0
-  refuseImpactPeuple: 0
-  refuseImpactGouv: 0
+  acceptImpactCorp: -20
+  acceptImpactPeuple: 10
+  acceptImpactGouv: 10
+  refuseImpactCorp: 20
+  refuseImpactPeuple: -20
+  refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 38
   chanceToSpawn: 50
+  idPrerequis: 0
+  decisionPrerequis: 3
+  isSpecialLetter: 0

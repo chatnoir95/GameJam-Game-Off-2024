@@ -12,21 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 19
   m_EditorClassIdentifier: 
-  expediteur: Minister of Right-Mindedness
-  contentLetter: "Announcing that the Leader eats only \u201Cpatriotic bread\u201D"
+  expediteur: Propaganda Division
+  contentLetter: "Publish an article explaining that the Leader invented \u201Cclean
+    air\u201D"
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: The population is intrigued, and bakers see their sales increase
-    despite the criticism.
-  ImpactRefuseText: The public mocks this eccentricity, calling the regime absurd.
+  ImpactAcceptText: Citizens ignore this proposal, mocking the rigidity of this new
+    patriotic requirement.
+  ImpactRefuseText: The population feels somewhat reassured, finding the situation
+    less absurd than usual.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
-  acceptImpactPeuple: 5
-  acceptImpactGouv: 0
-  refuseImpactCorp: 0
-  refuseImpactPeuple: 10
-  refuseImpactGouv: -5
+  acceptImpactPeuple: -10
+  acceptImpactGouv: 10
+  refuseImpactCorp: -10
+  refuseImpactPeuple: 20
+  refuseImpactGouv: -20
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 19
   chanceToSpawn: 50
+  idPrerequis: 0
+  decisionPrerequis: 3
+  isSpecialLetter: 0

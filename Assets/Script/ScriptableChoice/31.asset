@@ -12,23 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 31
   m_EditorClassIdentifier: 
-  expediteur: HappyLife Health Division
-  contentLetter: "Submit research request for CHIPS clinical trials to increase \u201Cvoluntary\u201D
-    participation rates."
+  expediteur: Propaganda Division
+  contentLetter: Demand the broadcasting of a documentary affirming that the leader
+    runs faster than any athlete.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Trials proceed smoothly, increasing interest, but privacy activists
-    denounce health data sharing.
-  ImpactRefuseText: Participation lags, creating delays and prompting HappyLife to
-    criticize government obstruction.
+  ImpactAcceptText: Sports propaganda temporarily increases enthusiasm, but the people
+    are doubtful.
+  ImpactRefuseText: Athletes openly express frustration, and some refuse to participate
+    in official competitions.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 10
+  acceptImpactCorp: 0
   acceptImpactPeuple: -10
-  acceptImpactGouv: 5
+  acceptImpactGouv: 10
   refuseImpactCorp: -10
-  refuseImpactPeuple: 5
-  refuseImpactGouv: -5
+  refuseImpactPeuple: -20
+  refuseImpactGouv: -20
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 31
   chanceToSpawn: 50
+  idPrerequis: 0
+  decisionPrerequis: 3
+  isSpecialLetter: 0

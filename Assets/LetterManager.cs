@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
-using static UnityEditor.Progress;
 using System.IO;
 
 public class LetterManager : MonoBehaviour
@@ -13,6 +12,8 @@ public class LetterManager : MonoBehaviour
     
     public List<ScriptableLetter> specialLetters = new List<ScriptableLetter>();
 
+    public List<ScriptableLetter> allLetter = new List<ScriptableLetter>();
+
     public Animator letterAnimator;
 
     public Text textAcceptButton, textRefuseButton, textContenueLettre, textExpediteur;
@@ -21,6 +22,7 @@ public class LetterManager : MonoBehaviour
 
     [SerializeField] private Image imageLogo;
 
+    public string folderPath = "Assets/Script/ScriptableChoice"; // path for all scriptable letter
 
     public static LetterManager instance;
     private void Awake()
@@ -31,9 +33,83 @@ public class LetterManager : MonoBehaviour
             return;
         }
         instance = this;
+        InitLetterList();
+       // LoadScriptablLetter(); // found all letter and put them on good list // this not work when we try to build the project
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    void Start()
+    {
+    
+
+        //CreateItemsFromCSV();
+
+        NouvelleLettre(GetSpecialLetter("IntroductionLetter")); // start the game with the introduction Letter
+        
+        //Debug.Log( TirageLettre().expediteur) ;
+    }
+    /*
+    public void LoadScriptablLetter() // take all letter and put them on allLetter List
+    {
+        allLetter.Clear(); // Vider la liste
+
+        // Obtenir tous les GUID des fichiers dans le dossier
+        string[] assetGUIDs = AssetDatabase.FindAssets($"t:{nameof(ScriptableLetter)}", new[] { folderPath });
+
+        foreach (string guid in assetGUIDs)
+        {
+            
+            // Convertir le GUID en chemin d'accès
+            string assetPath = AssetDatabase.GUIDToAssetPath(guid);
+           // Debug.Log(assetPath);
+
+            // Charger le ScriptableObject
+            ScriptableLetter letter = AssetDatabase.LoadAssetAtPath<ScriptableLetter>(assetPath);
+            //Debug.Log(asset);
+
+            if (letter != null)
+            {
+                allLetter.Add(letter);
+            }
+        }
+
+
+
+        Debug.Log($"Loaded {allLetter.Count} ScriptableObjects from {folderPath}");
+    }
+    */
+
+    public void InitLetterList()
+    {
+        foreach (ScriptableLetter letter in allLetter) // check if letter have a prerequis, if yes we add it to the good list of the prerequis letter 
+        {
+            if (letter.idPrerequis == 0 && !letter.isSpecialLetter) // check if letter as no prerequisite and is not a special letter (like tuto or game over letter)
+            {
+                lettreDisponibles.Add(letter);
+            }
+            else if (letter.isSpecialLetter)
+            {
+                specialLetters.Add(letter); // add special letter to the list, this list will be use for special letter (like game over or tuto)
+            }
+
+            if (letter.idPrerequis != 0)
+            {
+                if (letter.decisionPrerequis == 0)
+                {
+                    GetLetterById(letter.idPrerequis).refuseUnlockLetters.Clear();
+                    GetLetterById(letter.idPrerequis).refuseUnlockLetters.Add(letter);
+                }
+                else if (letter.decisionPrerequis == 1)
+                {
+                    GetLetterById(letter.idPrerequis).acceptUnlockLetters.Clear();
+                    GetLetterById(letter.idPrerequis).acceptUnlockLetters.Add(letter);
+                }
+
+            }
+
+        }
+    }
 
     public ScriptableLetter TirageLettre()
     {
@@ -122,6 +198,18 @@ public class LetterManager : MonoBehaviour
         return null;
     }
 
+    private ScriptableLetter GetLetterById(int id)
+    {
+        foreach (ScriptableLetter letter in allLetter)
+        {
+            if (letter.index == id)
+            { return letter; }
+        }
+
+        Debug.LogWarning("letter not found with id search");
+        return null;
+    }
+
     // EN COURS ON CLICK 
     public void AcceptButton()
     {
@@ -176,6 +264,8 @@ public class LetterManager : MonoBehaviour
         return text;
     }
 
+
+    /*
     [ContextMenu("Create Scriptable Objects From CSV")]
     public void CreateItemsFromCSV()
     {
@@ -210,10 +300,10 @@ public class LetterManager : MonoBehaviour
                 newItem.index = int.Parse(values[0]);
 
                 newItem.expediteur = ChangeSemicolon(values[3]);
-               // Debug.Log($"Created ScriptableObject for 3 {values[3]}");
+                // Debug.Log($"Created ScriptableObject for 3 {values[3]}");
                 newItem.contentLetter = ChangeSemicolon(values[4]);
                 newItem.accepteText = ChangeSemicolon(values[5]);
-                newItem.refuseText = ChangeSemicolon(values[6]) ;
+                newItem.refuseText = ChangeSemicolon(values[6]);
 
 
                 //Debug.Log($"Created ScriptableObject for 4 {values[4]}");
@@ -236,10 +326,21 @@ public class LetterManager : MonoBehaviour
                 newItem.ImpactAcceptText = ChangeSemicolon(values[14]);
                 newItem.ImpactRefuseText = ChangeSemicolon(values[15]);
 
+                if (values[2] != "")
+                {
+                    newItem.decisionPrerequis = int.Parse(values[2]);
+                }
+                else
+                {
+                    newItem.decisionPrerequis = 3;
+                }
+               
 
+                newItem.idPrerequis = int.Parse(values[1]);
                 // Ajout d'imbrication
                 newItem.acceptUnlockLetters = new List<ScriptableLetter>();
                 newItem.refuseUnlockLetters = new List<ScriptableLetter>();
+
 
                 // Saving the ScriptableObject as an asset
                 string assetPath = $"Assets/Script/ScriptableChoice/{values[0]}.asset";
@@ -252,10 +353,10 @@ public class LetterManager : MonoBehaviour
                     //Debug.Log("index a trouvé : " + values[1]);
                     for (int y = 0; y < lettreDisponibles.Count; y++)
                     {
-                      //  Debug.Log("check ID : " + lettreDisponibles[y].index);
+                        //  Debug.Log("check ID : " + lettreDisponibles[y].index);
                         if (lettreDisponibles[y].index == int.Parse(values[1]))
                         {
-                        //    Debug.Log("ID trouvé : " + lettreDisponibles[y].index);
+                            //    Debug.Log("ID trouvé : " + lettreDisponibles[y].index);
                             if (values[2] != "")
                             {
                                 if (int.Parse(values[2]) == 0)
@@ -275,10 +376,15 @@ public class LetterManager : MonoBehaviour
 
                     }
                 }
-                else { 
+                if (values[1] == "") 
+                {
+                    //newItem.startInPool = true; // this letter will be add on disponibleLetter list at the start // why this is not working with bool value ?
+                    //newItem.startPool = 1;
+                    Debug.Log(newItem.idPrerequis);
+                   lettreDisponibles.Add(newItem);  // si aucun prerequis on ajoute a la liste lettre dispo 
 
-                    lettreDisponibles.Add(newItem); } // si aucun prerequis on ajoute a la liste lettre dispo 
                 }
+            }
             catch (System.Exception ex)
             {
                 Debug.LogError($"Error parsing line {i + 1}: {csvLines[i]}\nException: {ex.Message}");
@@ -292,16 +398,7 @@ public class LetterManager : MonoBehaviour
     }
 
 
-    void Start()
-    {
-
-        CreateItemsFromCSV();
-
-        NouvelleLettre(TirageLettre());
-
-        //Debug.Log( TirageLettre().expediteur) ;
-    }
-
+    */
 
 
 

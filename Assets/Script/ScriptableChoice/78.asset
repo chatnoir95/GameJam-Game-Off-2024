@@ -12,21 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 78
   m_EditorClassIdentifier: 
-  expediteur: Health department
-  contentLetter: Do you agree to remove all the lifts for people ?
-  accepteText: Health first
-  refuseText: No
-  ImpactAcceptText: Health is the key
-  ImpactRefuseText: 'Fun fact: Because of the 80-hour work weeks, people only use
-    the elevator a maximum of twice a day. It is actually great for their health! '
+  expediteur: Guy
+  contentLetter: I still need money. A lot of people are dying on the street. Can
+    you give me the winning lottery ticket ?
+  accepteText: Give
+  refuseText: No way
+  ImpactAcceptText: People are not stupid. 3 times in a month Guy won at the lottery.
+    People's trust has fallen
+  ImpactRefuseText: A generous fund has been set up by the public to protest the
+    government's inhumanity in the face of all the people dying on the street,
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
-  acceptImpactPeuple: 0
+  acceptImpactPeuple: 60
   acceptImpactGouv: 0
-  refuseImpactCorp: 0
-  refuseImpactPeuple: 0
-  refuseImpactGouv: 0
+  refuseImpactCorp: -10
+  refuseImpactPeuple: -60
+  refuseImpactGouv: -30
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 78
-  chanceToSpawn: 50
+  chanceToSpawn: 20
+  idPrerequis: 40
+  decisionPrerequis: 1
+  isSpecialLetter: 0

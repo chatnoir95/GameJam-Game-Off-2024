@@ -12,22 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 39
   m_EditorClassIdentifier: 
-  expediteur: WASP AI Director
-  contentLetter: "Compare WASP\u2019s results with the positions of state submarines"
+  expediteur: OmniCorp Construction
+  contentLetter: Ask to expand contract to add additional facilities, citing future
+    university needs.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: WASP AI reinforces its status and naval security, though military
-    secrecy is affected.
-  ImpactRefuseText: WASP releases a statement on the lack of cooperation, affecting
-    perceptions of security.
+  ImpactAcceptText: "Expansion boosts OmniCorp\u2019s influence, but raises costs,
+    attracting criticism for overspending."
+  ImpactRefuseText: OmniCorp criticizes lack of support, slowing university project
+    progress, frustrating students.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 10
-  acceptImpactPeuple: -5
-  acceptImpactGouv: 5
-  refuseImpactCorp: -5
+  acceptImpactCorp: 20
+  acceptImpactPeuple: -20
+  acceptImpactGouv: 10
+  refuseImpactCorp: -20
   refuseImpactPeuple: 10
   refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 39
   chanceToSpawn: 50
+  idPrerequis: 38
+  decisionPrerequis: 1
+  isSpecialLetter: 0

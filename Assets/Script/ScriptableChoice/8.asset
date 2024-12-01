@@ -12,22 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 8
   m_EditorClassIdentifier: 
-  expediteur: Group of Indignant Mothers
-  contentLetter: Publish real figures on school success rates, suspected of being
-    exaggerated
-  accepteText: Hide it
+  expediteur: Propaganda Division
+  contentLetter: Traitors who undermine our authority are everywhere hiding in plain
+    sight. Their recklessness endangers you all and justice will be swift severe
+    and unmistakable.
+  accepteText: Publish it
   refuseText: Publish it
-  ImpactAcceptText: Mothers mobilize, challenging the truth of official school success
-    rates
-  ImpactRefuseText: Mothers are reassured, but the Ministry of Education loses credibility
+  ImpactAcceptText: We're going to send an intervention team
+  ImpactRefuseText: We're going to send an intervention team
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
-  acceptImpactPeuple: -10
-  acceptImpactGouv: 5
+  acceptImpactPeuple: -20
+  acceptImpactGouv: 10
   refuseImpactCorp: 0
-  refuseImpactPeuple: 10
-  refuseImpactGouv: -5
+  refuseImpactPeuple: -20
+  refuseImpactGouv: 10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 8
-  chanceToSpawn: 50
+  chanceToSpawn: 100
+  idPrerequis: 6
+  decisionPrerequis: 1
+  isSpecialLetter: 0

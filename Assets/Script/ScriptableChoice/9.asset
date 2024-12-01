@@ -12,22 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 9
   m_EditorClassIdentifier: 
-  expediteur: Minister of Education
-  contentLetter: Modify reports to ensure 99% school success rate
-  accepteText: Yes
-  refuseText: No
-  ImpactAcceptText: '"""Perfect standards"" are maintained, but the population grows
-    increasingly skeptical"'
-  ImpactRefuseText: The transparency of figures is praised by citizens, though it
-    weakens the ministry
+  expediteur: Propaganda Division
+  contentLetter: The people recognize themselves in one man, Guy. He has become the
+    people's guide.
+  accepteText: OK
+  refuseText: OK
+  ImpactAcceptText: We hope we can control him.
+  ImpactRefuseText: We hope we can control him.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
-  acceptImpactPeuple: -10
-  acceptImpactGouv: 10
-  refuseImpactCorp: 0
-  refuseImpactPeuple: 10
-  refuseImpactGouv: -5
+  acceptImpactCorp: 10
+  acceptImpactPeuple: 30
+  acceptImpactGouv: 20
+  refuseImpactCorp: 10
+  refuseImpactPeuple: 30
+  refuseImpactGouv: 20
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 9
-  chanceToSpawn: 50
+  chanceToSpawn: 20
+  idPrerequis: 0
+  decisionPrerequis: 3
+  isSpecialLetter: 0

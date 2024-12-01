@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: HightPeuple
   m_EditorClassIdentifier: 
-  expediteur: 'Hight people '
-  contentLetter: lose Hight rep people
+  expediteur: Propaganda Division
+  contentLetter: You are too popular. It seems you forgot that the only one who can
+    get the love and admiration of the people is our glorious President.
   accepteText: 'lose '
   refuseText: lose
+  ImpactAcceptText: 
+  ImpactRefuseText: 
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
   acceptImpactPeuple: 0
@@ -27,3 +30,5 @@ MonoBehaviour:
   refuseUnlockLetters: []
   index: 0
   chanceToSpawn: 80
+  idPrerequis: 0
+  isSpecialLetter: 1

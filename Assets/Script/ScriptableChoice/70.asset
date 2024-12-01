@@ -19,13 +19,16 @@ MonoBehaviour:
   ImpactAcceptText: Very well, you'll be able to help us longer at the Office.
   ImpactRefuseText: Very well, you'll be able to help us longer at the Office.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: -5
-  acceptImpactPeuple: -5
-  acceptImpactGouv: 10
+  acceptImpactCorp: 0
+  acceptImpactPeuple: 0
+  acceptImpactGouv: 20
   refuseImpactCorp: 0
   refuseImpactPeuple: 0
-  refuseImpactGouv: 0
+  refuseImpactGouv: 20
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 70
   chanceToSpawn: 50
+  idPrerequis: 69
+  decisionPrerequis: 1
+  isSpecialLetter: 0

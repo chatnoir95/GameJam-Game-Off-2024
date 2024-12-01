@@ -12,22 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 53
   m_EditorClassIdentifier: 
-  expediteur: HappyLife CEO
-  contentLetter: Access to citizens' medical data for CHIPS commercialization
+  expediteur: WASP AI Director
+  contentLetter: Access to government servers to improve the CHIPS project
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: HappyLife increases sales, though medical privacy is compromised,
-    drawing criticism.
-  ImpactRefuseText: HappyLife launches a campaign accusing the government of holding
-    back medical advances.
+  ImpactAcceptText: The project progresses, tech lobbies are pleased, but some citizens
+    feel over-monitored.
+  ImpactRefuseText: WASP criticizes lack of support for progress, threatening to
+    reduce government projects.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 10
-  acceptImpactPeuple: 10
-  acceptImpactGouv: -5
-  refuseImpactCorp: -5
-  refuseImpactPeuple: 5
+  acceptImpactCorp: 20
+  acceptImpactPeuple: -30
+  acceptImpactGouv: -10
+  refuseImpactCorp: -10
+  refuseImpactPeuple: 10
   refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 53
   chanceToSpawn: 50
+  idPrerequis: 0
+  decisionPrerequis: 3
+  isSpecialLetter: 0

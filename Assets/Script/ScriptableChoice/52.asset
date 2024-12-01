@@ -12,23 +12,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 52
   m_EditorClassIdentifier: 
-  expediteur: WASP AI Director
-  contentLetter: Request alternative methods for limited data access via third-party
-    analysis, avoiding direct servers.
-  accepteText: Yes
-  refuseText: No
-  ImpactAcceptText: Public perception of privacy protection improves, though effectiveness
-    of WASP AI is limited.
-  ImpactRefuseText: WASP AI insists on full access, threatening to expose government
-    inefficiencies.
+  expediteur: Belgium News
+  contentLetter: The ISS has just crashed into the Belgium power plant. An automatic
+    state meeting is held with no one present, since everyone is dead. To be continued..
+    or not
+  accepteText: Ok
+  refuseText: Ok
+  ImpactAcceptText: People are suspicious about this story, but no one care about
+    Belgium
+  ImpactRefuseText: People are suspicious about this story, but no one care about
+    Belgium
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 5
-  acceptImpactPeuple: 5
-  acceptImpactGouv: 5
-  refuseImpactCorp: -10
-  refuseImpactPeuple: -5
-  refuseImpactGouv: -5
+  acceptImpactCorp: 30
+  acceptImpactPeuple: -10
+  acceptImpactGouv: -10
+  refuseImpactCorp: 30
+  refuseImpactPeuple: -10
+  refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 52
-  chanceToSpawn: 50
+  chanceToSpawn: 100
+  idPrerequis: 51
+  decisionPrerequis: 1
+  isSpecialLetter: 0

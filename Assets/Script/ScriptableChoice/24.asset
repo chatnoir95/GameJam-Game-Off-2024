@@ -12,23 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 24
   m_EditorClassIdentifier: 
-  expediteur: 'Propaganda Division '
-  contentLetter: "Publish study claiming that the Leader \u201Cpossesses an innate
-    superior intellect\u201D"
-  accepteText: Yes
-  refuseText: No
-  ImpactAcceptText: The public, though skeptical, is forced to acknowledge this myth
-    to avoid repercussions.
-  ImpactRefuseText: The council sees this as an insult, leading to a smear campaign
-    against dissenters.
+  expediteur: Guy
+  contentLetter: I still need money. My dog died today and I want to give him the
+    best possible funeral. Can you give me the winning lottery ticket ?
+  accepteText: Give
+  refuseText: No way
+  ImpactAcceptText: Guy thanks you
+  ImpactRefuseText: A generous fund has been set up by the public to protest the
+    government's inhumanity in the face of the dog's death.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 10
-  acceptImpactPeuple: -10
-  acceptImpactGouv: 10
-  refuseImpactCorp: -5
-  refuseImpactPeuple: 10
-  refuseImpactGouv: -10
+  acceptImpactCorp: 0
+  acceptImpactPeuple: 30
+  acceptImpactGouv: 0
+  refuseImpactCorp: -10
+  refuseImpactPeuple: -30
+  refuseImpactGouv: -30
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 24
-  chanceToSpawn: 50
+  chanceToSpawn: 20
+  idPrerequis: 18
+  decisionPrerequis: 1
+  isSpecialLetter: 0

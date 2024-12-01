@@ -10,17 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
-  m_Name: 6
+  m_Name: IntroductionLetter
   m_EditorClassIdentifier: 
-  expediteur: Propaganda Division
-  contentLetter: "We've been asked to prepare a propaganda plan regarding all the
-    messages you've had with the Censorship Bureau. We have thought of two plans\u2014what
-    would you prefer?"
-  accepteText: Blood propaganda
-  refuseText: Soft propaganda
-  ImpactAcceptText: People are in front of the Office's building. The government
-    must violently repress the demonstration
-  ImpactRefuseText: As usual the propaganda works !
+  expediteur: Minister of Secret
+  contentLetter: 'Welcome, Administrator. Your job here is to manage access to information
+    and secrets in our glorious country. Your choices will have consequences for
+    the three major factions of the country: the Lobby, the People, and the Government.
+    If your reputation becomes too low or too high, you will be fired. Good luck,
+    Administrator.'
+  accepteText: Start
+  refuseText: Start
+  ImpactAcceptText: 
+  ImpactRefuseText: 
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
   acceptImpactPeuple: 0
@@ -30,8 +31,7 @@ MonoBehaviour:
   refuseImpactGouv: 0
   acceptUnlockLetters: []
   refuseUnlockLetters: []
-  index: 6
-  chanceToSpawn: 50
-  idPrerequis: 5
-  decisionPrerequis: 0
-  isSpecialLetter: 0
+  index: 0
+  chanceToSpawn: 80
+  idPrerequis: 0
+  isSpecialLetter: 1

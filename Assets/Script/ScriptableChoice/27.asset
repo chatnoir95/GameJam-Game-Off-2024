@@ -12,23 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 27
   m_EditorClassIdentifier: 
-  expediteur: WASP AI Director
-  contentLetter: Provide the security code for the nuclear power plant to test system
-    resilience
+  expediteur: Minister of Agriculture
+  contentLetter: Organize an agricultural festival in the Leader's honor to correct
+    tension with farmers
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: WASP AI assesses the systems, enhancing security and avoiding
-    incidents.
-  ImpactRefuseText: WASP AI threatens to publish a report on poor nuclear safety
-    transparency.
+  ImpactAcceptText: Farmers regain confidence, though the public sees it as a waste
+    of resources.
+  ImpactRefuseText: Farmers express their discontent, leading to shortages in some
+    areas.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
-  acceptImpactPeuple: -5
-  acceptImpactGouv: 5
+  acceptImpactPeuple: 30
+  acceptImpactGouv: 30
   refuseImpactCorp: 0
-  refuseImpactPeuple: 5
-  refuseImpactGouv: -10
+  refuseImpactPeuple: -20
+  refuseImpactGouv: -20
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 27
   chanceToSpawn: 50
+  idPrerequis: 26
+  decisionPrerequis: 0
+  isSpecialLetter: 0

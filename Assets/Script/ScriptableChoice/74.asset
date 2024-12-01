@@ -21,13 +21,16 @@ MonoBehaviour:
   ImpactRefuseText: Ministry criticizes lack of cooperation, threatening energy inefficiencies
     in the capital.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 5
-  acceptImpactPeuple: -5
-  acceptImpactGouv: 10
+  acceptImpactCorp: 10
+  acceptImpactPeuple: -20
+  acceptImpactGouv: 20
   refuseImpactCorp: 0
   refuseImpactPeuple: 10
-  refuseImpactGouv: -10
+  refuseImpactGouv: -20
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 74
   chanceToSpawn: 50
+  idPrerequis: 0
+  decisionPrerequis: 3
+  isSpecialLetter: 0

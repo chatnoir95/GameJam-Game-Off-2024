@@ -12,23 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 36
   m_EditorClassIdentifier: 
-  expediteur: "BioTech Hexar\xE8s Laboratory"
-  contentLetter: Request expedited approval to start clinical trials on the adapted
-    Psaouludine formula.
+  expediteur: HappyLife Health Division
+  contentLetter: "Submit research request for CHIPS clinical trials to increase \u201Cvoluntary\u201D
+    participation rates."
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Clinical trials start, satisfying lobbyists, though citizens
-    worry about safety shortcuts.
-  ImpactRefuseText: "Hexar\xE8s threatens to relocate research efforts abroad, causing
-    economic and scientific setbacks."
+  ImpactAcceptText: Trials proceed smoothly, increasing interest, but privacy activists
+    denounce health data sharing.
+  ImpactRefuseText: Participation lags, creating delays and prompting HappyLife to
+    criticize government obstruction.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 10
-  acceptImpactPeuple: -10
+  acceptImpactCorp: 20
+  acceptImpactPeuple: -20
   acceptImpactGouv: 10
-  refuseImpactCorp: -5
+  refuseImpactCorp: -20
   refuseImpactPeuple: 10
   refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 36
   chanceToSpawn: 50
+  idPrerequis: 35
+  decisionPrerequis: 1
+  isSpecialLetter: 0

@@ -12,23 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 60
   m_EditorClassIdentifier: 
-  expediteur: Media Relations Office
-  contentLetter: Request access to uncensored riot information to prevent rumors
-    and manage media.
+  expediteur: National Student Union
+  contentLetter: Demand public oversight of surveillance measures to ensure privacy
+    on university campuses
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Media releases detailed information, calming the public but raising
-    concerns about control.
-  ImpactRefuseText: "Media doubts government\u2019s transparency, risking negative
-    press and public mistrust."
+  ImpactAcceptText: Oversight is implemented, pacifying students but prompting debates
+    over academic independence.
+  ImpactRefuseText: Students threaten widespread protests, accusing the government
+    of oppression.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: -5
-  acceptImpactPeuple: 5
-  acceptImpactGouv: -10
-  refuseImpactCorp: -5
-  refuseImpactPeuple: -5
-  refuseImpactGouv: 10
+  acceptImpactCorp: -10
+  acceptImpactPeuple: 20
+  acceptImpactGouv: 0
+  refuseImpactCorp: -20
+  refuseImpactPeuple: -20
+  refuseImpactGouv: -20
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 60
   chanceToSpawn: 50
+  idPrerequis: 59
+  decisionPrerequis: 1
+  isSpecialLetter: 0

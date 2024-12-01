@@ -12,23 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 43
   m_EditorClassIdentifier: 
-  expediteur: NewEden Space Station Director
-  contentLetter: "Access to the International Space Station\u2019s safety protocols
-    for refueling in emergencies"
-  accepteText: Give it
-  refuseText: No way
-  ImpactAcceptText: NewEden improves its security, though some criticize the concessions
-    made.
-  ImpactRefuseText: NewEden threatens to withdraw from space agreements, causing
-    international tensions.
+  expediteur: "BioTech Hexar\xE8s Laboratory"
+  contentLetter: Request expedited approval to start clinical trials on the adapted
+    Psaouludine formula.
+  accepteText: Yes
+  refuseText: No
+  ImpactAcceptText: Clinical trials start, satisfying lobbyists, though citizens
+    worry about safety shortcuts.
+  ImpactRefuseText: "Hexar\xE8s threatens to relocate research efforts abroad, causing
+    economic and scientific setbacks."
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 10
-  acceptImpactPeuple: -5
-  acceptImpactGouv: 5
-  refuseImpactCorp: 0
-  refuseImpactPeuple: 10
-  refuseImpactGouv: -10
+  acceptImpactCorp: 20
+  acceptImpactPeuple: -20
+  acceptImpactGouv: 20
+  refuseImpactCorp: -10
+  refuseImpactPeuple: 20
+  refuseImpactGouv: -20
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 43
   chanceToSpawn: 50
+  idPrerequis: 42
+  decisionPrerequis: 1
+  isSpecialLetter: 0

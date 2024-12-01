@@ -12,23 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 54
   m_EditorClassIdentifier: 
-  expediteur: HappyLife CEO
-  contentLetter: Make a secret deal with the Ministry of Welfare to make CHIPS implants
-    mandatory
+  expediteur: WASP AI Director
+  contentLetter: Request alternative methods for limited data access via third-party
+    analysis, avoiding direct servers.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: "The Ministry agrees, sparking protests, though HappyLife\u2019s
-    influence increases."
-  ImpactRefuseText: HappyLife threatens to scale down operations, creating an economic
-    impact.
+  ImpactAcceptText: Public perception of privacy protection improves, though effectiveness
+    of WASP AI is limited.
+  ImpactRefuseText: WASP AI insists on full access, threatening to expose government
+    inefficiencies.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 5
-  acceptImpactPeuple: -10
+  acceptImpactCorp: 10
+  acceptImpactPeuple: 10
   acceptImpactGouv: 10
-  refuseImpactCorp: 0
-  refuseImpactPeuple: 10
-  refuseImpactGouv: -5
+  refuseImpactCorp: -20
+  refuseImpactPeuple: -10
+  refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 54
   chanceToSpawn: 50
+  idPrerequis: 53
+  decisionPrerequis: 0
+  isSpecialLetter: 0

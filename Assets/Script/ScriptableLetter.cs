@@ -12,6 +12,9 @@ public class ScriptableLetter : ScriptableObject
 
     public List<ScriptableLetter> acceptUnlockLetters, refuseUnlockLetters;
 
-    public int index = 50, chanceToSpawn;
+    public int index, chanceToSpawn = 50, idPrerequis, decisionPrerequis;
+    public bool isSpecialLetter;
+
+    //public bool startInPool;
 
 }

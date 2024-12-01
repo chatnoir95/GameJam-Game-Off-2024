@@ -12,23 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 28
   m_EditorClassIdentifier: 
-  expediteur: WASP AI Director
-  contentLetter: Request additional testing by WASP AI on the nuclear plant based
-    on prior findings.
+  expediteur: Propaganda Division
+  contentLetter: "Announce that the leader has invented a \u201Cnew meditation technique\u201D"
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Testing reveals security gaps, reassuring the public about enhanced
-    safety efforts.
-  ImpactRefuseText: Committee complains about gaps remaining unaddressed, sparking
-    public fears over nuclear safety.
+  ImpactAcceptText: The people are impressed by this supposed wisdom, despite a few
+    amused smiles.
+  ImpactRefuseText: The public openly mocks this announcement, which strongly irritates
+    the ministry.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 5
-  acceptImpactPeuple: 10
-  acceptImpactGouv: 5
-  refuseImpactCorp: -5
+  acceptImpactCorp: 0
+  acceptImpactPeuple: 20
+  acceptImpactGouv: 10
+  refuseImpactCorp: 0
   refuseImpactPeuple: -10
-  refuseImpactGouv: -10
+  refuseImpactGouv: -20
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 28
   chanceToSpawn: 50
+  idPrerequis: 0
+  decisionPrerequis: 3
+  isSpecialLetter: 0

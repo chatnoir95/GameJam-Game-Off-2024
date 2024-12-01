@@ -12,22 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 16
   m_EditorClassIdentifier: 
-  expediteur: Ministry of the Environment
-  contentLetter: Ban the production of fans and air conditioners
+  expediteur: Minister of Right-Mindedness
+  contentLetter: "Announce that the Leader is launching a new fashion trend of \u201Ccompulsory
+    plain socks\u201D"
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Citizens are forced to adapt, though the ministry loses credibility
-    over its decisions.
-  ImpactRefuseText: The public finds it ridiculous and questions the management of
-    essential goods.
+  ImpactAcceptText: Plain socks become a patriotic symbol, though they spark some
+    popular mockery.
+  ImpactRefuseText: The public is pleased with the lack of strict dress code, feeling
+    generally relieved.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
+  acceptImpactCorp: 10
   acceptImpactPeuple: -10
-  acceptImpactGouv: 5
-  refuseImpactCorp: 0
-  refuseImpactPeuple: 10
+  acceptImpactGouv: 30
+  refuseImpactCorp: -10
+  refuseImpactPeuple: 20
   refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 16
   chanceToSpawn: 50
+  idPrerequis: 0
+  decisionPrerequis: 3
+  isSpecialLetter: 0

@@ -12,22 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 23
   m_EditorClassIdentifier: 
-  expediteur: 'Propaganda Division '
-  contentLetter: "Announce that the leader has invented a \u201Cnew meditation technique\u201D"
+  expediteur: Minister of Right-Mindedness
+  contentLetter: "Announcing that the Leader eats only \u201Cpatriotic bread\u201D"
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: The people are impressed by this supposed wisdom, despite a few
-    amused smiles.
-  ImpactRefuseText: The public openly mocks this announcement, which strongly irritates
-    the ministry.
+  ImpactAcceptText: The population is intrigued, and bakers see their sales increase
+    despite the criticism.
+  ImpactRefuseText: The public mocks this eccentricity, calling the regime absurd.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
-  acceptImpactPeuple: 5
-  acceptImpactGouv: 10
-  refuseImpactCorp: -5
-  refuseImpactPeuple: 10
-  refuseImpactGouv: -10
+  acceptImpactPeuple: 10
+  acceptImpactGouv: 20
+  refuseImpactCorp: 0
+  refuseImpactPeuple: -20
+  refuseImpactGouv: -20
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 23
   chanceToSpawn: 50
+  idPrerequis: 0
+  decisionPrerequis: 3
+  isSpecialLetter: 0

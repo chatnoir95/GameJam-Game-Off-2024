@@ -12,22 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 82
   m_EditorClassIdentifier: 
-  expediteur: Guy
-  contentLetter: I need some money could you give me the winning ticket of the next
-    lotery ?
-  accepteText: 'Give '
-  refuseText: No way
-  ImpactAcceptText: "Ren\xE9 thanks you"
-  ImpactRefuseText: "After a filmed speech by Ren\xE9. All the people's confidence
-    in our wonderful government fell"
+  expediteur: Fact news
+  contentLetter: Due to the new law that removes lifts for everyone. Impaired people
+    are contesting in the street. In anycase they can't go anywhere else..
+  accepteText: Ok
+  refuseText: Sorry
+  ImpactAcceptText: This is an important public health measure.
+  ImpactRefuseText: You're job isn't to give youre opinion.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
-  acceptImpactPeuple: 0
-  acceptImpactGouv: -5
-  refuseImpactCorp: 0
-  refuseImpactPeuple: -20
-  refuseImpactGouv: 5
+  acceptImpactPeuple: -30
+  acceptImpactGouv: 10
+  refuseImpactCorp: -30
+  refuseImpactPeuple: -30
+  refuseImpactGouv: -30
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 82
-  chanceToSpawn: 20
+  chanceToSpawn: 100
+  idPrerequis: 80
+  decisionPrerequis: 1
+  isSpecialLetter: 0

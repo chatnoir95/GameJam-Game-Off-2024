@@ -12,23 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 13
   m_EditorClassIdentifier: 
-  expediteur: Minister of Right-Mindedness
-  contentLetter: "Announce that the Leader is launching a new fashion trend of \u201Ccompulsory
-    plain socks\u201D"
+  expediteur: Minister of Education
+  contentLetter: Modify reports to ensure 99% school success rate
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Plain socks become a patriotic symbol, though they spark some
-    popular mockery.
-  ImpactRefuseText: The public is pleased with the lack of strict dress code, feeling
-    generally relieved.
+  ImpactAcceptText: '"""Perfect standards"" are maintained, but the population grows
+    increasingly skeptical"'
+  ImpactRefuseText: The transparency of figures is praised by citizens, though it
+    weakens the ministry
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 10
-  acceptImpactPeuple: 5
-  acceptImpactGouv: -5
+  acceptImpactCorp: 0
+  acceptImpactPeuple: -10
+  acceptImpactGouv: 20
   refuseImpactCorp: 0
-  refuseImpactPeuple: 10
-  refuseImpactGouv: 0
+  refuseImpactPeuple: 20
+  refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 13
   chanceToSpawn: 50
+  idPrerequis: 12
+  decisionPrerequis: 1
+  isSpecialLetter: 0

@@ -12,23 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 66
   m_EditorClassIdentifier: 
-  expediteur: Nuclear Defense Office
-  contentLetter: Recover and deliver lost launch codes for the nuclear suitcase to
-    ensure readiness
+  expediteur: Anti-Resistance Task Force
+  contentLetter: Further surveillance on suspected Resistants, expand report for
+    additional insights.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Defense feels reassured, though public becomes uneasy about nuclear
-    handling.
-  ImpactRefuseText: Public outcry ensues over potential incompetence, weakening government
-    trust.
+  ImpactAcceptText: Government expands monitoring, boosting control but sparking
+    public protest over invasive methods.
+  ImpactRefuseText: Task force accuses government of neglect, hinting at potential
+    sabotage or resistance growth.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
-  acceptImpactPeuple: -10
-  acceptImpactGouv: 5
-  refuseImpactCorp: -5
-  refuseImpactPeuple: 10
-  refuseImpactGouv: -5
+  acceptImpactPeuple: -20
+  acceptImpactGouv: 20
+  refuseImpactCorp: -10
+  refuseImpactPeuple: 20
+  refuseImpactGouv: -20
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 66
   chanceToSpawn: 50
+  idPrerequis: 65
+  decisionPrerequis: 1
+  isSpecialLetter: 0

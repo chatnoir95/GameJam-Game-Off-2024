@@ -12,22 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 10
   m_EditorClassIdentifier: 
-  expediteur: Head of the Censorship Bureau
-  contentLetter: Confiscate telephones containing satirical memes about the regime
-  accepteText: Yes
-  refuseText: No
-  ImpactAcceptText: The regime tightens its control, but mistrust of government surveillance
-    grows.
-  ImpactRefuseText: The population breathes a sigh of relief, rumors of state surveillance
-    are defused.
+  expediteur: Association of cooker
+  contentLetter: "Lobsters Case : Hiding a report showing that \u201Cstrategic planning\u201D
+    meetings consist of luxurious meals"
+  accepteText: Hide it
+  refuseText: Publish it
+  ImpactAcceptText: Loyalty among leaders is reinforced, even though citizens suspect
+    unjustified spending
+  ImpactRefuseText: The population is shocked but admires the transparency, leading
+    to increased trust
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
-  acceptImpactPeuple: -5
+  acceptImpactPeuple: 10
   acceptImpactGouv: 10
   refuseImpactCorp: 0
-  refuseImpactPeuple: 5
-  refuseImpactGouv: -5
+  refuseImpactPeuple: 20
+  refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 10
   chanceToSpawn: 50
+  idPrerequis: 0
+  decisionPrerequis: 3
+  isSpecialLetter: 0

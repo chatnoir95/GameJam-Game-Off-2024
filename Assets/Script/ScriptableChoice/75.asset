@@ -22,13 +22,16 @@ MonoBehaviour:
   ImpactRefuseText: Lobby withdraws support, risking energy inefficiencies and negative
     public perception.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 10
-  acceptImpactPeuple: -5
-  acceptImpactGouv: 10
-  refuseImpactCorp: -10
-  refuseImpactPeuple: 10
-  refuseImpactGouv: -5
+  acceptImpactCorp: 20
+  acceptImpactPeuple: -10
+  acceptImpactGouv: 20
+  refuseImpactCorp: -20
+  refuseImpactPeuple: -20
+  refuseImpactGouv: -30
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 75
   chanceToSpawn: 50
+  idPrerequis: 74
+  decisionPrerequis: 1
+  isSpecialLetter: 0

@@ -12,23 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 1
   m_EditorClassIdentifier: 
-  expediteur: Propaganda Division
-  contentLetter: "Publish a false report claiming that the Supreme Leader invented
-    the concept of \u201Chard work\u201D"
+  expediteur: The office
+  contentLetter: First, we want you to fire Jocelyne.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: '"The people are temporarily impressed by the Leader''s ""wisdom,""
-    even if the information seems doubtful"'
-  ImpactRefuseText: Citizens, tired of propaganda, lose a little more trust in the
-    regime
+  ImpactAcceptText: Good luck in your new job.
+  ImpactRefuseText: We can't trust you, we won't keep you. Good bye.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 0
-  acceptImpactPeuple: 5
-  acceptImpactGouv: 0
+  acceptImpactPeuple: 0
+  acceptImpactGouv: 30
   refuseImpactCorp: 0
-  refuseImpactPeuple: -5
-  refuseImpactGouv: 0
+  refuseImpactPeuple: 0
+  refuseImpactGouv: -200
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 1
   chanceToSpawn: 50
+  idPrerequis: 0
+  decisionPrerequis: 3
+  isSpecialLetter: 0

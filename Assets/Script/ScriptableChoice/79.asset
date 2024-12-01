@@ -12,20 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 79
   m_EditorClassIdentifier: 
-  expediteur: Old Lady
-  contentLetter: I lost 30 min each time I acces my flat ...
-  accepteText: Relocate to her place of work
-  refuseText: Leave her unsupported
-  ImpactAcceptText: Now she can spend more time at work.
-  ImpactRefuseText: She seems really sad. Like really sad.
+  expediteur: Food department
+  contentLetter: Do you like hot chocolate or coffee ?
+  accepteText: Hot chocolate
+  refuseText: Coffee
+  ImpactAcceptText: Everyone in our country prefers chocolate
+  ImpactRefuseText: Everyone in our country prefers chocolate
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
-  acceptImpactPeuple: 0
-  acceptImpactGouv: 0
-  refuseImpactCorp: 0
-  refuseImpactPeuple: 0
-  refuseImpactGouv: 0
+  acceptImpactCorp: 30
+  acceptImpactPeuple: 30
+  acceptImpactGouv: 30
+  refuseImpactCorp: -30
+  refuseImpactPeuple: -30
+  refuseImpactGouv: -30
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 79
   chanceToSpawn: 50
+  idPrerequis: 0
+  decisionPrerequis: 3
+  isSpecialLetter: 0

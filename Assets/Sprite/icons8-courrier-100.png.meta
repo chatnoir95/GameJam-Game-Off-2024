@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      icons8-courrier-100_0: 7042648008501403995
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

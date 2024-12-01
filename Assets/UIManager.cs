@@ -1,9 +1,6 @@
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using static UnityEditor.Progress;
-using System.IO;
 using System.Collections;
 using System;
 

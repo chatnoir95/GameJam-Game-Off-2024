@@ -12,22 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 84
   m_EditorClassIdentifier: 
-  expediteur: Guy
-  contentLetter: I still need money. My dog died today and I want to give him the
-    best possible funeral. Can you give me the winning lottery ticket ?
-  accepteText: 'Give '
-  refuseText: No way
-  ImpactAcceptText: "Ren\xE9 thanks you"
-  ImpactRefuseText: A generous fund has been set up by the public to protest the
-    government's inhumanity in the face of the dog's death.
+  expediteur: A revolutionary
+  contentLetter: The Old Lady you didn't care about, she died because of you ! People
+    are united and considere her as the Great Martyre f the Nation.
+  accepteText: "\u2026"
+  refuseText: "\u2026"
+  ImpactAcceptText: The people are fighting to regain power and depose the government
+    and all corporations.
+  ImpactRefuseText: The people are fighting to regain power and depose the government
+    and all corporations.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 0
-  acceptImpactPeuple: 0
-  acceptImpactGouv: -5
-  refuseImpactCorp: 0
-  refuseImpactPeuple: -20
-  refuseImpactGouv: 5
+  acceptImpactCorp: -200
+  acceptImpactPeuple: 200
+  acceptImpactGouv: -200
+  refuseImpactCorp: -200
+  refuseImpactPeuple: 200
+  refuseImpactGouv: -200
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 84
-  chanceToSpawn: 20
+  chanceToSpawn: 50
+  idPrerequis: 78
+  decisionPrerequis: 0
+  isSpecialLetter: 0

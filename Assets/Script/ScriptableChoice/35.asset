@@ -12,22 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 35
   m_EditorClassIdentifier: 
-  expediteur: "BioTech Hexar\xE8s Laboratory"
-  contentLetter: Access to the Psaouludine drug formula to adapt it
+  expediteur: HappyLife CEO
+  contentLetter: "Seek indirect access to citizen data by partnering with the health
+    ministry\u2019s outreach program."
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Pharmaceutical lobby increases support, though doctors criticize
-    the rapid distribution.
-  ImpactRefuseText: "Hexar\xE8s accuses the government of favoring unequal competition,
-    creating tensions."
+  ImpactAcceptText: "Partnership boosts HappyLife\u2019s CHIPS project with wider
+    acceptance."
+  ImpactRefuseText: HappyLife retaliates, launching an anti-government campaign to
+    sway public opinion.
   logoLetter: {fileID: 0}
   acceptImpactCorp: 10
   acceptImpactPeuple: 10
-  acceptImpactGouv: -5
-  refuseImpactCorp: 0
-  refuseImpactPeuple: 5
+  acceptImpactGouv: 20
+  refuseImpactCorp: -10
+  refuseImpactPeuple: -20
   refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 35
   chanceToSpawn: 50
+  idPrerequis: 34
+  decisionPrerequis: 0
+  isSpecialLetter: 0

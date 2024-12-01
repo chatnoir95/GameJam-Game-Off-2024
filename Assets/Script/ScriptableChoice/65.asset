@@ -12,23 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 65
   m_EditorClassIdentifier: 
-  expediteur: Task Force Director
-  contentLetter: Demand full control over anti-Resistance operations for greater
-    efficiency.
+  expediteur: Security DivisionAnti-Resistance Task Force
+  contentLetter: Release the investigation report on the Resistants to prepare further
+    crackdowns on gatherings.
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Director enhances surveillance, but public protests grow over
-    alleged authoritarian measures.
-  ImpactRefuseText: Director accuses government of obstructing security efforts,
-    risking dissent and lack of control.
+  ImpactAcceptText: Security forces intensify controls, boosting government power
+    but drawing criticism for heavy tactics.
+  ImpactRefuseText: Security suspects lack of commitment to safety, intensifying
+    scrutiny on government stability.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 5
-  acceptImpactPeuple: -10
-  acceptImpactGouv: 5
-  refuseImpactCorp: -5
+  acceptImpactCorp: 10
+  acceptImpactPeuple: -20
+  acceptImpactGouv: 20
+  refuseImpactCorp: -10
   refuseImpactPeuple: 10
-  refuseImpactGouv: -10
+  refuseImpactGouv: -20
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 65
   chanceToSpawn: 50
+  idPrerequis: 0
+  decisionPrerequis: 3
+  isSpecialLetter: 0

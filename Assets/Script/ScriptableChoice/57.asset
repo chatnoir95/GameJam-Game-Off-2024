@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 57
   m_EditorClassIdentifier: 
-  expediteur: University Council
-  contentLetter: Request revision of surveillance policies on campus in response
-    to student backlash
+  expediteur: Minister of Welfare
+  contentLetter: "Propose to the public the new CHIPS implant mandate as a \u201Cvoluntary\u201D
+    safety measure"
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: Policy adjustments calm protests, improving public perception.
-  ImpactRefuseText: Students intensify protests, claiming government suppression,
-    and media coverage spreads.
+  ImpactAcceptText: Public compliance grows gradually, though privacy advocates protest.
+  ImpactRefuseText: Welfare Ministry struggles to gain support, and HappyLife pressures
+    government for mandate.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 5
+  acceptImpactCorp: 20
   acceptImpactPeuple: 10
-  acceptImpactGouv: 5
+  acceptImpactGouv: 10
   refuseImpactCorp: -10
   refuseImpactPeuple: -10
   refuseImpactGouv: -10
@@ -31,3 +31,6 @@ MonoBehaviour:
   refuseUnlockLetters: []
   index: 57
   chanceToSpawn: 50
+  idPrerequis: 56
+  decisionPrerequis: 1
+  isSpecialLetter: 0

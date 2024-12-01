@@ -12,22 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063720cd698b44542b9a81edb11eeb2e, type: 3}
   m_Name: 56
   m_EditorClassIdentifier: 
-  expediteur: WASP AI Director
-  contentLetter: Access to the installation contract of WASP modules for campus control
+  expediteur: HappyLife CEO
+  contentLetter: Make a secret deal with the Ministry of Welfare to make CHIPS implants
+    mandatory
   accepteText: Yes
   refuseText: No
-  ImpactAcceptText: The campus is secured, but students protest against excessive
-    surveillance.
-  ImpactRefuseText: The university criticizes lack of cooperation and threatens to
-    reduce projects with the government.
+  ImpactAcceptText: "The Ministry agrees, sparking protests, though HappyLife\u2019s
+    influence increases."
+  ImpactRefuseText: HappyLife threatens to scale down operations, creating an economic
+    impact.
   logoLetter: {fileID: 0}
-  acceptImpactCorp: 10
-  acceptImpactPeuple: -5
-  acceptImpactGouv: 5
-  refuseImpactCorp: 0
-  refuseImpactPeuple: 10
+  acceptImpactCorp: 30
+  acceptImpactPeuple: -30
+  acceptImpactGouv: 10
+  refuseImpactCorp: -20
+  refuseImpactPeuple: -10
   refuseImpactGouv: -10
   acceptUnlockLetters: []
   refuseUnlockLetters: []
   index: 56
   chanceToSpawn: 50
+  idPrerequis: 0
+  decisionPrerequis: 3
+  isSpecialLetter: 0
