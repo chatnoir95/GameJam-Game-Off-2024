@@ -118,6 +118,8 @@ public class LetterManager : MonoBehaviour
 
         if (UIManager.instance.mailLeft <= 0 )
         {
+            UIManager.instance.gameIsOver = true;
+            UIManager.instance.retryButton.SetActive(true);
             return GetSpecialLetter("WinClearAllLetter");
         }
 

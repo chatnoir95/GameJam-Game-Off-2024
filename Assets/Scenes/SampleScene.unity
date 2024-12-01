@@ -2147,10 +2147,10 @@ MonoBehaviour:
   repGouvBar: {fileID: 739024102}
   repPeupleBar: {fileID: 215390582}
   repCorpBar: {fileID: 628217094}
-  maxRep: 100
-  startingRep: 50
+  maxRep: 130
+  startingRep: 65
   mailLeft: 0
-  startingMail: 30
+  startingMail: 20
   mailLeftText: {fileID: 1371261631}
   goodRepColor: {r: 0.5058824, g: 0.9333334, b: 0.53333336, a: 1}
   midleRepColor: {r: 1, g: 0.9058824, b: 0.5882353, a: 1}
